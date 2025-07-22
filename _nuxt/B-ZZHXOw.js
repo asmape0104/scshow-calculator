@@ -1,4 +1,4 @@
-import{E as g1,o as x1,F as _1,G as h1,H as Z,I as $1,J as w1,K as O1,r as g,L as M1,M as z1,s as U1,k as U,N as t1,O as m,d as f1,x as N,y as C,z as t,P as L1,Q as P1,_ as j1,R as A1,C as B1,S as b,T as O,U as $,V as H,W as K,X as W1,A as D,Y,Z as X,D as N1,$ as I1}from"./D0kmSZcv.js";import{u as J1}from"./Dkh_52XD.js";const H1=`key	series	other_name	center_skill_condition	raw_center_skill_text	raw_skill_text	ap	center_ability_text	smile	pure	cool	mental	rarity
+import{E as g1,o as x1,F as _1,G as h1,H as Z,I as $1,J as w1,K as O1,r as g,L as M1,M as z1,s as U1,k as U,N as t1,O as m,d as f1,x as N,y as C,z as t,P as L1,Q as P1,_ as j1,R as A1,C as B1,S as b,T as O,U as $,V as H,W as K,X as W1,A as D,Y,Z as X,D as N1,$ as I1}from"./7M6ihw7B.js";import{u as J1}from"./DN71ngXu.js";const H1=`key	series	other_name	center_skill_condition	raw_center_skill_text	raw_skill_text	ap	center_ability_text	smile	pure	cool	mental	rarity
 other	蓮ノ空女学院スクールアイドルクラブ102期生	大賀美沙知			ap_up(10);skill_count>=3 ^ splice()	0		5880	5700	5700	480	ur
 rurino	悠久の舞踏会		fever_start	ap_up(8);vol_lv >= 4 ^ ap_up(8)	vol_lv <= 8 ^ vol_buff(326.25);vol_lv >= 7 ^ score_buff(435);mental_down(10*)	10	appeal_up(g103, 200);ap_reduce(all, 2)	4320	7800	5160	480	ur
 rurino	アイドゥーミー！		fever_start	ap_up(20); mental_rate <= 99 ^ vol_down(1000*)	mental_up(10*); mental_rate >= 100 ^ ap_up(15); mental_rate <= 99 ^ vol_down(1000*); skill_count >= 3 ^ splice()	5	appeal_up(miracra, 200)	6960	6360	5880	520	ur
@@ -7917,7 +7917,7 @@ ceras	16th Birthday		start	ap_up(10)	ap_up(5); vol_buff(54.45); reset(); skill_c
 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 
 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 
 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 
-0-3-1 `}},$8={title:"フォーチュンムービー",titleFurigana:"",offset:0,attribute:"smile",comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(110)
+0-3-1 `}},$8={title:"フォーチュンムービー",titleFurigana:"",offset:0,center:"kaho",attribute:"smile",comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(110)
 // noteCount: 1666
 0-1 
 1-2 1-2 
