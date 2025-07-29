@@ -1,4 +1,4 @@
-import{d as f1,r as M,k as y,W as g,y as b,A as m,J as N,L as j,M as T,K as H,Q as W,N as B,O as G,R as P,B as A,z as C,X as F1,o as T1,Y as a1,Z as u1,H as X,$ as V1,a0 as d1,a1 as _1,a2 as S1,a3 as v1,s as b1,a4 as $}from"./CEKhHntp.js";const C1={title:"37.5℃のファンタジー",titleFurigana:"",offset:0,center:"ginko",attribute:"pure",comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(165)
+import{d as f1,r as M,k as y,W as g,y as b,A as m,J as N,L as j,M as T,K as H,Q as W,N as B,O as G,R as P,B as A,z as C,X as F1,o as T1,Y as a1,Z as u1,H as X,$ as V1,a0 as d1,a1 as _1,a2 as S1,a3 as v1,s as b1,a4 as $}from"./BsrjPXcn.js";const C1={title:"37.5℃のファンタジー",titleFurigana:"",offset:0,center:"ginko",attribute:"pure",comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(165)
 // noteCount: 3217
 0-1 
 0-1 
