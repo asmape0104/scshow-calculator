@@ -1,13 +1,13 @@
-import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C1,r as q,M as z,j as O,b as M1,v as X,l as _,k as u1,p as Q,F as H,m as Z,d as I1,t as x,G as j1,N as B1,z as L1,O as $1,P as k1,h as f1,Q as P1,R as W1,S as U1,T as H1,C as K1,y as y1,U as L,V as q1,W as J1,_ as G1,X as A1}from"./BHj6X5Sm.js";function Y1(n){const o={size:16,x:0,y:0,rotate:0};return n.size!==o.size||n.x!==o.x||n.y!==o.y||n.rotate!==o.rotate||n.flipX||n.flipY}const X1={key:0,style:{display:"none"}},Q1=["innerHTML"],Z1=["innerHTML"],n8={__name:"FaIcon",props:{border:{type:Boolean,default:!1},fixedWidth:{type:Boolean,default:!1},flip:{type:[Boolean,String],default:!1,validator:n=>[!0,!1,"horizontal","vertical","both"].includes(n)},icon:{type:[Object,Array,String],required:!0},mask:{type:[Object,Array,String],default:null},maskId:{type:String,default:void 0},listItem:{type:Boolean,default:!1},pull:{type:String,default:void 0,validator:n=>["right","left"].includes(n)},pulse:{type:Boolean,default:!1},rotation:{type:[String,Number],default:void 0,validator:n=>[90,180,270].includes(Number.parseInt(n,10))},swapOpacity:{type:Boolean,default:!1},size:{type:String,default:void 0,validator:n=>["2xs","xs","sm","lg","xl","2xl","1x","2x","3x","4x","5x","6x","7x","8x","9x","10x"].includes(n)},spin:{type:Boolean,default:!1},transform:{type:[String,Object],default:void 0},symbol:{type:[Boolean,String],default:!1},title:{type:String,default:void 0},titleId:{type:String,default:void 0},inverse:{type:Boolean,default:!1},bounce:{type:Boolean,default:!1},shake:{type:Boolean,default:!1},beat:{type:Boolean,default:!1},fade:{type:Boolean,default:!1},beatFade:{type:Boolean,default:!1},spinPulse:{type:Boolean,default:!1},spinReverse:{type:Boolean,default:!1}},setup(n){const o=n,c=D(()=>V(o.icon)),e=D(()=>V(o.mask)),r=D(()=>{if(o.transform){const m=typeof o.transform!="object"?z1.transform(o.transform):o.transform;if(m&&Y1(m))return g(m)}}),b=D(()=>N1(c.value,{classes:R.value,title:o.title,titleId:o.titleId})),E=D(()=>N1(e.value)),t=D(()=>{const m={"aria-hidden":!0,"data-prefix":b.value?.prefix,"data-icon":b.value?.iconName,class:R.value,focusable:!1,role:"img",xmlns:"http://www.w3.org/2000/svg",viewBox:`0 0 ${b.value?.icon[0]} ${b.value?.icon[1]}`};return o.symbol&&(m.id=[b.value?.prefix,"fa",b.value?.iconName].join("-")),o.title&&(m["aria-labelledby"]=f.value),m}),l=D(()=>{const m=F();if(E.value){const i=o.maskId||E.value.iconName;return`<defs>
-      <clipPath id="clip-${i}">
+import{g as D,c as A,q as K,o as h,a as u,I as _1,J as N1,K as p1,L as z1,f as C1,r as q,M as z,j as O,b as M1,v as Q,l as S,k as F1,p as Z,F as H,m as n1,d as I1,t as x,G as L1,N as j1,z as B1,O as $1,P as k1,h as d1,Q as P1,R as W1,S as U1,T as H1,C as K1,y as y1,U as B,V as q1,W as J1,_ as G1,X as A1}from"./DvWmjoXM.js";function Y1(n){const o={size:16,x:0,y:0,rotate:0};return n.size!==o.size||n.x!==o.x||n.y!==o.y||n.rotate!==o.rotate||n.flipX||n.flipY}const X1={key:0,style:{display:"none"}},Q1=["innerHTML"],Z1=["innerHTML"],n8={__name:"FaIcon",props:{border:{type:Boolean,default:!1},fixedWidth:{type:Boolean,default:!1},flip:{type:[Boolean,String],default:!1,validator:n=>[!0,!1,"horizontal","vertical","both"].includes(n)},icon:{type:[Object,Array,String],required:!0},mask:{type:[Object,Array,String],default:null},maskId:{type:String,default:void 0},listItem:{type:Boolean,default:!1},pull:{type:String,default:void 0,validator:n=>["right","left"].includes(n)},pulse:{type:Boolean,default:!1},rotation:{type:[String,Number],default:void 0,validator:n=>[90,180,270].includes(Number.parseInt(n,10))},swapOpacity:{type:Boolean,default:!1},size:{type:String,default:void 0,validator:n=>["2xs","xs","sm","lg","xl","2xl","1x","2x","3x","4x","5x","6x","7x","8x","9x","10x"].includes(n)},spin:{type:Boolean,default:!1},transform:{type:[String,Object],default:void 0},symbol:{type:[Boolean,String],default:!1},title:{type:String,default:void 0},titleId:{type:String,default:void 0},inverse:{type:Boolean,default:!1},bounce:{type:Boolean,default:!1},shake:{type:Boolean,default:!1},beat:{type:Boolean,default:!1},fade:{type:Boolean,default:!1},beatFade:{type:Boolean,default:!1},spinPulse:{type:Boolean,default:!1},spinReverse:{type:Boolean,default:!1}},setup(n){const o=n,c=D(()=>V(o.icon)),e=D(()=>V(o.mask)),r=D(()=>{if(o.transform){const m=typeof o.transform!="object"?z1.transform(o.transform):o.transform;if(m&&Y1(m))return g(m)}}),b=D(()=>N1(c.value,{classes:R.value,title:o.title,titleId:o.titleId})),E=D(()=>N1(e.value)),t=D(()=>{const m={"aria-hidden":!0,"data-prefix":b.value?.prefix,"data-icon":b.value?.iconName,class:R.value,focusable:!1,role:"img",xmlns:"http://www.w3.org/2000/svg",viewBox:`0 0 ${b.value?.icon[0]} ${b.value?.icon[1]}`};return o.symbol&&(m.id=[b.value?.prefix,"fa",b.value?.iconName].join("-")),o.title&&(m["aria-labelledby"]=f.value),m}),i=D(()=>{const m=F();if(E.value){const l=o.maskId||E.value.iconName;return`<defs>
+      <clipPath id="clip-${l}">
         <path fill="currentColor" d="${E.value.icon[4]}"></path>
       </clipPath>
-      <mask id="mask-${i}" x="0" y="0" width="100%" height="100%" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+      <mask id="mask-${l}" x="0" y="0" width="100%" height="100%" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
         <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
         ${m}
       </mask>
     </defs>
-    <rect fill="currentColor" clip-path="url(#clip-${i})" mask="url(#mask-${i})" x="0" y="0" width="100%" height="100%"></rect>`}return m}),R=D(()=>{const m={"fa-spin":o.spin,"fa-pulse":o.pulse,"fa-fw":o.fixedWidth,"fa-border":o.border,"fa-li":o.listItem,"fa-inverse":o.inverse,"fa-flip":o.flip===!0,"fa-flip-horizontal":o.flip==="horizontal"||o.flip==="both","fa-flip-vertical":o.flip==="vertical"||o.flip==="both",[`fa-${o.size}`]:o.size!==void 0,[`fa-rotate-${o.rotation}`]:o.rotation!==void 0,[`fa-pull-${o.pull}`]:o.pull!==void 0,"fa-swap-opacity":o.swapOpacity,"fa-bounce":o.bounce,"fa-shake":o.shake,"fa-beat":o.beat,"fa-fade":o.fade,"fa-beat-fade":o.beatFade,"fa-spin-pulse":o.spinPulse,"fa-spin-reverse":o.spinReverse},i=Object.keys(m).map(s=>m[s]?s:null).filter(s=>s);return[i1.replacementClass,...i]}),f=D(()=>i1.replacementClass+"-title-"+(o.titleId||d()));function V(m){if(m){if(typeof m=="string"){const i={solid:"fas",regular:"far",light:"fal",thin:"fat",duotone:"fad",brands:"fab"};let s=i[i1.styleDefault]||"fas",a=m.replace(/\bfa-/g,"");if(a.includes(" ")){const S=a.split(/\s+/);S[0]in i&&(s=i[S[0]]),a=S[1]}return{prefix:s,iconName:a}}if(Array.isArray(m)&&m.length===2)return{prefix:m[0],iconName:m[1]};if(typeof m=="object"&&"prefix"in m&&"iconName"in m)return m}}function g(m){const s=b.value?.icon[0]||512,a=m.x||0,S=m.y||0,p=m.size||0,k=m.rotate||0,y=m.flipX||0,U=m.flipY||0,a1="translate(".concat(String(512/2)," 256)"),Y="translate(".concat(String(a*32),", ").concat(String(S*32),") "),s1="scale(".concat(String(p/16*(y?-1:1)),", ").concat(String(p/16*(U?-1:1)),") "),E1="rotate(".concat(String(k)," 0 0)"),w="".concat(Y," ").concat(s1," ").concat(E1),l1="translate(".concat(String(s/2*-1)," -256)");return{outer:a1,inner:w,path:l1}}function d(){const m="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";let i=12,s="";for(;i-- >0;)s+=m[Math.random()*62|0];return s}function F(){const m=E.value?"black":"currentColor",i=[];let s=b.value.icon[4];return Array.isArray(s)||(s=[s]),s.forEach(a=>{i.push(`<path fill="${m}"${r.value?' transform="'+r.value.path+'"':""} d="${a}"></path>`)}),r.value&&(i.unshift(`<g transform="${r.value.outer}">`,`<g transform="${r.value.inner}">`),i.push("</g>","</g>")),o.title&&i.unshift(`<title id="${f.value}">${o.title}</title>`),i.join("")}return o.icon&&!b.value&&console.info("Could not find main icon",c.value),o.mask&&!E.value&&console.info("Could not find mask icon",e.value),(m,i)=>b.value&&n.symbol?(h(),A("svg",X1,[u("symbol",S1(t.value,{innerHTML:l.value}),null,16,Q1)])):b.value?(h(),A("svg",S1({key:1},t.value,{innerHTML:l.value}),null,16,Z1)):K("",!0)}},o8=["kaho","sayaka","rurino","kozue","tsuzuri","megumi"],J=["kaho","kozue"],b1=["sayaka","tsuzuri"],T1=["rurino","megumi"],t1=["kaho","sayaka","rurino","kozue","tsuzuri","megumi","ginko","kosuzu","hime"],e1=["kaho","kozue","ginko"],r1=["sayaka","tsuzuri","kosuzu"],G=["rurino","megumi","hime"],P=["kaho","sayaka","rurino","ginko","kosuzu","hime","ceras","izumi"],V1=["kaho","ginko"],d1=["sayaka","kosuzu"],_1=["rurino","hime"],W=["ceras","izumi"],c8={title:"とーひょー☆スター！",titleFurigana:"とーひょーすたー",center:"hime",attribute:"smile",singers:P},m8={title:"とーひょー☆スター！",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(128)
+    <rect fill="currentColor" clip-path="url(#clip-${l})" mask="url(#mask-${l})" x="0" y="0" width="100%" height="100%"></rect>`}return m}),R=D(()=>{const m={"fa-spin":o.spin,"fa-pulse":o.pulse,"fa-fw":o.fixedWidth,"fa-border":o.border,"fa-li":o.listItem,"fa-inverse":o.inverse,"fa-flip":o.flip===!0,"fa-flip-horizontal":o.flip==="horizontal"||o.flip==="both","fa-flip-vertical":o.flip==="vertical"||o.flip==="both",[`fa-${o.size}`]:o.size!==void 0,[`fa-rotate-${o.rotation}`]:o.rotation!==void 0,[`fa-pull-${o.pull}`]:o.pull!==void 0,"fa-swap-opacity":o.swapOpacity,"fa-bounce":o.bounce,"fa-shake":o.shake,"fa-beat":o.beat,"fa-fade":o.fade,"fa-beat-fade":o.beatFade,"fa-spin-pulse":o.spinPulse,"fa-spin-reverse":o.spinReverse},l=Object.keys(m).map(s=>m[s]?s:null).filter(s=>s);return[p1.replacementClass,...l]}),f=D(()=>p1.replacementClass+"-title-"+(o.titleId||d()));function V(m){if(m){if(typeof m=="string"){const l={solid:"fas",regular:"far",light:"fal",thin:"fat",duotone:"fad",brands:"fab"};let s=l[p1.styleDefault]||"fas",a=m.replace(/\bfa-/g,"");if(a.includes(" ")){const _=a.split(/\s+/);_[0]in l&&(s=l[_[0]]),a=_[1]}return{prefix:s,iconName:a}}if(Array.isArray(m)&&m.length===2)return{prefix:m[0],iconName:m[1]};if(typeof m=="object"&&"prefix"in m&&"iconName"in m)return m}}function g(m){const s=b.value?.icon[0]||512,a=m.x||0,_=m.y||0,p=m.size||0,k=m.rotate||0,y=m.flipX||0,U=m.flipY||0,i1="translate(".concat(String(512/2)," 256)"),X="translate(".concat(String(a*32),", ").concat(String(_*32),") "),l1="scale(".concat(String(p/16*(y?-1:1)),", ").concat(String(p/16*(U?-1:1)),") "),u1="rotate(".concat(String(k)," 0 0)"),w="".concat(X," ").concat(l1," ").concat(u1),R1="translate(".concat(String(s/2*-1)," -256)");return{outer:i1,inner:w,path:R1}}function d(){const m="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";let l=12,s="";for(;l-- >0;)s+=m[Math.random()*62|0];return s}function F(){const m=E.value?"black":"currentColor",l=[];let s=b.value.icon[4];return Array.isArray(s)||(s=[s]),s.forEach(a=>{l.push(`<path fill="${m}"${r.value?' transform="'+r.value.path+'"':""} d="${a}"></path>`)}),r.value&&(l.unshift(`<g transform="${r.value.outer}">`,`<g transform="${r.value.inner}">`),l.push("</g>","</g>")),o.title&&l.unshift(`<title id="${f.value}">${o.title}</title>`),l.join("")}return o.icon&&!b.value&&console.info("Could not find main icon",c.value),o.mask&&!E.value&&console.info("Could not find mask icon",e.value),(m,l)=>b.value&&n.symbol?(h(),A("svg",X1,[u("symbol",_1(t.value,{innerHTML:i.value}),null,16,Q1)])):b.value?(h(),A("svg",_1({key:1},t.value,{innerHTML:i.value}),null,16,Z1)):K("",!0)}},o8=["kaho","sayaka","rurino","kozue","tsuzuri","megumi"],J=["kaho","kozue"],t1=["sayaka","tsuzuri"],S1=["rurino","megumi"],e1=["kaho","sayaka","rurino","kozue","tsuzuri","megumi","ginko","kosuzu","hime"],r1=["kaho","kozue","ginko"],a1=["sayaka","tsuzuri","kosuzu"],G=["rurino","megumi","hime"],P=["kaho","sayaka","rurino","ginko","kosuzu","hime","ceras","izumi"],Y=["kaho","ginko"],s1=["sayaka","kosuzu"],E1=["rurino","hime"],W=["ceras","izumi"],c8={title:"とーひょー☆スター！",titleFurigana:"とーひょーすたー",center:"hime",attribute:"smile",singers:P},m8={title:"とーひょー☆スター！",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(128)
 0-1 
 // combo: 0
 0-1 
@@ -435,7 +435,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 864
 2-1-16 1-8 2-16 1-8 2-16 1-8 2-16 1-8 0-2-8 0-2-8 
 // combo: 881
-0-2-4 2-1 `}},b8={...c8,...m8},t8={title:"Holiday∞Holiday（104期Ver.）",titleFurigana:"ほりでいほりでい104きばー",center:"kozue",attribute:"pure",singers:e1},e8={title:"Holiday∞Holiday（104期Ver.）",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(135)
+0-2-4 2-1 `}},b8={...c8,...m8},t8={title:"Holiday∞Holiday（104期Ver.）",titleFurigana:"ほりでいほりでい104きばー",center:"kozue",attribute:"pure",singers:r1},e8={title:"Holiday∞Holiday（104期Ver.）",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(135)
 0-1 
 // combo: 0
 0-1 
@@ -879,7 +879,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 969
 
 #FEVEREND
-0-1 `}},r8={...t8,...e8},a8={title:"Tragic Drops（104期Ver.）",titleFurigana:"とらじっくどらっぷす104きばー",center:"kosuzu",attribute:"cool",singers:r1},s8={title:"Tragic Drops（104期Ver.）",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(110)
+0-1 `}},r8={...t8,...e8},a8={title:"Tragic Drops（104期Ver.）",titleFurigana:"とらじっくどらっぷす104きばー",center:"kosuzu",attribute:"cool",singers:a1},s8={title:"Tragic Drops（104期Ver.）",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(110)
 0-1 
 // combo: 0
 0-1 
@@ -1211,7 +1211,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 659
 2-2-8 0-2-16 2-16 0-2-8 2-2-8 2-8 1-8 2-8 1-8 
 // combo: 679
-3-8 3-8 3-8 3-8 3-1 `}},E8={...a8,...s8},l8={title:"太陽であれ！",titleFurigana:"たいようであれ",center:"kosuzu",attribute:"cool",singers:d1},i8={title:"太陽であれ！",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(170)
+3-8 3-8 3-8 3-8 3-1 `}},E8={...a8,...s8},i8={title:"太陽であれ！",titleFurigana:"たいようであれ",center:"kosuzu",attribute:"cool",singers:s1},l8={title:"太陽であれ！",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(170)
 0-1 
 // combo: 0
 0-1 
@@ -1743,7 +1743,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1078
 2-1 
 // combo: 1080
-2-8 3-8 3-8 4-1 `}},u8={...l8,...i8},R8={title:"アイデンティティ",titleFurigana:"あいでんてぃてぃ",center:"megumi",attribute:"smile",singers:T1},p8={title:"アイデンティティ",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(156)
+2-8 3-8 3-8 4-1 `}},u8={...i8,...l8},R8={title:"アイデンティティ",titleFurigana:"あいでんてぃてぃ",center:"megumi",attribute:"smile",singers:S1},p8={title:"アイデンティティ",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(156)
 0-1 
 // combo: 0
 0-1 
@@ -2687,7 +2687,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 879
 
 #FEVEREND
-0-1 `}},V8={...f8,...T8},d8={title:"37.5℃のファンタジー",titleFurigana:"",offset:0,center:"ginko",attribute:"pure",singers:V1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(165)
+0-1 `}},V8={...f8,...T8},d8={title:"37.5℃のファンタジー",titleFurigana:"",offset:0,center:"ginko",attribute:"pure",singers:Y,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(165)
 // noteCount: 3217
 0-1 
 0-1 
@@ -2967,7 +2967,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 2-16 1-16 1-16 1-16 2-8 2-4 1-16 1-16 1-16 1-16 2-4 
 2-16 1-16 1-8 1-8 3-8 3-8 3-8 3-3 
 0-24 2-8 4-1 
-0-1 `}},_8={title:"37.5℃のファンタジー",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(165)
+0-1 `}},S8={title:"37.5℃のファンタジー",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(165)
 0-1 
 // combo: 0
 0-1 
@@ -3523,7 +3523,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 892
 
 #FEVEREND
-0-1 `}},S8={...d8,..._8},N8={title:"フルーツパンチ",titleFurigana:"",offset:0,center:"kaho",attribute:"pure",singers:V1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(130)
+0-1 `}},_8={...d8,...S8},N8={title:"フルーツパンチ",titleFurigana:"",offset:0,center:"kaho",attribute:"pure",singers:Y,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(130)
 // noteCount: 2665
 0-1 
 2-2 2-2 
@@ -4227,7 +4227,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 833
 2-16 1-8 1-16 0-1-16 1-16 1-16 1-16 2-16 1-24 0-1-48 0-1-48 0-1-24 0-1-48 0-1-24 0-1-8 2-2-8 
 // combo: 854
-0-2-8 1-2-8 1-8 1-16 1-1 `}},h8={...N8,...A8},D8={title:"アイマイメーデー",titleFurigana:"",offset:0,center:"kosuzu",attribute:"cool",singers:d1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(160)
+0-2-8 1-2-8 1-8 1-16 1-1 `}},h8={...N8,...A8},D8={title:"アイマイメーデー",titleFurigana:"",offset:0,center:"kosuzu",attribute:"cool",singers:s1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(160)
 // noteCount: 2737
 0-1 
 0-1 
@@ -4943,7 +4943,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1057
 
 #FEVEREND
-0-1 `}},v8={...D8,...g8},x8={title:"BLAST!!",titleFurigana:"",offset:0,center:"hime",attribute:"smile",singers:_1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(190)
+0-1 `}},v8={...D8,...g8},x8={title:"BLAST!!",titleFurigana:"",offset:0,center:"hime",attribute:"smile",singers:E1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(190)
 // noteCount: 2971
 0-1 
 0-1 
@@ -8123,7 +8123,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
-0-4-1 `}},j8={title:"Hello, new dream!",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(138)
+0-4-1 `}},L8={title:"Hello, new dream!",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(138)
 0-1 
 // combo: 0
 0-1 
@@ -8719,7 +8719,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1359
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
 // combo: 1391
-0-4-1 `}},B8={...I8,...j8},L8={title:"Edelied",titleFurigana:"",offset:0,center:"izumi",attribute:"cool",singers:W,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(173)
+0-4-1 `}},j8={...I8,...L8},B8={title:"Edelied",titleFurigana:"",offset:0,center:"izumi",attribute:"cool",singers:W,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(173)
 // noteCount: 3031
 0-1 
 0-1 
@@ -9519,7 +9519,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1102
 1-16 1-16 1-8 2-6 0-48 2-16 2-8 2-8 2-16 1-16 1-16 2-16 
 // combo: 1119
-1-8 4-1 `}},W8={...L8,...P8},U8={title:"十六夜セレーネ",titleFurigana:"",offset:0,center:"ceras",attribute:"cool",singers:W,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(142)
+1-8 4-1 `}},W8={...B8,...P8},U8={title:"十六夜セレーネ",titleFurigana:"",offset:0,center:"ceras",attribute:"cool",singers:W,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(142)
 // noteCount: 3169
 0-1 
 0-1 
@@ -11453,7 +11453,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1651
 0-1-48 0-1-24 0-1-16 0-1-48 0-1-24 0-1-16 0-1-48 0-1-24 0-1-16 0-1-48 0-1-24 0-1-16 0-1-48 0-1-24 0-1-16 0-1-48 0-1-24 0-1-16 0-1-48 0-1-24 0-1-16 0-1-48 0-1-24 0-1-16 
 // combo: 1675
-0-3-1 `}},G8={...q8,...J8},Y8={title:"Snow halation",titleFurigana:"",offset:0,center:"kozue",attribute:"pure",singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(173)
+0-3-1 `}},G8={...q8,...J8},Y8={title:"Snow halation",titleFurigana:"",offset:0,center:"kozue",attribute:"pure",singers:e1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(173)
 // noteCount: 4033
 0-1 
 0-1 
@@ -12504,7 +12504,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1355
 0-1-12 0-1-24 0-1-12 0-1-24 0-1-12 0-1-24 0-1-12 0-1-24 0-1-12 0-1-24 0-1-12 0-1-24 0-1-12 0-1-24 0-1-12 0-1-24 
 // combo: 1371
-0-2-1 `}},Q8={...Y8,...X8},Z8={title:"NEO SKY, NEO MAP!",titleFurigana:"",offset:0,center:"kaho",attribute:"pure",singers:e1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(142)
+0-2-1 `}},Q8={...Y8,...X8},Z8={title:"NEO SKY, NEO MAP!",titleFurigana:"",offset:0,center:"kaho",attribute:"pure",singers:r1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(142)
 // noteCount: 2617
 0-1 
 0-1 
@@ -13192,7 +13192,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 835
 
 #FEVEREND
-0-1 `}},o0={...Z8,...n0},c0={title:"Daydream Warrior",titleFurigana:"",offset:0,center:"sayaka",attribute:"cool",singers:r1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(135)
+0-1 `}},o0={...Z8,...n0},c0={title:"Daydream Warrior",titleFurigana:"",offset:0,center:"sayaka",attribute:"cool",singers:a1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(135)
 // noteCount: 2833
 0-1 
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
@@ -15740,7 +15740,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 805
 0-3 0-24 
 #FEVEREND
-0-1 `}},E0={...a0,...s0},l0={title:"青空Jumping Heart",titleFurigana:"",offset:0,center:"hime",attribute:"pure",singers:_1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(200)
+0-1 `}},E0={...a0,...s0},i0={title:"青空Jumping Heart",titleFurigana:"",offset:0,center:"hime",attribute:"pure",singers:E1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(200)
 // noteCount: 3601
 0-1 
 0-1 
@@ -16067,7 +16067,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
 0-2-4 2-8 2-8 2-4 2-8 0-2-8 
 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
-0-2-1 `}},i0={title:"青空Jumping Heart",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(200)
+0-2-1 `}},l0={title:"青空Jumping Heart",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(200)
 0-1 
 // combo: 0
 0-1 
@@ -16693,7 +16693,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 987
 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
 // combo: 1003
-0-2-1 `}},u0={...l0,...i0},R0={title:"be proud",titleFurigana:"",offset:-.05000000074505806,center:"kozue",attribute:"cool",singers:["kozue"],comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(178)
+0-2-1 `}},u0={...i0,...l0},R0={title:"be proud",titleFurigana:"",offset:-.05000000074505806,center:"kozue",attribute:"cool",singers:["kozue"],comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(178)
 // noteCount: 3649
 0-1 
 0-1 
@@ -18960,7 +18960,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 2-8 1-8 2-8 1-8 2-8 1-8 2-8 1-8 
 2-8 1-8 2-8 1-8 2-8 1-16 1-16 2-16 1-16 1-16 1-16 
 0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-2-8 
-0-1-8 0-2-8 0-2-8 0-1-8 1-2-1 `}},_0={title:"やっぱ天使！",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(190)
+0-1-8 0-2-8 0-2-8 0-1-8 1-2-1 `}},S0={title:"やっぱ天使！",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(190)
 0-1 
 // combo: 0
 0-1 
@@ -19576,7 +19576,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 983
 0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-2-8 
 // combo: 995
-0-1-8 0-2-8 0-2-8 0-1-8 1-2-1 `}},S0={...d0,..._0},N0={title:"♡桃色片想い♡",titleFurigana:"",offset:0,center:"megumi",attribute:"pure",singers:["megumi"],comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(154)
+0-1-8 0-2-8 0-2-8 0-1-8 1-2-1 `}},_0={...d0,...S0},N0={title:"♡桃色片想い♡",titleFurigana:"",offset:0,center:"megumi",attribute:"pure",singers:["megumi"],comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(154)
 // noteCount: 3745
 0-1 
 0-1 
@@ -20555,7 +20555,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1443
 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
 // combo: 1459
-0-2-1 `}},h0={...N0,...A0},D0={title:"いーあるふぁんくらぶ",titleFurigana:"",offset:0,center:"megumi",attribute:"pure",singers:T1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(145)
+0-2-1 `}},h0={...N0,...A0},D0={title:"いーあるふぁんくらぶ",titleFurigana:"",offset:0,center:"megumi",attribute:"pure",singers:S1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(145)
 // noteCount: 2845
 0-1 
 0-2 0-4 2-1 
@@ -21307,7 +21307,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 772
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
 // combo: 780
-0-1-8 1-1-16 1-16 1-1 `}},v0={...D0,...g0},x0={title:"On your mark（104期Ver.）",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"cool",singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(154)
+0-1-8 1-1-16 1-16 1-1 `}},v0={...D0,...g0},x0={title:"On your mark（104期Ver.）",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"cool",singers:e1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(154)
 // noteCount: 2929
 0-1 
 0-2 0-1-8 0-1-8 0-1-8 0-1-8 
@@ -22083,7 +22083,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 797
 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
 // combo: 813
-0-2-1 `}},$0={...x0,...C0},k0={title:"永遠のEuphoria（104期Ver.）",titleFurigana:"",offset:0,center:"megumi",attribute:"smile",singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(162)
+0-2-1 `}},$0={...x0,...C0},k0={title:"永遠のEuphoria（104期Ver.）",titleFurigana:"",offset:0,center:"megumi",attribute:"smile",singers:e1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(162)
 // noteCount: 3475
 0-1 
 0-1 
@@ -22991,7 +22991,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 896
 0-1-8 1-1-8 1-8 1-8 1-16 1-16 1-16 1-16 1-16 1-16 1-4 
 // combo: 908
-2-4 2-1 `}},O0={...k0,...y0},w0={title:"夏めきペイン（104期Ver.）",titleFurigana:"",center:"kozue",attribute:"pure",offset:.0494999997317791,singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(188)
+2-4 2-1 `}},O0={...k0,...y0},w0={title:"夏めきペイン（104期Ver.）",titleFurigana:"",center:"kozue",attribute:"pure",offset:.0494999997317791,singers:e1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(188)
 // noteCount: 3433
 0-1 
 0-1 
@@ -24273,7 +24273,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
-0-4-1 `}},j0={title:"Dream Believers（105期Ver.）",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(162)
+0-4-1 `}},L0={title:"Dream Believers（105期Ver.）",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(162)
 0-1 
 // combo: 0
 0-1 
@@ -25037,7 +25037,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1352
 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
 // combo: 1384
-0-4-1 `}},B0={...I0,...j0},L0={title:"Reflection in the mirror",titleFurigana:"",offset:0,center:"kozue",attribute:"smile",singers:J,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(175)
+0-4-1 `}},j0={...I0,...L0},B0={title:"Reflection in the mirror",titleFurigana:"",offset:0,center:"kozue",attribute:"smile",singers:J,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(175)
 // noteCount: 3361
 0-1 
 0-1 
@@ -25921,7 +25921,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 992
 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 
 // combo: 1016
-0-3-1 `}},W0={...L0,...P0},U0={title:"フォーチュンムービー",titleFurigana:"",offset:0,center:"kaho",attribute:"smile",singers:J,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(110)
+0-3-1 `}},W0={...B0,...P0},U0={title:"フォーチュンムービー",titleFurigana:"",offset:0,center:"kaho",attribute:"smile",singers:J,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(110)
 // noteCount: 1666
 0-1 
 1-2 1-2 
@@ -26993,7 +26993,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 734
 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
 // combo: 750
-0-2-8 0-2-8 0-2-1 `}},G0={...q0,...J0},Y0={title:"Mix shake!!（104期Ver.）",titleFurigana:"",offset:0,center:"ginko",attribute:"pure",singers:e1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(174)
+0-2-8 0-2-8 0-2-1 `}},G0={...q0,...J0},Y0={title:"Mix shake!!（104期Ver.）",titleFurigana:"",offset:0,center:"ginko",attribute:"pure",singers:r1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(174)
 // noteCount: 4033
 0-1 
 0-1 
@@ -28045,7 +28045,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1186
 0-24 0-2-8 0-2-8 0-2-8 0-2-48 0-1-48 0-1-12 0-1-8 0-1-48 0-1-48 0-1-12 1-8 
 // combo: 1201
-2-1 `}},Q0={...Y0,...X0},Z0={title:"水彩世界（104期Ver.）",titleFurigana:"",center:"ginko",attribute:"cool",offset:0,singers:e1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(160)
+2-1 `}},Q0={...Y0,...X0},Z0={title:"水彩世界（104期Ver.）",titleFurigana:"",center:"ginko",attribute:"cool",offset:0,singers:r1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(160)
 // noteCount: 3073
 0-1 
 0-1 
@@ -28854,7 +28854,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 883
 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
 // combo: 899
-0-2-1 `}},o2={...Z0,...n2},c2={title:"Celebration!",titleFurigana:"",offset:0,center:"kaho",attribute:"smile",singers:V1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(198)
+0-2-1 `}},o2={...Z0,...n2},c2={title:"Celebration!",titleFurigana:"",offset:0,center:"kaho",attribute:"smile",singers:Y,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(198)
 // noteCount: 3877
 0-1 
 0-1 
@@ -29855,7 +29855,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1232
 3-6 3-2 2-1-8 0-1-8 
 // combo: 1242
-0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 `}},b2={...c2,...m2},t2={title:"Sparkly Spot",titleFurigana:"",offset:0,center:"sayaka",attribute:"cool",singers:b1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(176)
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 `}},b2={...c2,...m2},t2={title:"Sparkly Spot",titleFurigana:"",offset:0,center:"sayaka",attribute:"cool",singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(176)
 // noteCount: 3253
 0-1 
 0-1 
@@ -30703,7 +30703,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 866
 1-4 1-8 2-4 1-16 1-16 0-2-8 0-2-8 
 // combo: 876
-1-2-16 1-16 1-8 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-1 `}},r2={...t2,...e2},a2={title:"ツキマカセ",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"pure",singers:b1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(220)
+1-2-16 1-16 1-8 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-1 `}},r2={...t2,...e2},a2={title:"ツキマカセ",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"pure",singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(220)
 // noteCount: 4489
 0-1 
 0-1 
@@ -31863,7 +31863,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 934
 2-4 1-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
 // combo: 947
-0-2-8 0-2-8 0-2-8 0-2-1 `}},E2={...a2,...s2},l2={title:"スケイプゴート",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"cool",singers:b1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(97)
+0-2-8 0-2-8 0-2-8 0-2-1 `}},E2={...a2,...s2},i2={title:"スケイプゴート",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"cool",singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(97)
 // noteCount: 2353
 0-1 
 0-1-8 0-1-8 0-1-4 1-4 1-4 
@@ -32079,7 +32079,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
 1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
-0-1-1 `}},i2={title:"スケイプゴート",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(97)
+0-1-1 `}},l2={title:"スケイプゴート",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(97)
 0-1 
 // combo: 0
 0-1-8 0-1-8 0-1-4 1-4 1-4 
@@ -32491,7 +32491,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 774
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
 // combo: 782
-0-1-1 `}},u2={...l2,...i2},R2={title:"希望的プリズム（104期Ver.）",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"cool",singers:r1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(104)
+0-1-1 `}},u2={...i2,...l2},R2={title:"希望的プリズム（104期Ver.）",titleFurigana:"",offset:0,center:"tsuzuri",attribute:"cool",singers:a1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(104)
 // noteCount: 2267
 0-1 
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
@@ -33188,7 +33188,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 864
 0-1-8 0-1-12 0-1-8 0-1-12 0-1-12 0-48 0-1-16 0-1-12 0-48 0-1-12 0-1-16 0-1-12 0-1-16 0-1-12 
 // combo: 876
-0-1-16 0-1-12 0-1-12 0-1-12 0-48 0-1-12 0-48 0-1-1 `}},F2={...R2,...p2},f2={title:"AWOKE（104期Ver.）",titleFurigana:"",offset:0,center:"kosuzu",attribute:"cool",singers:r1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(150)
+0-1-16 0-1-12 0-1-12 0-1-12 0-48 0-1-12 0-48 0-1-1 `}},F2={...R2,...p2},f2={title:"AWOKE（104期Ver.）",titleFurigana:"",offset:0,center:"kosuzu",attribute:"cool",singers:a1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(150)
 // noteCount: 3709
 0-1 
 0-1 
@@ -34156,7 +34156,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1057
 2-8 1-16 1-16 1-24 1-24 1-24 1-8 2-6 0-48 1-6 0-48 1-8 
 // combo: 1069
-1-4 0-2-48 0-1-12 0-48 0-1-8 0-1-1 `}},V2={...f2,...T2},d2={title:"アンペア",titleFurigana:"",offset:0,center:"sayaka",attribute:"cool",singers:d1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(134)
+1-4 0-2-48 0-1-12 0-48 0-1-8 0-1-1 `}},V2={...f2,...T2},d2={title:"アンペア",titleFurigana:"",offset:0,center:"sayaka",attribute:"cool",singers:s1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(134)
 // noteCount: 2605
 0-1 
 0-1 
@@ -34396,7 +34396,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 1-3-16 1-16 1-3-8 0-4-8 1-3-16 1-16 0-4-16 2-16 2-1-8 0-2-8 2-1-8 
 0-2-16 1-16 1-1-16 1-16 1-1-16 1-16 1-2-16 1-16 1-1-16 1-16 1-1-16 1-16 1-2-16 1-16 1-1-8 
 1-3-16 1-3-16 1-3-16 1-3-8 2-8 0-4-8 0-5-16 0-1-16 0-5-16 1-1-16 1-3-16 1-16 1-4 
-0-16 1-1 `}},_2={title:"アンペア",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(134)
+0-16 1-1 `}},S2={title:"アンペア",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(134)
 0-1 
 // combo: 0
 0-1 
@@ -34848,7 +34848,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1007
 1-3-16 1-3-16 1-3-16 1-3-8 2-8 0-4-8 0-5-16 0-1-16 0-5-16 1-2-16 1-3-16 1-1-16 1-4 
 // combo: 1050
-0-16 1-1 `}},S2={...d2,..._2},N2={title:"ココン東西（104期Ver.）",titleFurigana:"",offset:0,center:"hime",attribute:"cool",singers:G,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(160)
+0-16 1-1 `}},_2={...d2,...S2},N2={title:"ココン東西（104期Ver.）",titleFurigana:"",offset:0,center:"hime",attribute:"cool",singers:G,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(160)
 // noteCount: 2875
 0-1 
 0-1 
@@ -37916,7 +37916,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 981
 0-2-3 0-24 2-8 2-3 0-24 2-8 
 // combo: 989
-1-8 2-8 1-8 1-1-8 0-1-8 1-1-8 1-1-1 `}},O2={...k2,...y2},w2={title:"WAWO!",titleFurigana:"",offset:0,center:"rurino",attribute:"pure",singers:_1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(130)
+1-8 2-8 1-8 1-1-8 0-1-8 1-1-8 1-1-1 `}},O2={...k2,...y2},w2={title:"WAWO!",titleFurigana:"",offset:0,center:"rurino",attribute:"pure",singers:E1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(130)
 // noteCount: 2545
 0-1 
 1-1 
@@ -38959,7 +38959,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 
-0-1 `}},j2={title:"Retrofuture",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(152)
+0-1 `}},L2={title:"Retrofuture",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(152)
 0-1 
 // combo: 0
 0-1 
@@ -39699,7 +39699,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1458
 
 #FEVEREND
-0-1 `}},B2={...I2,...j2},L2={title:"チリコンカン",titleFurigana:"",offset:0,center:"izumi",attribute:"smile",singers:W,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(176)
+0-1 `}},j2={...I2,...L2},B2={title:"チリコンカン",titleFurigana:"",offset:0,center:"izumi",attribute:"smile",singers:W,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(176)
 // noteCount: 3259
 0-1 
 0-2 0-3 0-24 2-2 
@@ -40545,7 +40545,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1061
 0-2-8 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 
 // combo: 1091
-1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-1 `}},W2={...L2,...P2},U2={title:"僕らのLIVE 君とのLIFE",titleFurigana:"",offset:0,center:"megumi",attribute:"pure",singers:o8,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(210)
+1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-1 `}},W2={...B2,...P2},U2={title:"僕らのLIVE 君とのLIFE",titleFurigana:"",offset:0,center:"megumi",attribute:"pure",singers:o8,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(210)
 // noteCount: 6001
 0-1 
 0-1 
@@ -43185,7 +43185,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1116
 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 0-2-16 
 // combo: 1148
-0-4-1 `}},G2={...q2,...J2},Y2={title:"TOKIMEKI Runners",titleFurigana:"",offset:2.41,center:"rurino",attribute:"smile",singers:T1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`
+0-4-1 `}},G2={...q2,...J2},Y2={title:"TOKIMEKI Runners",titleFurigana:"",offset:2.41,center:"rurino",attribute:"smile",singers:S1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`
 (180)
 0-24
 2-8
@@ -44059,7 +44059,7 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 886
 0-1-8 0-2-16 0-1-16 1-1-8 1-1-8 0-1-8 0-2-16 0-1-16 0-1-8 0-1-16 0-1-16 
 // combo: 901
-1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 2-8 2-1 `}},Q2={...Y2,...X2},Z2={title:"始まりは君の空",titleFurigana:"",offset:0,center:"sayaka",attribute:"pure",singers:b1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(164)
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 2-8 2-1 `}},Q2={...Y2,...X2},Z2={title:"始まりは君の空",titleFurigana:"",offset:0,center:"sayaka",attribute:"pure",singers:t1,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(164)
 // noteCount: 3846
 0-1 
 0-1 
@@ -47389,7 +47389,3193 @@ import{g as D,c as A,q as K,o as h,a as u,I as S1,J as N1,K as i1,L as z1,f as C
 // combo: 1049
 
 #FEVEREND
-0-1 `}},En={...an,...sn},C=Object.freeze(Object.defineProperty({__proto__:null,m103103:K0,m103104:W0,m103105:G0,m103113:F8,m103201:bn,m103301:Q2,m103302:G2,m104106:O0,m104108:$2,m104301:r0,m104302:E0,m105101:B0,m105102:b2,m105103:W2,m105104:B8,m105105:V0,m105106:$8,m203102:E2,m203201:rn,m203202:V8,m203204:h0,m203205:v0,m203301:K2,m203302:on,m204102:Q0,m204108:M0,m204109:r8,m204111:O2,m204301:Q8,m204302:o0,m205101:M2,m205102:S0,m205103:S8,m205201:En,m205301:u0,m303104:r2,m303106:u2,m304101:$0,m304103:h2,m304104:E8,m304108:v2,m304110:F2,m304115:V2,m304116:o2,m304301:b0,m305101:W8,m305102:S2,m305103:B2,m305104:F0,m305105:v8,m305106:K8,m305107:G8,m405101:O8,m405102:h8,m405103:u8,m405104:b8,m405302:M8},Symbol.toStringTag,{value:"Module"})),ln=["kaho","sayaka","kozue","tsuzuri","rurino","megumi","ginko","kosuzu","hime","ceras","izumi"],O1=[...ln,"other"],F1={kaho:"花帆",sayaka:"さやか",kozue:"梢",tsuzuri:"綴理",rurino:"瑠璃乃",megumi:"慈",ginko:"吟子",kosuzu:"小鈴",hime:"姫芽",ceras:"セラス",izumi:"泉",other:"その他"},un={kaho:"日野下花帆",sayaka:"村野さやか",kozue:"乙宗梢",tsuzuri:"夕霧綴理",rurino:"大沢瑠璃乃",megumi:"藤島慈",ginko:"百生吟子",kosuzu:"徒町小鈴",hime:"安養寺姫芽",ceras:"セラス 柳田 リリエンフェルト",izumi:"桂城泉"},Rn={all:O1,g102:["kozue","tsuzuri","megumi"],g103:["kaho","sayaka","rurino"],g104:["ginko","kosuzu","hime"],g105:["ceras"],cerise:["kaho","kozue","ginko"],dollche:["sayaka","tsuzuri","kosuzu"],miracra:["rurino","megumi","hime"],edel:["ceras","izumi"]},h1={all:"全員",g102:"乙宗梢／夕霧綴理／藤島慈",g103:"日野下花帆／村野さやか／大沢瑠璃乃",g104:"百生吟子／徒町小鈴／安養寺姫芽",g105:"105期生",cerise:"スリーズブーケに所属するメンバー",dollche:"DOLLCHESTRAに所属するメンバー",miracra:"みらくらぱーく！に所属するメンバー",edel:"Edel Noteに所属するメンバー"},pn=["smile","pure","cool"],Fn={smile:"スマイル",pure:"ピュア",cool:"クール"},R1=(n,o)=>{let c=1,e=o||0,r=!1;const b=[],E=n.replaceAll(/\/\/.*$/gm,"").split(/[\n\r\s]/);for(const t of E)if(t)if(t.startsWith("(")){const l=t.indexOf(")");c=Number(t.slice(1,l))}else if(t==="#FEVERSTART")r=!0,b.push({time:e,normalCount:0,slideCount:0,fever:r});else if(t==="#FEVEREND")r=!1,b.push({time:e,normalCount:0,slideCount:0,fever:r});else{const l=t.match(/^(?<normal>\d+)(-(?<slide>\d+))?-(?<length>\d+)$/);if(!l)throw new Error(`Undefined comment: ${t}`);const R=Number(l.groups?.normal),f=Number(l.groups?.slide||0),V=Number(l.groups?.length);b.push({time:e,normalCount:R,slideCount:f,fever:r}),e+=240/c/V}return b},fn=n=>n.reduce((o,c)=>o+c.normalCount+c.slideCount,0),Tn=n=>n.reduce((o,c)=>c.fever?o+c.normalCount+c.slideCount:o,0),Vn={class:"card my-2"},dn={class:"card-body"},_n={class:"input-group mb-2"},Sn={class:"input-group-prepend"},Nn={class:"input-group-text"},An={style:{"min-height":"1.5em"}},hn={class:"mb-2"},Dn=["value"],gn={class:"mb-2"},vn={key:0,value:"normal"},xn={key:1,value:"hard"},Cn={key:2,value:"expert"},$n={key:3,value:"master"},kn={class:"card my-2"},yn={class:"card-body p-4"},On={class:"row row-gap-1"},wn={class:"col-sm"},zn=["value"],Mn={class:"col-sm"},In=["value"],jn={class:"my-2 row row-gap-1"},Bn={class:"col-sm"},Ln={class:"col-sm"},Pn={class:"my-2"},Wn={class:"my-2"},Un={class:"row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2"},Hn={class:"form-check"},Kn=["id","value"],qn=["for"],Jn={class:"my-2"},Gn={class:"my-2"},Yn=C1({__name:"OMusicSelect",props:{noteText:{required:!0},noteTextModifiers:{},center:{required:!0},centerModifiers:{},offset:{required:!0},offsetModifiers:{},comboOffset:{required:!0},comboOffsetModifiers:{},attribute:{required:!0},attributeModifiers:{},masteryLevel:{required:!0},masteryLevelModifiers:{},singers:{required:!0},singersModifiers:{}},emits:["update:noteText","update:center","update:offset","update:comboOffset","update:attribute","update:masteryLevel","update:singers"],setup(n){const o=q(""),c=D(()=>Object.keys(C).filter(a=>C[a].title.toLowerCase().includes(o.value.toLowerCase())).sort((a,S)=>C[a].title.localeCompare(C[S].title))),e=q("m103103"),r=q("normal"),b=z(n,"noteText"),E=z(n,"center"),t=z(n,"offset"),l=z(n,"comboOffset"),R=z(n,"attribute"),f=z(n,"masteryLevel"),V=z(n,"singers"),g=()=>{const s=C[e.value];s&&(b.value=s.note[r.value]||"",E.value=s.center,t.value=s.offset,l.value=s.comboOffset?.[r.value]||0,R.value=s.attribute,V.value=s.singers)},d=D(()=>{try{const s=R1(b.value,0);return fn(s)}catch{return 0}}),F=D(()=>{try{const s=R1(b.value,0);return Tn(s)}catch{return 0}}),m=D(()=>{try{const s=R1(b.value,0),a=s.findIndex(y=>y.fever),S=s[a],p=s[s.length-1],k=s.find((y,U)=>!y.fever&&U>a)||p;return{beforeFever:S?.time,fever:k.time-S.time,afterFever:p.time-k.time}}catch{return{beforeFever:0,fever:0,afterFever:0}}}),i=["ceras","izumi","ginko","kosuzu","hime","kaho","sayaka","rurino","kozue","tsuzuri","megumi"];return(s,a)=>{const S=n8;return h(),A(H,null,[u("div",Vn,[a[10]||(a[10]=u("div",{class:"card-header"}," 楽曲プリセット ",-1)),u("div",dn,[u("form",null,[u("div",_n,[u("div",Sn,[u("div",Nn,[u("div",An,[M1(S,{icon:["fas","magnifying-glass"]})])])]),O(u("input",{"onUpdate:modelValue":a[0]||(a[0]=p=>u1(o)?o.value=p:null),type:"text",class:"form-control"},null,512),[[X,_(o)]])]),u("div",hn,[O(u("select",{"onUpdate:modelValue":a[1]||(a[1]=p=>u1(e)?e.value=p:null),class:"form-select"},[(h(!0),A(H,null,Z(_(c),p=>(h(),A("option",{key:p,value:p},x(C[p].title),9,Dn))),128))],512),[[Q,_(e)]])]),u("div",gn,[O(u("select",{"onUpdate:modelValue":a[2]||(a[2]=p=>u1(r)?r.value=p:null),class:"form-select"},[C[_(e)]?.note.normal?(h(),A("option",vn," normal ")):K("",!0),C[_(e)]?.note.hard?(h(),A("option",xn," hard ")):K("",!0),C[_(e)]?.note.expert?(h(),A("option",Cn," expert ")):K("",!0),C[_(e)]?.note.master?(h(),A("option",$n," master ")):K("",!0)],512),[[Q,_(r)]])]),u("div",{class:"mb-2"},[u("button",{type:"button",class:"btn btn-primary",onClick:g}," 読み込み ")]),a[9]||(a[9]=u("div",{style:{"font-size":"0.8em"}}," ※ オフセット（楽曲が始まるまでの時間）やコンボ誤差の細かい検証はしてません、あくまで参考程度にお願いします ",-1))])])]),u("div",kn,[a[16]||(a[16]=u("div",{class:"card-header"}," 楽曲データ ",-1)),u("div",yn,[u("div",On,[u("div",wn,[a[11]||(a[11]=u("label",{class:"form-label"}," センター： ",-1)),O(u("select",{"onUpdate:modelValue":a[3]||(a[3]=p=>E.value=p),class:"form-select"},[(h(!0),A(H,null,Z(_(O1),p=>(h(),A("option",{key:p,value:p},x(_(F1)[p]),9,zn))),128))],512),[[Q,E.value]])]),u("div",Mn,[a[12]||(a[12]=u("label",{class:"form-label"}," 楽曲属性： ",-1)),O(u("select",{"onUpdate:modelValue":a[4]||(a[4]=p=>R.value=p),class:"form-select"},[(h(!0),A(H,null,Z(_(pn),p=>(h(),A("option",{key:p,value:p},x(_(Fn)[p]),9,In))),128))],512),[[Q,R.value]])])]),u("div",jn,[u("div",Bn,[a[13]||(a[13]=u("label",{class:"form-label"}," オフセット： ",-1)),O(u("input",{"onUpdate:modelValue":a[5]||(a[5]=p=>t.value=p),class:"form-control"},null,512),[[X,t.value,void 0,{number:!0}]])]),u("div",Ln,[a[14]||(a[14]=u("label",{class:"form-label"}," マスタリーレベル： ",-1)),O(u("input",{"onUpdate:modelValue":a[6]||(a[6]=p=>f.value=p),type:"number",class:"form-control",min:"1",max:"50"},null,512),[[X,f.value,void 0,{number:!0}]])])]),u("div",Pn,[O(u("textarea",{"onUpdate:modelValue":a[7]||(a[7]=p=>b.value=p),rows:"6",class:"form-control"},null,512),[[X,b.value]])]),u("div",Wn,[a[15]||(a[15]=I1(" 歌唱者： ",-1)),u("div",Un,[(h(),A(H,null,Z(i,p=>u("div",{key:p,class:"col"},[u("div",Hn,[O(u("input",{class:"form-check-input","onUpdate:modelValue":a[8]||(a[8]=k=>V.value=k),type:"checkbox",id:`singer-${p}`,value:p},null,8,Kn),[[j1,V.value]]),u("label",{class:"form-check-label",for:`singer-${p}`},x(_(F1)[p]),9,qn)])])),64))])]),u("div",Jn," 総コンボ数："+x(_(d))+" 内FEVER："+x(_(F))+"（"+x((_(F)/_(d)*100).toFixed(2))+"%） ",1),u("div",Gn," 曲構成："+x(_(m).beforeFever?.toFixed(2))+"秒 - (FEVER) "+x(_(m).fever?.toFixed(2))+"秒 - "+x(_(m).afterFever?.toFixed(2))+"秒 ",1)])])],64)}}}),v4=Object.assign(Yn,{__name:"OMusicSelect"}),Xn=`key	series	other_name	smile	pure	cool	mental	rarity	center_skill_condition	raw_center_skill_text	raw_skill_text	ap	center_ability_text
+0-1 `}},En={...an,...sn},ln={title:"My Lucky Clover",titleFurigana:"まいらっきーくろーばー",center:"kaho",attribute:"pure",singers:Y},un={title:"My Lucky Clover",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(162)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 8
+0-1-1 
+// combo: 9
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 17
+0-1-1 
+// combo: 18
+1-1 
+// combo: 19
+1-2 1-2 
+// combo: 21
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 26
+1-2 1-2 
+// combo: 28
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 33
+1-2 1-2 
+// combo: 35
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 40
+1-2 1-2 
+// combo: 42
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 47
+0-1-8 0-1-8 0-1-2 0-4 
+// combo: 50
+1-2 1-2 
+// combo: 52
+1-1 
+// combo: 53
+1-2 1-2 
+// combo: 55
+1-1 
+// combo: 56
+1-2 1-2 
+// combo: 58
+1-1 
+// combo: 59
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 64
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 69
+1-2 1-2 
+// combo: 71
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 76
+1-2 1-2 
+// combo: 78
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 83
+1-2 1-2 
+// combo: 85
+1-2 1-2 
+// combo: 87
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 103
+0-2-1 
+// combo: 105
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 114
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 120
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 129
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 135
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 144
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 150
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 159
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 165
+1-2 1-2 
+// combo: 167
+1-4 1-4 1-2 
+// combo: 170
+1-2 1-2 
+// combo: 172
+1-4 1-4 1-2 
+// combo: 175
+1-2 1-2 
+// combo: 177
+1-2 1-2 
+// combo: 179
+1-4 1-4 0-1-8 0-1-8 0-1-8 0-1-1 
+// combo: 185
+0-8 
+// combo: 185
+
+#FEVERSTART
+1-4 1-4 1-2 
+// combo: 188
+1-4 1-4 1-2 
+// combo: 191
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 201
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 211
+1-2 1-2 
+// combo: 213
+1-2 1-2 
+// combo: 215
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 220
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 225
+1-4 1-4 1-2 
+// combo: 228
+1-4 1-4 1-2 
+// combo: 231
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 237
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 242
+1-4 1-4 1-2 
+// combo: 245
+1-2 1-2 
+// combo: 247
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 255
+0-2-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 264
+
+#FEVEREND
+1-1-2 1-2 
+// combo: 267
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 272
+1-2 1-2 
+// combo: 274
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 279
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 284
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 289
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 294
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 299
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-3 0-24 0-1-8 
+// combo: 305
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 313
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 321
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 `,hard:`(162)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1-2 0-1-2 
+// combo: 2
+0-1-1 
+// combo: 3
+0-1-2 0-1-2 
+// combo: 5
+0-1-1 
+// combo: 6
+2-1 
+// combo: 8
+1-4 1-4 1-4 1-4 
+// combo: 12
+1-4 1-4 1-2 
+// combo: 15
+1-4 1-4 1-4 1-4 
+// combo: 19
+1-4 1-4 1-2 
+// combo: 22
+1-4 1-4 1-4 1-4 
+// combo: 26
+1-4 1-4 1-2 
+// combo: 29
+1-4 1-4 1-4 1-4 
+// combo: 33
+1-4 1-4 1-2 
+// combo: 36
+0-1-8 0-1-8 0-1-2 0-4 
+// combo: 39
+0-1-8 0-1-8 1-1-8 0-1-8 1-1-2 
+// combo: 46
+0-1-8 0-1-8 1-1-8 0-1-8 1-1-2 
+// combo: 53
+0-1-8 0-1-8 1-1-8 0-1-8 1-1-2 
+// combo: 60
+0-1-8 0-1-8 1-1-8 0-1-8 1-1-2 
+// combo: 67
+2-2 2-2 
+// combo: 71
+1-4 1-4 1-2 
+// combo: 74
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 90
+0-2-1 
+// combo: 92
+1-4 1-4 1-4 1-4 
+// combo: 96
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 102
+1-4 1-4 1-4 1-4 
+// combo: 106
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 112
+2-2 2-2 
+// combo: 116
+1-4 1-4 1-4 1-4 
+// combo: 120
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 128
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 133
+1-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 143
+1-1-2 2-2 
+// combo: 147
+1-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 157
+1-1-2 2-2 
+// combo: 161
+1-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 171
+1-1-2 2-2 
+// combo: 175
+1-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 185
+1-1-2 1-4 1-4 
+// combo: 189
+1-4 1-4 1-4 1-4 
+// combo: 193
+0-1-8 0-1-8 0-1-8 0-2-2 0-8 
+// combo: 198
+1-4 1-4 1-4 1-4 
+// combo: 202
+0-1-8 0-1-8 0-1-8 0-2-3 0-24 1-8 1-3 
+// combo: 209
+0-24 1-8 1-3 0-24 1-8 1-3 
+// combo: 213
+0-24 1-8 0-1-8 0-1-8 0-1-8 0-2-4 
+// combo: 219
+1-8 1-8 1-8 1-8 1-4 1-8 1-1 
+// combo: 226
+0-8 
+// combo: 226
+
+#FEVERSTART
+2-4 1-8 1-4 1-8 1-4 
+// combo: 232
+2-4 1-8 1-4 1-8 1-4 
+// combo: 238
+0-1-8 0-1-8 1-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 249
+0-2-8 0-1-8 0-1-8 0-1-8 0-1-4 2-4 
+// combo: 257
+1-4 1-4 1-8 1-8 1-8 0-1-8 
+// combo: 263
+0-1-4 0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 272
+0-2-8 0-1-8 0-1-8 0-1-8 0-1-8 1-8 1-8 0-1-8 
+// combo: 281
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 286
+2-4 1-8 1-4 1-8 1-4 
+// combo: 292
+2-4 1-8 1-4 1-8 1-4 
+// combo: 298
+0-1-8 0-1-8 1-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 309
+0-2-8 0-1-8 0-1-8 0-1-8 0-1-4 2-4 
+// combo: 317
+2-4 1-4 2-4 1-8 0-1-8 
+// combo: 324
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 329
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 345
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 359
+
+#FEVEREND
+1-4 1-4 1-4 1-4 
+// combo: 363
+2-4 2-4 2-2 
+// combo: 369
+1-4 1-4 1-4 1-4 
+// combo: 373
+2-4 2-4 2-2 
+// combo: 379
+1-4 1-4 1-4 1-4 
+// combo: 383
+2-4 2-4 2-2 
+// combo: 389
+1-4 1-4 1-4 1-4 
+// combo: 393
+2-4 2-4 2-2 
+// combo: 399
+1-8 1-4 1-8 1-4 1-8 0-1-8 
+// combo: 405
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 413
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 421
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 `,expert:`(162)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-4 1-4 1-8 1-4 0-1-8 
+// combo: 4
+0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-2 
+// combo: 12
+1-4 1-8 1-4 1-4 
+// combo: 16
+1-4 1-4 0-1-8 0-1-8 0-1-8 
+// combo: 21
+0-2-48 0-3-3 0-48 1-16 1-16 1-8 1-8 1-4 
+// combo: 31
+1-4 2-4 1-8 2-8 1-8 0-1-8 
+// combo: 39
+1-1-8 0-2-8 1-2-8 0-2-8 0-2-8 1-2-8 1-2-4 
+// combo: 56
+1-4 2-4 1-8 2-8 1-8 1-8 
+// combo: 64
+1-8 1-8 1-8 1-4 1-1-8 1-1-8 0-1-8 
+// combo: 73
+1-1-4 2-4 1-8 2-8 1-8 0-1-8 
+// combo: 82
+1-1-8 0-2-8 1-2-8 0-2-8 0-2-8 1-2-8 1-2-4 
+// combo: 99
+1-4 2-4 1-8 2-8 1-8 1-8 
+// combo: 107
+1-8 1-8 1-8 1-4 1-1-8 1-1-4 
+// combo: 115
+0-1-8 0-1-8 0-1-4 1-8 1-8 1-8 1-8 
+// combo: 122
+0-1-8 0-1-8 1-1-6 0-48 1-16 1-8 1-8 0-1-8 0-1-8 
+// combo: 131
+0-2-8 0-1-8 1-1-8 1-8 1-8 1-8 2-4 
+// combo: 141
+0-1-8 0-1-8 1-1-6 0-48 1-16 1-8 1-8 1-4 
+// combo: 149
+1-1-8 1-1-4 1-1-8 0-1-8 1-1-8 1-1-8 1-1-16 1-16 
+// combo: 163
+0-1-8 0-1-8 0-1-8 1-16 1-16 0-1-8 0-1-8 0-1-8 1-16 1-16 
+// combo: 173
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 184
+0-1-8 0-1-8 0-1-4 1-8 1-8 1-8 0-1-8 
+// combo: 191
+0-2-8 0-2-8 0-2-8 0-2-8 1-8 1-8 1-8 1-8 
+// combo: 203
+0-1-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 1-1-4 
+// combo: 212
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 220
+1-4 1-4 1-4 0-2-8 0-2-8 
+// combo: 227
+0-4-24 0-2-48 0-2-24 0-2-48 0-4-48 0-1-24 0-1-48 0-1-24 0-3-8 0-2-8 0-4-24 0-2-48 0-2-24 0-2-48 0-4-48 0-1-24 0-1-48 0-1-24 0-3-8 1-16 1-16 
+// combo: 271
+1-3 0-24 1-16 1-16 1-3 0-24 1-16 1-16 
+// combo: 277
+1-4 1-4 1-4 1-4 
+// combo: 281
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 297
+0-2-8 0-2-8 0-3-16 0-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-1-8 
+// combo: 314
+1-1-8 0-1-8 0-1-8 1-1-8 1-1-8 0-1-8 0-1-8 1-1-8 
+// combo: 326
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-4 2-4 
+// combo: 334
+0-1-8 0-1-8 0-1-8 1-1-8 1-1-8 0-2-8 0-2-8 0-2-8 
+// combo: 347
+0-1-8 0-2-8 0-2-8 0-2-8 0-1-8 0-1-3 0-24 
+// combo: 356
+1-1-8 0-1-8 0-1-8 1-1-8 1-1-8 0-1-8 0-1-8 1-1-8 
+// combo: 368
+1-1-16 0-1-16 0-2-8 0-1-8 0-1-8 1-1-4 2-4 
+// combo: 379
+1-1-8 0-1-8 0-1-8 1-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 393
+0-2-8 0-2-8 0-2-4 1-16 1-16 1-8 1-16 1-16 1-16 1-16 
+// combo: 406
+0-1-8 0-1-8 1-1-4 1-8 1-8 1-4 
+// combo: 413
+0-1-8 0-1-8 1-1-8 1-4 1-8 1-8 0-1-8 
+// combo: 421
+0-1-8 0-1-8 1-1-4 1-8 1-8 1-4 
+// combo: 428
+0-1-8 0-1-8 1-1-8 1-4 1-8 1-1-8 0-1-3 
+// combo: 437
+0-24 0-2-8 0-2-3 0-24 0-1-8 0-2-3 
+// combo: 444
+0-24 1-8 0-1-8 0-2-48 0-1-24 0-1-24 0-1-48 0-1-24 0-1-48 0-1-48 0-1-24 0-1-4 
+// combo: 456
+1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 0-2-8 
+// combo: 465
+0-2-8 0-2-8 0-1-3 0-24 1-8 1-8 1-8 
+// combo: 473
+
+#FEVERSTART
+0-1-8 0-1-8 0-2-8 0-2-4 1-8 1-8 1-8 
+// combo: 482
+0-1-8 0-1-8 0-2-8 0-2-3 0-24 0-1-8 0-1-8 
+// combo: 490
+0-3-8 0-2-8 0-4-8 0-2-8 0-4-8 0-2-8 0-4-8 0-2-8 
+// combo: 513
+0-4-8 0-2-8 0-2-8 0-2-8 0-2-4 1-1-8 0-1-8 
+// combo: 528
+1-1-4 2-4 2-8 1-8 2-8 1-8 
+// combo: 538
+1-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 553
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-8 1-8 1-8 1-1-8 
+// combo: 563
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 1-8 1-8 1-8 
+// combo: 571
+0-1-8 0-1-8 0-2-8 0-2-4 1-8 1-8 1-8 
+// combo: 580
+0-1-8 0-1-8 0-2-8 0-2-3 0-24 1-1-8 0-1-8 
+// combo: 589
+0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 601
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 2-4 
+// combo: 613
+2-4 2-4 2-4 1-8 1-1-8 
+// combo: 622
+0-1-8 0-1-8 0-1-4 2-4 2-4 
+// combo: 629
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 2-8 0-2-8 
+// combo: 643
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 1-16 1-16 
+// combo: 659
+
+#FEVEREND
+1-4 2-4 1-8 2-8 1-8 0-1-8 
+// combo: 667
+1-1-8 0-2-8 1-2-8 0-2-8 0-2-8 1-2-8 1-2-4 
+// combo: 684
+1-4 2-4 1-8 2-8 1-8 1-8 
+// combo: 692
+1-8 1-8 1-8 1-4 1-1-8 1-1-8 0-1-8 
+// combo: 701
+1-1-4 2-4 1-8 2-8 1-8 0-1-8 
+// combo: 710
+1-1-8 0-2-8 1-2-8 0-2-8 0-2-8 1-2-8 1-2-4 
+// combo: 727
+1-4 2-4 1-8 2-8 1-8 1-8 
+// combo: 735
+1-8 1-8 1-8 1-4 1-1-8 1-1-4 
+// combo: 743
+1-1-8 1-1-4 1-1-8 1-1-4 1-8 0-1-8 
+// combo: 753
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 761
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 769
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 `,master:`(162)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+1-4 2-4 1-8 1-4 0-1-8 
+// combo: 6
+0-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-4 
+// combo: 19
+1-4 2-4 1-8 1-4 2-4 
+// combo: 26
+2-4 2-4 1-1-8 0-1-8 0-1-8 
+// combo: 34
+0-2-48 0-2-3 0-48 1-16 1-16 1-8 2-8 2-4 
+// combo: 45
+1-1-8 0-1-8 2-1-4 0-1-8 1-1-8 2-1-8 1-2-8 
+// combo: 60
+0-2-8 0-2-8 1-2-8 0-2-8 1-2-8 0-4-8 0-2-4 
+// combo: 78
+1-1-8 0-1-8 2-1-4 0-1-8 1-1-8 2-1-8 1-8 
+// combo: 91
+1-8 1-8 1-8 1-8 1-8 1-1-8 0-1-8 0-2-24 0-1-48 0-1-24 0-1-48 
+// combo: 104
+0-2-4 2-4 0-1-8 1-1-8 2-1-8 1-2-8 
+// combo: 117
+0-2-8 0-2-8 1-2-8 0-2-8 1-2-8 0-4-8 0-2-4 
+// combo: 135
+1-1-8 0-1-8 2-1-4 0-1-8 1-1-8 2-1-8 1-8 
+// combo: 148
+1-8 1-8 1-8 1-8 1-8 1-1-8 0-1-8 0-1-8 
+// combo: 157
+0-3-8 0-2-8 0-2-4 1-8 1-8 1-8 1-8 
+// combo: 168
+3-4 2-6 0-48 1-16 2-8 2-8 1-2-8 0-2-8 
+// combo: 183
+1-2-4 2-6 0-48 1-16 2-8 2-8 1-2-8 0-2-8 
+// combo: 198
+1-2-4 2-6 0-48 1-16 2-8 2-8 1-2-8 0-2-8 
+// combo: 213
+1-3-8 0-1-8 1-8 1-1-4 1-1-8 1-8 0-1-16 1-16 
+// combo: 226
+1-1-8 0-1-8 0-1-8 1-16 1-16 1-1-8 0-1-8 0-1-8 1-16 1-16 
+// combo: 238
+1-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-1-8 0-2-8 0-2-8 
+// combo: 252
+0-2-8 0-2-8 0-2-8 0-2-8 2-2-8 0-4-8 0-4-8 0-4-8 
+// combo: 276
+0-3-8 0-1-8 0-1-8 0-1-8 2-8 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 290
+1-8 1-8 2-8 1-8 1-8 1-8 0-2-8 0-2-8 
+// combo: 301
+1-2-8 1-8 2-8 1-8 2-8 1-8 0-2-8 0-2-8 
+// combo: 315
+1-1-8 0-1-8 1-2-8 0-2-8 1-3-8 0-3-8 0-4-8 0-3-8 
+// combo: 337
+0-3-8 0-3-8 0-3-8 0-3-8 0-3-8 0-1-8 0-1-8 1-1-16 1-16 
+// combo: 357
+1-1-8 0-1-8 0-1-8 1-16 1-16 1-1-8 0-1-8 0-1-8 1-16 1-16 
+// combo: 369
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 380
+0-3-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 397
+0-3-8 0-1-8 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 
+// combo: 419
+0-1-8 0-1-8 0-1-8 1-1-8 0-2-8 0-1-8 0-1-8 1-1-8 
+// combo: 430
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 2-4 
+// combo: 442
+1-1-8 0-1-8 0-1-8 1-1-8 0-2-8 1-1-8 1-1-8 1-1-8 
+// combo: 456
+0-2-8 1-1-8 1-1-8 1-1-8 0-1-8 1-3 0-24 
+// combo: 466
+1-1-8 0-1-8 0-1-8 1-1-8 0-2-8 0-1-8 0-1-8 1-8 
+// combo: 477
+1-1-16 0-1-16 0-2-8 0-1-8 0-1-8 0-1-4 2-4 
+// combo: 487
+0-2-8 0-2-8 0-2-8 1-1-8 0-2-8 1-1-8 1-1-8 1-1-8 
+// combo: 503
+0-2-8 1-1-8 0-1-8 0-1-8 1-1-16 1-16 0-1-8 1-1-16 1-16 1-16 1-16 
+// combo: 518
+1-1-8 0-1-8 2-1-4 2-8 1-8 1-1-8 0-1-8 
+// combo: 530
+1-1-4 3-8 2-4 2-8 3-8 1-1-8 
+// combo: 544
+0-1-8 0-1-8 2-1-4 2-8 1-8 1-1-8 0-1-8 
+// combo: 555
+1-1-4 2-8 0-2-8 0-2-8 0-2-8 2-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 
+// combo: 578
+0-1-4 2-48 0-2-48 0-2-48 0-2-48 0-2-48 0-1-48 0-1-48 0-1-48 0-2-48 0-2-48 0-2-48 0-2-48 0-2-4 1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 
+// combo: 614
+0-1-4 2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 625
+2-8 1-8 2-8 1-8 2-8 2-8 2-8 0-1-8 
+// combo: 638
+0-1-8 2-1-8 2-1-3 0-24 1-8 1-8 1-8 
+// combo: 648
+
+#FEVERSTART
+1-2-8 0-2-8 1-2-8 1-2-4 1-8 1-8 1-8 
+// combo: 662
+1-2-8 0-2-8 1-2-8 1-2-3 0-24 0-2-8 0-2-8 
+// combo: 677
+0-4-8 0-2-8 0-3-8 0-2-8 0-4-8 0-2-8 0-4-8 0-2-8 
+// combo: 700
+0-3-8 0-2-8 0-2-8 0-2-8 0-2-4 0-1-8 0-1-8 
+// combo: 713
+1-1-8 0-1-8 1-1-4 2-8 2-8 2-8 2-3 
+// combo: 726
+0-24 0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 734
+2-1-8 0-1-8 0-1-8 0-1-8 0-1-8 2-8 1-8 2-1-8 
+// combo: 747
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 1-8 1-8 1-8 
+// combo: 755
+1-2-8 0-2-8 1-2-8 1-2-4 1-8 1-8 1-8 
+// combo: 769
+1-2-8 0-2-8 1-2-8 1-2-3 0-24 0-2-8 0-2-8 
+// combo: 784
+0-6-8 0-2-8 0-3-8 0-2-8 0-4-8 0-2-8 0-4-8 0-2-8 
+// combo: 809
+0-3-8 0-2-8 0-2-8 0-2-8 0-2-4 0-1-8 0-1-8 
+// combo: 822
+1-2-8 0-1-8 0-2-8 0-1-8 1-2-8 0-1-8 0-2-8 0-3-8 
+// combo: 838
+0-2-8 0-2-8 0-2-4 1-4 1-4 
+// combo: 846
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 2-8 0-2-8 
+// combo: 860
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 874
+
+#FEVEREND
+1-1-8 0-1-8 2-1-4 0-1-8 1-1-8 2-1-8 1-2-8 
+// combo: 889
+0-2-8 0-2-8 1-2-8 0-2-8 1-2-8 0-4-8 0-2-4 
+// combo: 907
+1-1-8 0-1-8 2-1-4 0-1-8 1-1-8 2-1-8 1-8 
+// combo: 920
+1-8 1-8 1-8 1-8 1-8 1-1-8 0-1-8 0-2-48 0-1-24 0-1-48 0-1-24 
+// combo: 933
+0-2-4 2-4 0-1-8 1-1-8 2-1-8 1-2-8 
+// combo: 946
+0-2-8 0-2-8 1-2-8 0-2-8 1-2-8 0-4-8 0-2-4 
+// combo: 964
+1-1-8 0-1-8 2-1-4 0-1-8 1-1-8 2-1-8 1-8 
+// combo: 977
+1-8 1-8 1-8 1-8 1-8 1-1-8 0-1-8 0-1-8 
+// combo: 986
+2-1-8 2-4 2-8 2-4 2-8 0-2-8 
+// combo: 999
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 1015
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 1031
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-1 `}},Rn={...ln,...un},pn={title:"diamondz",titleFurigana:"だいあもんず",center:"sayaka",attribute:"cool",singers:s1},Fn={title:"diamondz",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(150)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+1-2 1-2 
+// combo: 2
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 7
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 12
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 17
+1-2 1-2 
+// combo: 19
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 24
+1-2 1-2 
+// combo: 26
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 31
+1-2 1-2 
+// combo: 33
+1-2 1-2 
+// combo: 35
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 40
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 45
+1-2 1-2 
+// combo: 47
+1-2 1-2 
+// combo: 49
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 54
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 59
+1-4 1-4 1-2 
+// combo: 62
+1-4 1-4 1-2 
+// combo: 65
+1-2 1-2 
+// combo: 67
+1-4 1-4 1-2 
+// combo: 70
+1-4 1-4 1-2 
+// combo: 73
+1-4 1-4 1-3 0-24 1-1 
+// combo: 77
+1-1 
+// combo: 78
+0-8 
+// combo: 78
+1-4 1-4 1-4 1-4 
+// combo: 82
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-3 0-24 
+#FEVERSTART
+0-8 
+// combo: 87
+1-4 1-4 1-2 
+// combo: 90
+1-4 1-4 1-2 
+// combo: 93
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 98
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 103
+1-2 1-2 
+// combo: 105
+0-1-8 0-1-8 0-1-8 0-1-2 0-8 
+// combo: 109
+2-2 2-3 0-24 1-4 
+// combo: 114
+0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 118
+1-4 1-4 1-2 
+// combo: 121
+1-4 1-4 1-2 
+// combo: 124
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 129
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 134
+2-2 2-2 
+// combo: 138
+0-1-8 0-1-8 0-1-8 0-1-2 0-8 
+// combo: 142
+1-2 1-2 
+// combo: 144
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-3 0-24 
+#FEVEREND
+0-8 
+// combo: 149
+1-2 1-2 
+// combo: 151
+1-4 1-4 1-2 
+// combo: 154
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 159
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 164
+1-2 1-2 
+// combo: 166
+1-4 1-4 1-2 
+// combo: 169
+1-2 1-2 
+// combo: 171
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 179
+0-1-4 1-4 0-1-8 0-1-8 0-1-8 0-1-1 `,hard:`(150)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+1-4 1-4 1-4 1-4 
+// combo: 4
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 1-1-3 
+// combo: 13
+0-24 1-4 1-4 1-8 0-1-8 
+// combo: 17
+0-1-8 1-1-8 1-4 1-3 0-24 0-1-8 
+// combo: 23
+0-1-8 1-1-8 1-1-4 1-3 0-24 0-1-8 
+// combo: 30
+0-1-8 1-1-8 1-4 1-8 1-4 1-1-3 
+// combo: 38
+0-24 1-4 1-8 1-4 0-1-8 
+// combo: 42
+0-1-8 1-1-8 1-1-4 1-3 0-24 1-8 
+// combo: 49
+1-8 1-4 0-1-8 0-1-8 1-1-8 1-8 0-1-8 
+// combo: 57
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 62
+0-8 1-8 1-4 0-1-6 0-48 0-1-6 0-48 0-1-4 
+// combo: 67
+1-8 1-8 1-8 0-1-6 0-48 0-1-6 0-48 0-1-4 
+// combo: 73
+0-1-8 0-2-8 0-2-4 0-1-8 0-2-8 0-2-4 
+// combo: 83
+1-8 1-8 1-8 1-4 1-8 1-4 
+// combo: 89
+1-8 1-4 0-1-6 0-48 0-1-6 0-48 0-1-4 
+// combo: 94
+1-8 1-8 1-8 0-1-6 0-48 0-1-6 0-48 0-1-4 
+// combo: 100
+1-8 1-8 1-4 1-8 1-8 1-8 
+// combo: 106
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-3 0-24 1-4 
+// combo: 112
+1-8 1-4 0-1-8 0-1-4 1-4 
+// combo: 117
+1-8 1-4 0-1-8 0-1-4 0-1-4 
+// combo: 122
+1-8 1-4 0-1-8 0-1-4 0-1-4 
+// combo: 127
+1-8 1-4 0-1-8 0-1-4 1-4 
+// combo: 132
+1-8 1-4 1-8 1-4 1-4 
+// combo: 137
+1-8 1-4 1-8 1-4 2-1 
+// combo: 143
+2-2 
+// combo: 145
+0-8 1-8 1-4 1-8 
+// combo: 148
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 159
+0-2-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+#FEVERSTART
+1-1-4 
+// combo: 169
+1-8 1-4 1-1-8 0-1-8 0-1-8 1-1-4 
+// combo: 177
+1-8 1-4 1-8 1-8 1-8 1-4 
+// combo: 183
+0-1-8 0-1-4 2-3 0-24 1-4 
+// combo: 188
+0-1-8 0-1-4 2-3 0-24 1-8 
+// combo: 193
+0-1-8 0-1-16 0-1-6 0-48 1-8 0-1-8 0-1-16 0-1-6 0-48 1-8 
+// combo: 201
+0-1-8 0-1-16 0-1-6 0-48 1-4 1-8 1-8 1-8 
+// combo: 208
+1-3 0-24 0-1-8 0-1-6 0-48 0-1-6 0-48 0-2-4 
+// combo: 214
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 1-1-4 
+// combo: 228
+1-8 1-4 1-1-8 0-1-8 0-1-8 1-1-4 
+// combo: 236
+1-8 1-4 1-8 1-8 1-8 1-4 
+// combo: 242
+0-1-8 0-1-4 2-3 0-24 1-4 
+// combo: 247
+0-1-8 0-1-4 2-3 0-24 1-8 
+// combo: 252
+0-1-8 0-1-16 0-1-6 0-48 1-8 0-1-8 0-1-16 0-1-6 0-48 1-8 
+// combo: 260
+0-1-8 0-1-16 0-1-6 0-48 1-4 1-8 1-8 1-8 
+// combo: 267
+1-3 0-24 0-1-8 1-6 0-48 0-1-6 0-48 0-2-4 
+// combo: 273
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+#FEVEREND
+0-2-3 
+// combo: 287
+0-24 1-4 1-4 1-8 0-1-8 
+// combo: 291
+0-1-8 1-1-8 1-1-4 1-3 0-24 0-1-8 
+// combo: 298
+0-1-8 1-1-8 1-1-4 1-3 0-24 0-1-8 
+// combo: 305
+0-1-8 1-1-8 1-4 1-8 1-4 1-1-3 
+// combo: 313
+0-24 1-4 1-8 1-4 0-1-8 
+// combo: 317
+0-1-8 1-1-8 1-1-4 1-3 0-24 1-8 
+// combo: 324
+1-8 1-4 0-1-8 0-1-8 1-1-8 1-8 0-1-8 
+// combo: 332
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 
+// combo: 339
+2-4 1-4 0-1-6 0-48 0-1-6 0-48 0-1-1 `,expert:`(150)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+1-12 1-12 1-12 1-12 1-12 1-12 1-12 1-12 1-12 1-12 1-12 1-12 
+// combo: 12
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 1-1-4 
+// combo: 21
+1-8 2-8 1-8 2-8 1-8 2-8 1-1-8 
+// combo: 32
+0-1-8 1-1-8 1-2-48 0-1-48 0-1-6 0-24 2-48 0-1-48 0-1-12 1-8 1-8 1-1-8 
+// combo: 48
+0-1-8 1-1-8 1-2-48 0-1-48 0-1-6 0-24 2-48 0-1-48 0-1-12 1-8 1-8 1-1-8 
+// combo: 64
+0-1-8 1-2-8 1-2-8 0-2-8 1-2-8 0-3-8 0-1-8 1-1-4 
+// combo: 82
+1-8 2-8 1-8 2-8 1-8 2-8 1-1-8 
+// combo: 93
+0-1-8 1-1-8 1-2-48 0-1-48 0-1-6 0-24 2-48 0-1-48 0-1-12 1-8 1-8 1-8 
+// combo: 108
+2-8 1-8 1-8 1-1-8 0-1-8 1-1-8 0-1-8 0-2-8 
+// combo: 120
+0-3-16 0-1-16 0-3-16 0-1-16 0-3-16 0-1-16 0-3-16 0-1-16 0-4-24 0-2-24 0-2-24 0-4-24 0-2-24 0-2-24 0-4-4 
+// combo: 156
+1-8 2-8 2-4 1-1-8 0-1-16 0-1-16 1-1-8 0-1-8 
+// combo: 168
+1-8 1-8 1-8 1-8 0-1-8 0-1-16 0-1-16 1-1-8 0-1-4 
+// combo: 178
+1-1-8 1-1-8 1-1-4 1-1-8 1-1-8 1-1-4 
+// combo: 190
+1-16 1-16 1-8 1-8 0-2-8 0-2-8 0-4-8 0-2-4 
+// combo: 204
+2-8 2-4 0-1-8 0-1-16 0-1-16 1-1-8 0-1-4 
+// combo: 214
+0-1-8 0-2-8 0-2-8 1-1-8 0-1-16 1-1-16 0-1-8 1-1-4 
+// combo: 227
+1-16 1-16 1-8 0-1-8 0-1-8 1-16 1-16 1-8 0-1-8 
+// combo: 236
+1-1-6 0-48 2-6 0-48 2-8 0-2-8 0-2-8 0-2-8 1-8 
+// combo: 249
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 257
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 265
+0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 274
+0-1-8 1-1-8 1-8 1-8 1-8 1-4 1-8 
+// combo: 282
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 290
+1-8 1-8 1-8 1-8 1-16 1-16 1-16 1-16 1-8 0-2-1 
+// combo: 301
+0-2-2 
+// combo: 303
+0-8 1-8 2-4 1-16 1-16 
+// combo: 308
+0-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 319
+0-2-16 0-1-16 0-2-16 0-1-16 0-2-24 0-1-24 0-1-24 0-2-24 0-1-24 0-1-24 0-2-24 0-1-48 0-1-24 0-1-48 0-2-24 0-1-48 0-1-24 0-1-48 0-2-8 
+#FEVERSTART
+2-4 
+// combo: 347
+2-8 1-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-4 
+// combo: 357
+2-8 2-4 1-8 1-8 1-8 0-1-8 
+// combo: 365
+0-1-8 1-1-8 1-2-24 0-1-48 0-1-6 0-48 2-24 0-1-48 0-1-16 1-16 1-16 1-8 1-1-8 
+// combo: 382
+0-1-8 1-1-8 1-2-24 0-1-48 0-1-6 0-48 2-24 0-1-48 0-1-16 1-8 1-8 1-8 
+// combo: 397
+1-16 1-8 0-1-8 0-1-16 1-1-8 1-16 1-8 0-1-8 0-1-16 1-1-8 
+// combo: 409
+1-16 1-8 0-1-8 0-1-16 1-1-4 2-8 2-8 1-8 
+// combo: 420
+1-1-8 0-1-8 0-1-8 1-8 1-6 0-48 2-6 0-48 2-4 
+// combo: 430
+2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-8 2-4 
+// combo: 464
+2-8 1-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-4 
+// combo: 474
+2-8 2-4 1-8 1-8 1-8 1-1-8 
+// combo: 483
+0-1-8 1-1-8 1-2-48 0-1-24 0-1-6 0-48 2-48 0-1-24 0-1-16 1-16 1-16 1-8 0-1-8 
+// combo: 499
+0-1-8 1-1-8 1-2-24 0-1-48 0-1-6 0-48 2-24 0-1-48 0-1-16 1-8 1-8 1-8 
+// combo: 514
+1-16 1-8 0-1-8 0-1-16 1-1-8 1-16 1-8 0-1-8 0-1-16 1-1-8 
+// combo: 526
+1-16 1-8 0-1-8 0-1-16 1-1-4 2-8 2-8 1-8 
+// combo: 537
+1-1-8 0-1-8 0-1-8 1-8 1-6 0-48 2-6 0-48 2-4 
+// combo: 547
+2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-24 0-2-8 
+#FEVEREND
+1-4 
+// combo: 580
+1-8 2-8 1-8 2-8 1-8 2-8 1-1-8 
+// combo: 591
+0-1-8 1-1-8 1-2-48 0-1-48 0-1-6 0-24 2-48 0-1-48 0-1-12 1-8 1-8 1-1-8 
+// combo: 607
+0-1-8 1-1-8 1-2-48 0-1-48 0-1-6 0-24 2-48 0-1-48 0-1-12 1-8 1-8 1-1-8 
+// combo: 623
+0-1-8 1-2-8 1-2-8 0-2-8 1-2-8 0-3-8 0-1-8 1-1-4 
+// combo: 641
+1-8 2-8 1-8 2-8 1-8 2-8 1-1-8 
+// combo: 652
+0-1-8 1-1-8 1-2-48 0-1-48 0-1-6 0-24 2-48 0-1-48 0-1-12 1-8 1-8 1-8 
+// combo: 667
+2-8 1-8 1-8 1-1-8 0-1-8 1-1-8 0-1-8 0-2-8 
+// combo: 679
+0-3-16 0-1-16 0-3-16 0-1-16 0-3-16 0-1-16 0-3-16 0-1-16 0-4-24 0-2-24 0-2-24 0-4-24 0-2-24 0-2-24 0-4-24 0-2-24 0-2-24 0-4-24 0-2-24 0-2-24 
+// combo: 727
+0-4-4 2-4 2-6 0-48 2-6 0-48 1-1-8 
+// combo: 739
+0-1-8 0-1-8 0-1-1 `,master:`(150)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+2-12 1-12 1-12 2-12 1-12 1-12 1-12 1-12 1-12 1-12 1-12 1-12 
+// combo: 14
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 2-4 
+// combo: 30
+2-8 2-8 1-16 1-16 1-8 2-8 2-8 1-2-8 
+// combo: 44
+0-2-8 1-2-8 2-8 1-8 1-1-8 0-2-8 1-2-8 1-2-8 
+// combo: 62
+0-2-8 1-2-8 2-8 1-8 1-1-8 0-2-8 1-2-8 1-2-8 
+// combo: 80
+0-2-8 0-4-8 0-4-8 0-4-8 0-4-8 1-2-4 2-4 
+// combo: 103
+2-8 2-8 1-16 1-16 1-8 2-8 2-8 1-2-8 
+// combo: 117
+0-2-8 1-2-8 2-8 1-8 2-8 1-8 1-8 0-2-8 
+// combo: 131
+0-4-8 2-2-4 1-2-8 0-2-8 1-2-8 0-1-8 0-2-8 
+// combo: 150
+0-2-16 1-16 1-2-8 1-2-8 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-16 1-16 
+// combo: 177
+2-8 1-8 2-4 1-1-6 0-48 0-1-16 1-8 0-1-8 
+// combo: 187
+2-8 1-8 1-1-8 0-1-8 2-6 0-48 1-16 1-8 1-8 
+// combo: 198
+2-8 1-1-8 1-1-8 1-1-8 2-8 1-1-8 1-1-8 1-1-8 
+// combo: 214
+2-8 1-16 1-16 1-8 2-8 2-24 0-2-48 0-2-24 0-2-48 0-2-24 0-2-48 0-2-24 0-2-48 0-2-24 0-2-48 0-2-24 0-2-48 0-2-8 
+// combo: 247
+2-8 1-8 1-4 1-1-6 0-48 0-1-16 1-8 0-1-8 
+// combo: 256
+2-8 1-8 1-1-8 0-1-8 2-6 0-48 1-16 1-8 1-8 
+// combo: 267
+2-8 1-16 1-16 0-1-8 2-1-8 0-2-8 1-16 1-16 0-1-8 2-1-8 
+// combo: 283
+0-1-8 0-1-16 0-1-16 0-1-16 0-1-16 0-2-16 0-1-16 0-3-16 0-1-16 0-4-16 0-1-16 0-4-8 2-16 1-16 
+// combo: 307
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 1-8 
+// combo: 317
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 0-2-8 
+// combo: 328
+1-2-8 1-8 2-8 1-8 1-8 1-8 2-8 0-2-8 
+// combo: 341
+1-2-8 1-8 2-8 1-16 1-16 1-8 2-4 2-8 
+// combo: 354
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 1-8 
+// combo: 364
+1-16 1-16 1-8 1-8 1-16 1-16 1-8 1-16 1-16 1-8 2-4 
+// combo: 376
+1-16 1-16 1-8 1-16 1-16 1-16 1-16 1-8 1-16 1-16 2-4 
+// combo: 388
+1-16 1-16 1-16 1-16 1-16 1-16 1-24 0-1-48 0-1-24 0-1-48 1-4 1-16 1-16 
+// combo: 401
+1-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 413
+0-3-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+#FEVERSTART
+2-4 
+// combo: 430
+1-1-8 1-1-8 1-16 1-16 2-8 1-8 1-8 0-1-8 
+// combo: 441
+2-1-8 0-1-8 1-2-8 0-1-8 0-2-48 0-1-48 0-1-12 0-2-48 0-1-48 0-1-12 0-2-48 0-1-48 0-1-12 2-1-4 
+// combo: 464
+1-8 2-8 1-8 2-8 1-16 1-16 1-8 2-8 
+// combo: 475
+2-8 1-8 2-8 1-8 2-8 1-8 1-8 1-8 
+// combo: 486
+1-16 1-8 1-1-8 0-1-16 1-1-48 0-1-48 0-1-12 1-16 1-8 1-1-8 0-1-16 1-1-48 0-1-48 0-1-12 
+// combo: 504
+1-16 1-8 0-2-8 0-2-16 0-4-48 0-2-48 0-2-6 0-24 2-8 2-8 1-8 
+// combo: 523
+1-1-8 0-1-8 0-1-8 1-1-24 0-1-12 1-1-24 0-1-8 0-48 2-6 0-48 2-4 
+// combo: 537
+1-1-24 0-1-48 0-1-24 0-1-48 0-2-24 0-1-48 0-1-24 0-1-48 0-2-24 0-1-48 0-1-24 0-1-48 0-2-24 0-1-48 0-1-24 0-1-48 0-2-24 0-1-48 0-1-24 0-1-48 0-2-8 2-4 
+// combo: 566
+1-1-8 1-1-8 1-16 1-16 2-8 1-8 1-8 0-1-8 
+// combo: 577
+2-1-8 0-2-8 1-2-8 0-1-8 2-1-8 2-8 2-8 0-1-8 
+// combo: 594
+1-1-8 1-8 2-8 1-16 1-16 2-8 1-16 1-16 1-8 2-8 
+// combo: 608
+2-8 1-8 2-8 1-16 1-16 2-8 1-8 1-8 1-16 1-16 
+// combo: 621
+1-16 1-8 1-1-8 0-1-16 1-1-48 0-1-48 0-1-12 1-16 1-8 1-1-8 0-1-16 1-1-48 0-1-48 0-1-12 
+// combo: 639
+1-16 1-8 0-2-8 0-2-16 0-4-48 0-2-48 0-2-6 0-24 2-8 2-8 1-8 
+// combo: 658
+1-1-8 0-1-8 0-1-8 2-48 0-1-12 0-48 2-48 0-1-6 2-6 0-48 2-4 
+// combo: 672
+1-1-48 0-2-48 0-1-48 0-1-48 0-1-48 0-1-48 0-2-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-2-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-2-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-2-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-2-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 
+#FEVEREND
+1-2-4 
+// combo: 718
+1-1-8 1-1-8 1-16 1-16 2-8 2-8 2-8 1-2-8 
+// combo: 733
+0-2-8 1-2-8 2-8 1-8 1-1-8 0-2-16 1-16 1-2-8 1-2-8 
+// combo: 752
+0-2-8 1-2-8 2-8 1-8 1-1-8 0-2-16 1-16 1-2-8 1-2-8 
+// combo: 771
+0-2-8 0-4-8 0-4-8 0-4-8 0-4-8 1-2-8 1-8 2-4 
+// combo: 795
+1-1-8 1-1-8 1-16 1-16 2-8 2-8 2-8 1-2-8 
+// combo: 810
+0-2-8 1-2-8 2-8 1-8 2-8 1-16 1-16 1-8 0-2-8 
+// combo: 825
+0-4-8 2-2-4 1-2-8 0-2-8 1-2-8 0-1-8 0-2-8 
+// combo: 844
+0-2-16 1-16 1-2-8 1-2-8 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-2-16 1-16 1-24 1-48 1-24 1-48 
+// combo: 873
+0-1-8 1-2-24 0-2-48 0-2-24 0-2-48 0-2-4 0-1-8 0-1-16 0-2-8 0-1-16 2-1-1 `}},fn={...pn,...Fn},Tn={title:"Very! Very! COCO夏っ",titleFurigana:"べりーべりーここなつっ",center:"hime",attribute:"pure",singers:E1},Vn={title:"Very! Very! COCO夏っ",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(156)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 5
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 10
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 15
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 20
+1-1 
+// combo: 21
+1-1 
+// combo: 22
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 30
+0-1-1 
+// combo: 31
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 45
+2-2 2-2 
+// combo: 49
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 63
+1-2 1-2 
+// combo: 65
+1-4 1-4 1-2 
+// combo: 68
+1-2 1-2 
+// combo: 70
+1-4 1-4 1-2 
+// combo: 73
+1-2 1-2 
+// combo: 75
+1-4 1-4 1-2 
+// combo: 78
+1-2 1-2 
+// combo: 80
+1-4 1-4 1-2 
+// combo: 83
+1-2 1-2 
+// combo: 85
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 90
+1-2 1-2 
+// combo: 92
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 97
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 102
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 107
+2-2 2-2 
+// combo: 111
+1-4 1-4 1-2 
+// combo: 114
+1-4 1-4 1-2 
+// combo: 117
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 122
+1-4 1-4 1-2 
+// combo: 125
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 130
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 135
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 140
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 145
+1-2 1-2 
+// combo: 147
+1-4 1-4 1-2 
+// combo: 150
+1-4 1-4 1-2 
+// combo: 153
+1-4 1-4 1-2 
+// combo: 156
+1-4 1-4 1-2 
+// combo: 159
+2-2 2-2 
+// combo: 163
+2-2 2-2 
+// combo: 167
+1-4 1-4 1-4 1-4 
+// combo: 171
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 185
+
+#FEVERSTART
+1-4 1-4 1-4 1-4 
+// combo: 189
+1-4 1-4 1-2 
+// combo: 192
+1-4 1-4 1-4 1-4 
+// combo: 196
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 202
+1-4 1-4 1-4 1-4 
+// combo: 206
+1-4 1-4 1-2 
+// combo: 209
+1-4 1-4 1-4 1-4 
+// combo: 213
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 219
+1-4 1-4 1-4 1-4 
+// combo: 223
+1-4 1-4 1-2 
+// combo: 226
+1-4 1-4 1-4 1-4 
+// combo: 230
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 236
+1-4 1-4 1-4 1-4 
+// combo: 240
+1-4 1-4 1-2 
+// combo: 243
+1-4 1-4 1-4 1-4 
+// combo: 247
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 253
+
+#FEVEREND
+1-2 1-2 
+// combo: 255
+1-4 1-4 1-2 
+// combo: 258
+1-2 1-2 
+// combo: 260
+1-4 1-4 1-2 
+// combo: 263
+1-2 1-2 
+// combo: 265
+1-4 1-4 1-2 
+// combo: 268
+1-4 1-4 1-2 
+// combo: 271
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-1 `,hard:`(156)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 6
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 12
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 18
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 24
+2-2 0-4 1-4 
+// combo: 27
+2-4 1-4 1-4 1-4 
+// combo: 32
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 
+// combo: 39
+2-4 1-4 1-4 1-4 
+// combo: 44
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 58
+0-2-12 0-2-12 0-2-12 0-2-4 0-1-12 0-1-12 0-1-12 0-1-12 0-1-12 0-1-12 
+// combo: 72
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 1-4 
+// combo: 78
+1-4 1-4 1-6 0-48 1-6 0-48 0-1-8 
+// combo: 83
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 88
+1-4 1-4 1-6 0-48 1-6 0-48 0-1-8 
+// combo: 93
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 98
+1-4 1-4 1-6 0-48 1-6 0-48 0-1-8 
+// combo: 103
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 108
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 115
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 1-8 1-8 
+// combo: 122
+1-4 1-4 1-8 1-8 1-8 1-8 
+// combo: 128
+0-1-8 0-1-16 0-1-16 0-1-8 0-1-3 0-24 1-8 1-8 
+// combo: 135
+1-4 1-4 1-8 1-8 1-8 1-8 
+// combo: 141
+0-1-8 0-1-16 0-1-16 0-1-8 0-1-2 1-8 
+// combo: 147
+0-1-8 0-2-8 0-2-8 0-2-8 1-1-3 0-24 1-8 
+// combo: 157
+0-1-8 0-2-8 0-2-8 0-2-8 1-1-3 0-24 1-8 
+// combo: 167
+2-2 2-3 0-24 1-8 
+// combo: 172
+1-6 0-48 1-6 0-48 1-8 0-2-4 1-8 1-8 
+// combo: 179
+1-4 1-4 1-8 1-8 1-8 1-8 
+// combo: 185
+0-1-8 0-1-16 0-1-16 0-1-8 0-1-3 0-24 1-8 1-8 
+// combo: 192
+1-4 1-4 1-8 1-8 1-8 1-8 
+// combo: 198
+0-1-8 0-1-16 0-1-16 0-1-8 0-1-2 0-8 
+// combo: 203
+0-1-8 0-1-8 1-1-8 1-4 1-4 1-4 
+// combo: 210
+1-4 1-4 1-4 1-8 
+// combo: 214
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-3 0-24 1-8 
+// combo: 220
+0-1-8 0-1-16 0-1-16 0-1-8 0-2-8 1-1-2 
+// combo: 228
+0-1-8 0-1-16 0-1-16 0-1-8 0-1-8 0-1-8 0-1-16 0-1-16 0-1-8 0-1-8 
+// combo: 238
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 
+// combo: 245
+0-1-8 0-1-16 0-1-16 0-1-8 0-1-8 0-1-8 0-1-16 0-1-16 0-1-8 0-1-8 
+// combo: 255
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 
+// combo: 262
+0-2-8 0-2-16 0-2-4 0-16 0-2-8 0-2-16 0-2-4 0-16 
+// combo: 274
+0-2-8 0-2-16 0-2-4 0-16 2-4 2-4 
+// combo: 284
+0-2-12 0-2-12 0-2-12 0-2-4 0-1-12 0-1-12 0-1-12 0-1-12 0-1-12 0-1-12 
+// combo: 298
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 1-4 
+// combo: 304
+
+#FEVERSTART
+1-4 1-4 1-4 1-8 1-4 
+// combo: 309
+1-8 1-8 1-8 1-4 1-8 1-8 
+// combo: 315
+0-1-6 0-48 0-1-6 0-48 0-1-8 0-1-4 0-1-4 
+// combo: 320
+0-1-8 0-1-8 1-1-4 0-1-8 0-1-8 1-1-4 
+// combo: 328
+1-4 1-4 1-4 1-8 1-4 
+// combo: 333
+1-8 1-8 1-8 1-4 1-8 1-8 
+// combo: 339
+0-1-6 0-48 0-1-6 0-48 0-1-8 0-1-4 0-1-8 1-4 
+// combo: 345
+1-8 1-8 1-8 1-4 1-8 1-8 
+// combo: 351
+1-4 1-4 1-4 1-8 1-4 
+// combo: 356
+1-8 1-8 1-8 1-4 1-8 1-8 
+// combo: 362
+0-1-6 0-48 0-1-6 0-48 0-1-8 0-1-4 0-1-4 
+// combo: 367
+0-1-8 0-1-8 1-1-4 0-1-8 0-1-8 1-1-4 
+// combo: 375
+1-4 1-4 1-4 1-8 1-4 
+// combo: 380
+1-8 1-8 1-8 1-4 1-8 1-8 
+// combo: 386
+0-1-6 0-48 0-1-6 0-48 0-1-8 0-1-4 0-1-8 1-4 
+// combo: 392
+1-8 1-8 1-8 1-2 
+// combo: 396
+
+#FEVEREND
+1-4 0-1-3 0-24 0-1-4 1-4 
+// combo: 400
+1-8 1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 406
+1-4 0-1-3 0-24 0-1-4 1-4 
+// combo: 410
+1-8 1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 416
+1-4 0-1-3 0-24 0-1-4 1-4 
+// combo: 420
+1-8 1-8 1-8 1-4 1-8 1-8 
+// combo: 426
+0-1-6 0-48 0-1-6 0-48 0-1-8 0-1-4 0-1-4 
+// combo: 431
+0-1-8 0-1-8 1-1-4 0-1-8 0-1-8 1-1-1 `,expert:`(156)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-8 1-8 
+// combo: 8
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 15
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-8 1-8 
+// combo: 23
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 31
+1-1-2 0-4 1-8 1-8 
+// combo: 35
+2-4 1-4 1-4 1-4 
+// combo: 40
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 
+// combo: 48
+2-4 1-4 1-4 1-4 
+// combo: 53
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 67
+1-12 1-12 1-12 1-4 1-12 1-12 1-12 1-12 1-12 1-12 
+// combo: 77
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 1-4 
+// combo: 88
+2-4 2-4 2-6 0-48 1-16 1-8 0-1-8 
+// combo: 97
+0-1-8 1-1-8 1-1-8 1-1-8 1-1-8 0-1-16 1-16 0-1-8 1-8 
+// combo: 110
+2-4 2-4 2-6 0-48 1-16 1-8 0-1-8 
+// combo: 119
+0-1-8 1-1-8 1-1-8 1-1-16 0-1-16 0-2-16 0-1-16 0-2-16 0-1-16 0-2-4 
+// combo: 135
+2-4 2-4 2-6 0-48 1-16 1-8 0-1-8 
+// combo: 144
+0-1-8 1-1-8 1-1-8 1-1-8 1-1-8 0-1-16 1-16 0-1-8 1-8 
+// combo: 157
+1-1-8 0-1-8 1-1-4 1-1-8 0-1-8 1-1-8 1-1-8 
+// combo: 169
+0-1-8 1-1-8 1-1-8 1-1-8 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 184
+0-1-4 1-1-4 2-8 1-8 2-8 1-8 
+// combo: 193
+2-6 0-48 1-16 1-8 1-8 1-4 1-8 1-8 
+// combo: 201
+1-1-4 1-1-4 2-8 1-8 2-8 1-8 
+// combo: 211
+2-6 0-48 1-16 1-8 0-1-8 1-1-8 0-1-8 1-1-8 1-8 
+// combo: 222
+2-8 1-8 2-8 1-8 1-1-8 0-1-8 0-1-8 1-8 
+// combo: 233
+2-8 1-8 2-8 1-8 1-1-8 0-1-8 0-1-8 1-8 
+// combo: 244
+2-2 2-3 0-24 1-8 
+// combo: 249
+2-6 0-48 2-6 0-48 2-8 1-1-8 0-1-8 1-1-8 1-8 
+// combo: 261
+1-1-4 1-1-4 2-8 1-8 2-8 1-8 
+// combo: 271
+2-6 0-48 1-16 1-8 1-8 1-4 1-8 1-8 
+// combo: 279
+1-1-4 1-1-4 2-8 1-8 2-8 1-8 
+// combo: 289
+2-6 0-48 1-16 1-8 0-1-8 1-1-8 0-1-8 1-1-4 
+// combo: 299
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 309
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 317
+1-1-8 0-1-8 1-1-8 0-1-8 1-1-4 1-8 1-8 
+// combo: 327
+2-6 0-48 1-16 1-8 1-8 1-1-8 0-1-8 1-1-4 
+// combo: 337
+1-1-6 0-48 1-16 1-8 1-8 1-1-6 0-48 1-16 1-8 1-8 
+// combo: 347
+1-1-8 1-16 1-16 1-8 1-8 1-1-6 0-48 1-16 1-8 1-8 
+// combo: 358
+1-1-6 0-48 1-16 1-8 1-8 1-1-6 0-48 1-16 1-8 1-8 
+// combo: 368
+1-1-8 1-16 1-16 1-8 1-8 1-1-6 0-48 1-16 1-8 1-8 
+// combo: 379
+2-6 0-48 1-1-8 0-1-16 0-1-8 2-6 0-48 1-1-8 0-1-16 0-1-8 
+// combo: 391
+2-6 0-48 1-1-8 0-1-16 0-1-8 1-1-8 0-1-16 1-16 0-1-4 
+// combo: 402
+1-12 1-12 1-12 1-4 1-12 1-12 1-12 1-12 1-12 1-12 
+// combo: 412
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 1-4 
+// combo: 423
+
+#FEVERSTART
+2-4 2-4 2-4 2-8 0-1-8 
+// combo: 432
+1-1-8 1-1-8 2-8 1-8 2-4 2-8 1-8 
+// combo: 444
+2-6 0-48 1-16 1-8 1-8 1-1-8 0-1-8 1-1-4 
+// combo: 454
+0-2-8 0-1-8 0-1-4 0-2-8 0-1-8 0-1-4 
+// combo: 462
+2-4 2-4 2-4 2-8 0-1-8 
+// combo: 471
+1-1-8 1-1-8 2-8 1-8 2-4 2-8 1-8 
+// combo: 483
+2-6 0-48 1-16 1-8 1-8 1-1-8 0-1-8 1-1-8 2-4 
+// combo: 495
+1-1-8 1-1-8 1-1-8 1-1-8 0-1-8 1-1-8 1-8 
+// combo: 507
+2-4 2-4 2-4 2-8 0-1-8 
+// combo: 516
+1-1-8 1-1-8 2-8 1-8 2-4 2-8 1-8 
+// combo: 528
+2-6 0-48 1-16 1-8 1-8 1-1-8 0-1-8 1-1-4 
+// combo: 538
+0-2-8 0-1-8 0-1-4 0-2-8 0-1-8 0-1-4 
+// combo: 546
+2-4 2-4 2-4 2-8 0-1-8 
+// combo: 555
+1-1-8 1-1-8 2-8 1-8 2-4 2-8 1-8 
+// combo: 567
+2-6 0-48 1-16 1-8 1-8 1-1-8 0-1-8 1-1-8 2-4 
+// combo: 579
+1-1-8 1-1-8 1-1-8 1-1-8 0-1-8 1-1-4 
+// combo: 590
+
+#FEVEREND
+1-4 2-4 1-8 1-8 1-8 1-8 
+// combo: 597
+1-8 1-8 2-8 1-8 1-1-8 0-1-8 0-2-4 
+// combo: 607
+1-4 2-4 1-8 1-8 1-8 1-8 
+// combo: 614
+1-8 1-8 2-8 1-8 1-1-8 0-1-8 0-2-4 
+// combo: 624
+1-4 2-4 1-8 1-8 1-8 1-8 
+// combo: 631
+1-8 1-8 2-8 1-8 1-1-8 0-1-8 0-2-8 1-8 
+// combo: 642
+2-6 0-48 1-16 1-8 1-8 1-1-8 0-1-8 1-1-4 
+// combo: 652
+0-2-8 0-1-8 0-1-4 0-2-8 0-1-8 0-1-1 `,master:`(156)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+1-1-8 0-1-8 1-1-8 1-8 1-1-8 0-1-8 1-1-8 1-8 
+// combo: 12
+1-1-8 0-1-8 1-1-8 1-8 1-1-8 0-1-8 1-1-4 
+// combo: 23
+1-1-8 0-1-8 1-1-8 1-8 1-1-8 0-1-8 0-1-8 1-8 
+// combo: 34
+1-1-8 0-2-8 0-2-8 1-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 50
+1-1-24 0-1-48 0-1-2 0-6 0-48 2-8 1-8 
+// combo: 57
+2-24 0-1-48 0-1-6 0-48 1-4 1-4 1-4 
+// combo: 64
+1-1-24 0-1-48 0-1-16 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-4 
+// combo: 74
+1-48 0-1-24 0-1-6 0-48 1-4 1-4 2-4 
+// combo: 81
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 95
+2-12 2-12 2-12 2-4 2-12 2-12 2-12 2-12 2-12 2-12 
+// combo: 115
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 1-4 
+// combo: 126
+2-8 1-16 1-16 2-8 1-16 1-16 2-8 1-16 1-16 1-8 1-1-8 
+// combo: 141
+1-1-8 1-1-8 2-1-8 1-1-8 2-1-8 1-1-16 1-16 1-1-8 1-8 
+// combo: 159
+2-8 1-16 1-16 2-8 1-16 1-16 2-8 1-16 1-16 1-8 1-1-8 
+// combo: 174
+1-1-8 1-1-8 2-1-8 1-1-16 1-16 1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 193
+2-8 1-16 1-16 2-8 1-16 1-16 2-8 1-16 1-16 1-8 1-1-8 
+// combo: 208
+1-1-8 1-1-8 2-1-8 1-1-8 2-1-8 1-1-16 1-16 1-1-8 1-8 
+// combo: 226
+2-8 1-16 1-16 2-8 1-16 1-16 2-8 1-16 1-16 1-8 1-1-8 
+// combo: 241
+0-1-8 1-1-16 1-16 1-1-8 1-1-8 1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 258
+2-6 0-48 1-16 1-8 1-8 1-16 1-8 1-16 1-8 2-8 
+// combo: 269
+2-6 0-48 1-16 1-8 1-8 1-16 1-8 1-16 1-8 2-8 
+// combo: 280
+2-6 0-48 1-16 1-8 1-8 1-16 1-8 1-16 1-8 2-8 
+// combo: 291
+2-6 0-48 1-16 1-8 1-8 1-16 1-8 1-16 1-8 2-8 
+// combo: 302
+2-8 1-16 1-16 1-8 2-8 1-1-8 0-1-8 0-2-48 0-1-24 0-1-16 1-8 
+// combo: 317
+2-8 1-16 1-16 1-8 2-8 1-1-8 0-1-8 0-2-48 0-1-24 0-1-16 1-8 
+// combo: 332
+2-2 2-3 0-24 1-8 
+// combo: 337
+2-6 0-48 2-6 0-48 2-8 1-16 1-16 1-16 1-16 1-8 1-16 1-16 
+// combo: 350
+2-6 0-48 1-16 2-8 1-8 1-16 1-8 1-16 2-8 2-8 
+// combo: 363
+2-6 0-48 1-16 2-8 1-8 1-16 1-8 1-16 2-8 2-8 
+// combo: 376
+2-6 0-48 1-16 2-8 1-8 1-16 1-8 1-16 2-8 2-8 
+// combo: 389
+2-6 0-48 1-16 2-8 1-8 1-16 1-8 1-16 2-8 2-8 
+// combo: 402
+2-6 0-48 1-16 2-8 2-8 1-16 1-16 1-16 1-16 1-8 2-8 
+// combo: 416
+1-8 1-16 1-16 1-8 2-8 1-16 1-16 1-16 1-16 1-8 2-8 
+// combo: 429
+1-1-8 0-1-16 1-16 1-1-8 1-1-8 1-1-16 1-8 1-16 1-8 2-8 
+// combo: 444
+2-6 0-48 2-16 1-8 2-8 2-16 1-8 1-16 2-8 1-8 
+// combo: 458
+1-1-6 0-48 1-1-16 1-8 1-1-8 1-1-6 0-48 1-1-16 1-8 1-1-8 
+// combo: 472
+1-1-8 1-16 0-1-16 2-8 1-1-8 1-1-6 0-48 0-1-16 2-8 1-1-8 
+// combo: 487
+1-1-6 0-48 1-1-16 1-8 1-1-8 1-1-6 0-48 1-1-16 1-8 1-1-8 
+// combo: 501
+1-1-8 1-16 0-1-16 2-8 1-1-8 1-1-6 0-48 0-1-16 2-8 0-1-8 
+// combo: 515
+3-6 0-48 1-2-8 0-2-16 1-2-8 3-6 0-48 1-2-8 0-2-16 1-2-8 
+// combo: 537
+3-6 0-48 1-2-8 0-2-16 1-2-8 1-2-8 0-2-16 1-16 0-4-24 0-2-48 0-2-6 0-48 
+// combo: 562
+2-12 2-12 2-12 2-4 2-12 2-12 2-12 2-12 2-12 2-12 
+// combo: 582
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 1-4 
+// combo: 593
+
+#FEVERSTART
+2-24 0-2-48 0-2-6 0-48 2-48 0-2-24 0-2-6 0-48 2-48 0-2-24 0-2-6 0-48 2-8 0-1-8 
+// combo: 614
+1-1-8 1-16 1-16 2-8 2-8 2-8 1-16 1-16 2-8 2-8 
+// combo: 630
+2-8 1-16 2-16 1-8 2-8 1-1-8 1-1-16 1-16 1-2-24 0-1-48 0-1-16 1-8 
+// combo: 649
+1-2-8 0-2-8 0-2-4 1-2-8 0-2-8 0-2-4 
+// combo: 663
+2-48 0-2-24 0-2-6 0-48 2-24 0-2-48 0-2-6 0-48 2-48 0-2-24 0-2-6 0-48 2-8 0-1-8 
+// combo: 684
+1-1-8 1-16 1-16 2-8 2-8 2-8 1-16 1-16 2-8 2-8 
+// combo: 700
+2-8 1-16 2-16 1-8 2-8 1-1-8 1-1-16 1-16 1-1-8 2-4 
+// combo: 717
+1-1-8 1-1-8 1-1-8 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 731
+2-24 0-2-48 0-2-6 0-48 2-48 0-2-24 0-2-6 0-48 2-24 0-2-48 0-2-6 0-48 2-8 0-1-8 
+// combo: 752
+1-1-8 1-16 1-16 2-8 2-8 2-8 1-16 1-16 2-8 2-8 
+// combo: 768
+2-8 1-16 2-16 1-8 2-8 1-1-8 1-1-16 1-16 1-2-24 0-1-48 0-1-16 1-8 
+// combo: 787
+1-2-8 0-2-8 0-2-4 1-2-8 0-2-8 0-2-4 
+// combo: 801
+2-48 0-2-24 0-2-6 0-48 2-24 0-2-48 0-2-6 0-48 2-48 0-2-24 0-2-6 0-48 2-8 0-1-8 
+// combo: 822
+1-1-8 1-16 1-16 2-8 2-8 2-8 1-16 1-16 2-8 2-8 
+// combo: 838
+2-8 1-16 2-16 1-8 2-8 1-1-8 1-1-16 1-16 1-1-8 2-4 
+// combo: 855
+1-1-8 1-1-8 1-1-8 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 869
+
+#FEVEREND
+2-8 1-16 1-16 2-8 1-8 1-8 2-16 1-16 1-8 1-1-8 
+// combo: 883
+1-1-8 1-1-16 1-16 2-8 2-8 2-8 1-16 1-16 2-24 0-1-48 0-1-16 1-8 
+// combo: 901
+2-8 1-16 1-16 2-8 1-8 1-8 2-16 1-16 1-8 1-1-8 
+// combo: 915
+1-1-8 1-1-16 1-16 2-8 2-8 2-8 1-16 1-16 2-48 0-1-24 0-1-16 1-8 
+// combo: 933
+2-8 1-16 1-16 2-8 1-8 1-8 2-16 1-16 1-8 1-1-8 
+// combo: 947
+1-1-8 1-1-16 1-16 2-8 2-8 2-8 1-16 1-16 2-24 0-1-48 0-1-16 2-8 
+// combo: 966
+2-8 1-16 2-16 1-8 2-8 1-1-8 1-1-16 1-16 1-2-48 0-1-24 0-1-16 1-8 
+// combo: 985
+1-2-8 0-2-8 0-2-4 1-2-8 0-2-8 0-2-1 `}},dn={...Tn,...Vn},Sn={title:"START!! True dreams",titleFurigana:"すたーととぅるーどりーむず",center:"kaho",attribute:"smile",singers:Y},_n={title:"START!! True dreams",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(178)
+0-1 
+// combo: 0
+0-4 1-4 1-4 1-4 
+// combo: 3
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 11
+0-2-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 0-1-8 0-1-8 
+// combo: 21
+0-2-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-2-8 
+// combo: 32
+0-2-8 0-2-8 0-2-4 1-4 1-4 
+// combo: 40
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 45
+1-1 
+// combo: 46
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 52
+1-2 1-2 
+// combo: 54
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 60
+1-2 1-2 
+// combo: 62
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 68
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 74
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 
+// combo: 82
+0-8 
+// combo: 82
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 88
+0-1-8 0-1-8 0-1-4 1-2 
+// combo: 92
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 98
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 104
+1-4 1-2 1-4 
+// combo: 107
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 113
+1-2 1-2 
+// combo: 115
+1-2 1-2 
+// combo: 117
+1-2 1-2 
+// combo: 119
+1-2 1-2 
+// combo: 121
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 127
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 133
+1-4 1-4 1-4 1-4 
+// combo: 137
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 143
+1-4 0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 151
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 156
+1-4 0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 164
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 169
+1-2 1-4 1-4 
+// combo: 172
+1-4 1-4 1-4 1-4 
+// combo: 176
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 182
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 187
+1-2 1-2 
+// combo: 189
+1-2 1-2 
+// combo: 191
+1-2 1-2 
+// combo: 193
+1-2 1-2 
+// combo: 195
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 201
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 207
+0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 0-1-8 0-2-8 0-2-8 
+// combo: 218
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 234
+0-2-4 1-4 1-4 1-4 
+// combo: 239
+
+#FEVERSTART
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 245
+1-4 1-4 1-4 1-4 
+// combo: 249
+1-4 1-4 1-4 1-2 
+// combo: 253
+1-4 1-4 1-4 
+// combo: 256
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 262
+1-4 1-4 1-4 1-4 
+// combo: 266
+0-1-8 0-1-8 0-1-8 0-2-8 0-2-8 0-2-4 2-3 
+// combo: 277
+0-24 1-4 1-4 1-4 
+// combo: 280
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 286
+1-4 1-4 1-4 1-4 
+// combo: 290
+0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 0-2-8 
+// combo: 301
+0-2-8 0-2-8 0-2-4 1-4 1-4 
+// combo: 309
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 314
+1-4 1-4 1-4 1-4 
+// combo: 318
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 330
+0-2-8 0-2-8 0-2-4 1-4 1-4 
+// combo: 338
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 343
+1-1 
+// combo: 344
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 352
+0-1-8 0-1-8 0-1-4 2-1 
+// combo: 357
+0-1 
+// combo: 357
+0-2 
+// combo: 357
+
+#FEVEREND
+0-1 `,hard:`(178)
+0-1 
+// combo: 0
+0-4 1-4 1-4 1-4 
+// combo: 3
+0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 13
+0-2-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 24
+0-2-8 0-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 38
+0-2-8 0-2-8 0-2-4 2-4 2-4 
+// combo: 48
+2-4 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 56
+1-2 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 
+// combo: 69
+0-2-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-8 1-8 
+// combo: 78
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 85
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-8 1-8 
+// combo: 93
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-2-16 0-1-16 0-1-16 0-1-16 
+// combo: 104
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 120
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 136
+1-1-8 0-1-8 0-1-8 0-2-16 0-1-16 1-1-8 1-8 1-8 1-4 
+// combo: 148
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 155
+1-1-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 1-1-8 1-8 
+// combo: 166
+0-1-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 174
+1-1-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 1-1-8 1-8 
+// combo: 185
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 196
+1-1-4 2-4 1-4 2-4 
+// combo: 203
+0-1-8 0-1-8 0-2-8 0-2-8 0-2-8 1-3 0-24 
+// combo: 212
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 222
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 232
+0-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 241
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 251
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-8 1-8 
+// combo: 259
+0-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 266
+0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 281
+0-2-8 0-1-8 0-1-8 2-8 0-1-8 0-1-8 0-1-4 
+// combo: 290
+2-4 1-8 0-1-8 0-1-8 0-1-8 1-8 0-1-8 
+// combo: 298
+0-1-8 0-1-8 0-1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 306
+0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 1-8 0-1-8 
+// combo: 315
+0-1-8 0-1-8 0-1-4 2-4 2-4 
+// combo: 322
+2-4 0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 332
+0-2-8 0-1-8 1-1-4 2-4 1-8 1-8 
+// combo: 341
+1-4 1-8 1-4 1-8 1-4 
+// combo: 346
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 356
+1-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 367
+0-2-8 0-1-8 1-1-8 0-1-8 1-1-4 1-4 
+// combo: 376
+1-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 387
+0-2-8 0-1-8 1-1-8 0-1-8 1-1-8 2-3 0-24 
+// combo: 397
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 0-1-8 0-1-8 
+// combo: 407
+1-1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 0-1-8 
+// combo: 416
+1-1-4 1-8 1-4 1-8 1-4 
+// combo: 422
+1-8 1-4 1-8 1-4 0-1-16 0-1-16 0-1-16 0-1-16 
+// combo: 430
+0-2-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 1-1-4 
+// combo: 441
+
+#FEVERSTART
+1-1-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 1-1-8 1-8 
+// combo: 452
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 463
+0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 475
+0-1-4 2-4 2-4 2-4 
+// combo: 482
+1-1-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 0-1-8 1-8 
+// combo: 492
+1-4 2-4 1-4 2-4 
+// combo: 498
+2-4 1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 506
+0-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 1-1-4 
+// combo: 516
+1-1-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 1-1-8 1-8 
+// combo: 527
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 538
+0-2-8 0-1-8 0-1-8 2-4 2-4 0-2-8 
+// combo: 548
+0-2-8 0-2-8 0-2-4 2-4 2-4 
+// combo: 558
+1-1-8 0-1-8 1-1-4 2-4 2-4 
+// combo: 567
+2-4 2-4 2-4 2-4 
+// combo: 575
+1-1-8 0-1-8 0-1-8 1-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 589
+0-2-8 0-2-8 0-2-4 2-4 2-4 
+// combo: 599
+2-4 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 607
+1-1 
+// combo: 608
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 620
+0-2-8 0-2-8 0-2-4 2-8 2-1 
+// combo: 630
+0-1 
+// combo: 630
+0-3 0-24 
+// combo: 630
+
+#FEVEREND
+0-1 `,expert:`(178)
+0-1 
+// combo: 0
+0-4 1-4 1-4 1-4 
+// combo: 3
+1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 14
+1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 25
+1-1-8 0-1-8 0-1-8 0-2-8 0-2-8 0-2-8 1-1-8 0-2-8 
+// combo: 39
+0-2-8 0-2-8 0-2-4 2-8 1-8 2-8 1-8 
+// combo: 51
+2-4 2-8 2-8 2-8 2-8 2-8 2-8 
+// combo: 65
+2-2 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 
+// combo: 79
+1-1-4 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 87
+1-8 2-4 1-8 1-8 1-8 1-8 1-8 
+// combo: 95
+2-4 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 103
+2-8 1-8 1-8 2-8 1-8 1-8 1-16 1-16 1-16 1-16 
+// combo: 115
+0-1-8 0-2-8 1-1-8 0-2-8 1-1-8 0-2-8 1-1-8 0-2-8 
+// combo: 130
+0-2-8 0-2-8 1-1-8 0-2-8 1-1-8 0-2-8 1-1-8 0-2-8 
+// combo: 146
+0-2-8 0-2-8 0-2-8 1-1-16 1-16 2-8 2-8 2-8 2-4 
+// combo: 163
+1-8 2-8 1-8 2-8 1-8 2-8 1-8 
+// combo: 173
+1-1-8 0-1-8 1-1-8 2-8 1-1-8 0-1-8 1-1-8 2-8 
+// combo: 187
+1-1-8 0-1-8 1-1-8 2-8 1-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 200
+0-2-8 0-1-8 1-1-8 2-8 1-8 1-8 2-8 1-8 
+// combo: 212
+1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-1-48 0-1-12 0-1-8 1-1-48 0-1-48 0-1-12 0-1-8 
+// combo: 232
+0-1-4 1-1-8 0-1-8 1-1-4 1-1-8 0-1-8 
+// combo: 241
+1-1-8 1-8 1-8 1-8 2-8 2-3 0-24 
+// combo: 250
+1-1-8 0-1-8 1-1-8 0-1-8 1-1-8 1-1-8 1-1-8 0-1-8 
+// combo: 263
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 273
+1-1-8 0-1-8 1-1-8 0-1-8 1-1-8 1-1-8 1-1-8 0-1-8 
+// combo: 286
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 296
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 
+// combo: 312
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-8 
+// combo: 327
+1-1-8 0-2-8 1-2-8 0-2-8 1-1-8 0-2-8 1-2-8 0-2-8 
+// combo: 345
+0-2-8 1-1-8 1-1-8 1-1-8 2-8 2-8 1-1-8 0-1-8 
+// combo: 360
+1-1-8 1-16 1-16 1-8 1-1-8 0-1-8 1-1-8 1-8 1-1-8 
+// combo: 373
+0-1-8 1-1-8 2-8 1-16 1-16 1-8 1-8 2-8 1-8 
+// combo: 385
+1-8 1-16 1-16 1-8 1-1-8 0-1-8 1-1-8 1-8 1-1-8 
+// combo: 397
+0-1-8 1-1-8 2-8 1-16 1-16 1-8 1-8 2-8 1-8 
+// combo: 409
+2-4 2-4 0-2-8 0-2-8 0-3-8 0-2-8 
+// combo: 422
+0-2-4 2-8 1-8 2-8 1-8 2-8 1-8 
+// combo: 433
+2-8 1-16 1-16 1-8 1-1-8 0-1-8 2-8 1-1-8 0-1-8 
+// combo: 446
+0-2-8 0-1-8 0-1-8 0-1-8 1-1-4 1-4 
+// combo: 454
+1-1-4 0-1-8 0-1-8 1-1-4 1-1-8 0-1-8 
+// combo: 463
+1-1-8 0-1-8 0-1-8 1-1-8 1-1-4 2-4 
+// combo: 473
+1-1-4 0-1-8 0-1-8 1-1-4 1-1-8 0-1-8 
+// combo: 482
+1-1-8 0-1-8 0-1-8 1-1-8 1-1-8 2-3 0-24 
+// combo: 492
+2-8 1-16 1-16 1-8 1-16 1-16 1-8 1-16 1-16 1-8 1-16 1-16 
+// combo: 505
+1-8 1-16 1-16 1-8 1-16 1-16 1-8 1-16 1-16 1-8 1-16 1-16 
+// combo: 517
+2-8 1-16 1-16 1-8 2-8 1-16 1-16 1-8 2-8 1-16 1-16 
+// combo: 531
+1-8 2-8 1-16 1-16 1-8 2-4 1-16 1-16 1-16 1-16 
+// combo: 543
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-16 0-1-16 0-2-16 0-1-16 0-2-4 
+// combo: 555
+
+#FEVERSTART
+1-1-8 0-1-8 1-1-8 2-8 1-1-8 0-1-8 1-1-8 2-8 
+// combo: 569
+1-1-48 0-1-48 0-1-12 0-1-8 1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-2-12 0-48 0-1-8 
+// combo: 589
+1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-1-48 0-1-12 0-1-8 1-1-48 0-1-48 0-1-12 0-1-8 1-1-48 0-1-48 0-1-12 0-1-8 
+// combo: 609
+0-1-4 0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 618
+0-2-8 0-1-8 1-1-8 2-8 1-1-8 0-1-8 1-1-8 2-8 
+// combo: 632
+1-1-8 0-1-8 1-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 644
+1-1-8 1-16 1-16 1-8 1-16 1-16 1-8 1-16 1-16 1-8 0-1-8 
+// combo: 656
+0-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 1-1-4 
+// combo: 666
+1-1-8 0-1-8 1-1-8 2-8 1-1-8 0-1-8 1-1-8 2-8 
+// combo: 680
+1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-2-12 0-48 0-1-8 1-1-48 0-1-48 0-1-12 0-1-8 
+// combo: 700
+1-1-8 1-16 1-16 1-8 2-4 2-4 0-2-8 
+// combo: 711
+0-2-8 0-2-8 0-2-4 1-8 1-8 1-8 1-8 
+// combo: 721
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 1-8 
+// combo: 731
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 1-8 
+// combo: 741
+0-2-8 0-2-8 0-2-8 1-8 2-8 2-8 2-8 0-2-8 
+// combo: 756
+0-2-8 0-2-8 0-3-24 0-1-48 0-1-24 0-1-48 0-3-8 0-3-24 0-1-48 0-1-24 0-1-48 0-3-8 0-3-24 0-1-48 0-1-24 0-1-48 0-3-8 
+// combo: 787
+0-2-4 2-8 2-8 2-8 2-8 2-8 2-8 
+// combo: 801
+2-1 
+// combo: 803
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 819
+0-2-8 0-2-8 0-2-4 2-8 2-1 
+// combo: 829
+0-1 
+// combo: 829
+0-3 0-24 
+// combo: 829
+
+#FEVEREND
+0-1 `,master:`(178)
+0-1 
+// combo: 0
+0-4 1-4 1-4 1-4 
+// combo: 3
+1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 14
+1-2-8 0-2-8 0-2-8 1-3-8 0-3-8 0-3-8 0-4-8 0-1-8 
+// combo: 36
+1-2-8 0-1-8 0-1-8 1-2-8 0-2-8 0-2-8 2-2-8 0-4-8 
+// combo: 56
+0-4-8 0-4-8 0-4-4 4-4 3-4 
+// combo: 75
+2-4 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 89
+2-2 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 0-1-24 
+// combo: 103
+1-1-4 2-8 2-8 2-1-8 2-1-8 2-1-8 2-1-8 
+// combo: 121
+2-8 2-4 2-8 2-1-8 2-1-8 2-1-8 2-1-8 
+// combo: 139
+2-4 2-8 2-8 2-1-8 2-1-8 2-1-8 2-1-8 
+// combo: 157
+3-8 2-8 2-8 3-8 2-8 2-8 1-16 1-16 1-16 1-16 
+// combo: 175
+0-1-8 1-1-8 0-2-8 1-2-8 0-3-8 1-3-8 0-4-8 1-4-8 
+// combo: 199
+0-5-8 1-1-8 0-2-8 1-2-8 0-3-8 1-3-8 0-4-8 1-4-8 
+// combo: 227
+0-5-8 0-2-8 0-2-8 1-2-16 1-16 1-2-8 1-2-8 1-2-8 1-2-4 
+// combo: 252
+2-8 2-8 2-8 2-8 2-8 2-8 2-8 
+// combo: 266
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 
+// combo: 282
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-4 
+// combo: 296
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 
+// combo: 312
+1-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-8 
+// combo: 327
+2-1-4 1-1-8 0-1-8 1-1-4 1-1-8 0-1-8 
+// combo: 338
+0-2-8 0-1-8 0-2-8 0-1-8 1-1-8 2-3 0-24 
+// combo: 348
+1-1-8 0-1-8 1-1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 358
+1-1-8 0-1-8 1-1-8 1-1-8 1-2-8 1-1-8 1-1-8 1-1-8 
+// combo: 374
+1-2-8 0-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-2-8 1-1-8 
+// combo: 391
+1-2-8 0-1-8 1-1-8 1-8 2-8 2-8 2-8 1-8 
+// combo: 405
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 
+// combo: 421
+1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-1-8 1-8 
+// combo: 436
+0-1-8 1-1-8 0-2-8 1-2-8 0-3-8 1-1-8 0-2-8 1-2-8 
+// combo: 454
+0-3-8 1-1-8 1-1-8 1-1-8 2-8 2-8 0-2-8 0-2-8 
+// combo: 471
+1-2-8 1-16 1-16 2-8 1-1-8 0-1-8 1-1-8 2-1-8 1-1-8 
+// combo: 488
+0-1-8 1-1-8 2-8 1-16 2-16 1-16 2-16 1-8 2-8 2-8 
+// combo: 504
+1-1-8 1-1-16 1-16 1-1-8 1-1-8 0-1-8 1-1-8 2-8 1-1-8 
+// combo: 520
+0-1-8 1-1-8 2-8 1-16 2-16 1-16 2-16 1-8 2-8 2-8 
+// combo: 536
+0-2-8 0-2-8 0-2-4 0-2-8 0-2-8 0-3-8 0-2-8 
+// combo: 551
+0-3-4 1-1-8 2-8 1-1-8 2-8 1-1-8 2-8 
+// combo: 566
+1-1-8 1-1-16 1-16 1-1-8 1-1-8 1-1-16 1-16 1-1-8 3-4 
+// combo: 583
+0-1-24 0-1-48 0-1-24 0-1-48 0-1-48 0-2-24 0-2-48 0-2-24 0-2-48 0-2-24 0-2-48 0-2-24 0-2-24 0-2-48 0-1-48 0-1-24 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 614
+1-2-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 626
+0-2-8 0-1-8 1-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 638
+0-2-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 649
+0-2-8 0-1-8 1-1-8 0-1-8 0-1-8 2-3 0-24 
+// combo: 658
+1-2-8 0-2-8 2-2-8 1-16 1-16 1-8 1-16 1-16 1-8 1-16 1-16 
+// combo: 675
+1-8 1-16 2-16 1-8 1-16 2-16 1-8 1-16 1-16 1-8 1-16 1-16 
+// combo: 689
+2-8 1-16 1-16 1-8 2-8 1-16 1-16 1-8 0-2-8 1-2-16 1-16 
+// combo: 705
+1-2-8 2-2-8 1-2-16 1-16 1-2-8 2-2-8 0-2-8 1-2-16 1-16 1-2-16 1-16 
+// combo: 733
+1-2-8 0-2-8 2-2-48 0-2-48 0-2-12 0-2-8 2-2-48 0-2-48 0-2-12 0-2-8 2-2-48 0-2-48 0-2-6 0-24 
+// combo: 766
+
+#FEVERSTART
+0-2-8 1-2-8 1-2-8 1-2-8 0-2-8 1-2-8 1-2-8 1-2-8 
+// combo: 788
+1-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-8 
+// combo: 803
+2-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-24 0-1-48 0-1-24 0-1-48 
+// combo: 822
+0-2-8 0-1-8 1-2-48 0-1-48 0-1-12 0-2-8 1-3-48 0-1-48 0-1-12 0-3-8 1-4-8 0-4-8 
+// combo: 850
+0-5-8 0-1-8 1-1-8 2-8 1-1-8 0-1-8 1-1-8 2-8 
+// combo: 867
+1-1-8 0-1-8 1-1-8 0-1-8 0-2-8 0-1-8 1-1-8 0-1-8 
+// combo: 879
+1-1-8 1-16 1-16 2-8 2-8 2-16 1-16 1-8 2-8 1-2-8 
+// combo: 896
+0-2-8 0-2-8 2-2-48 0-2-48 0-2-12 0-2-8 2-2-48 0-2-48 0-2-12 0-2-8 2-2-48 0-2-48 0-2-6 0-24 
+// combo: 928
+0-2-8 1-2-8 1-2-8 1-2-8 0-2-8 1-2-8 1-2-8 1-2-8 
+// combo: 950
+1-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-8 2-1-8 0-1-8 
+// combo: 965
+2-1-8 1-16 1-16 1-8 2-4 3-4 0-4-8 
+// combo: 980
+0-4-8 0-4-8 0-4-4 3-8 1-8 3-8 1-8 
+// combo: 1000
+3-4 2-8 1-8 2-8 1-8 2-8 1-8 
+// combo: 1012
+2-8 1-8 2-8 1-8 2-8 1-8 2-8 1-8 
+// combo: 1024
+0-2-8 0-2-8 1-2-8 1-1-8 0-2-8 0-2-8 0-3-8 0-4-8 
+// combo: 1044
+0-1-8 0-1-8 1-2-48 0-1-48 0-1-12 0-2-8 1-3-48 0-1-48 0-1-12 0-3-8 1-4-8 0-4-8 
+// combo: 1071
+1-4-4 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 1088
+2-1 
+// combo: 1090
+0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 0-4-8 
+// combo: 1122
+0-4-8 0-4-8 0-4-4 2-8 2-1 
+// combo: 1138
+0-1 
+// combo: 1138
+0-3 0-24 
+// combo: 1138
+
+#FEVEREND
+0-1 `}},Nn={...Sn,..._n},An={title:"ロミオとシンデレラ",titleFurigana:"ろみおとしんでれら",center:"ceras",attribute:"pure",singers:["ceras"]},hn={title:"ロミオとシンデレラ",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(170)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 5
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 10
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 15
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 20
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 30
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 40
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 56
+0-2-1 
+// combo: 58
+1-2 1-2 
+// combo: 60
+1-2 1-2 
+// combo: 62
+1-2 1-2 
+// combo: 64
+1-2 1-2 
+// combo: 66
+1-2 1-2 
+// combo: 68
+1-2 1-2 
+// combo: 70
+1-2 1-2 
+// combo: 72
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 82
+1-2 1-2 
+// combo: 84
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 89
+1-2 1-2 
+// combo: 91
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 96
+1-2 1-2 
+// combo: 98
+1-2 1-2 
+// combo: 100
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 116
+0-2-1 
+// combo: 118
+1-4 1-4 1-2 
+// combo: 121
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 126
+1-4 1-4 1-2 
+// combo: 129
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 134
+1-4 1-4 1-2 
+// combo: 137
+1-4 1-4 1-2 
+// combo: 140
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 156
+0-2-1 
+// combo: 158
+2-2 2-2 
+// combo: 162
+2-2 2-2 
+// combo: 166
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 182
+0-2-1 
+// combo: 184
+2-2 2-2 
+// combo: 188
+2-2 2-2 
+// combo: 192
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 208
+0-2-1 
+// combo: 210
+2-2 2-2 
+// combo: 214
+1-4 1-4 1-2 
+// combo: 217
+2-2 2-2 
+// combo: 221
+1-4 1-4 1-2 
+// combo: 224
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 229
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 234
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 244
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 254
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-2 
+// combo: 259
+
+#FEVERSTART
+1-4 1-4 1-2 
+// combo: 262
+1-4 1-4 1-2 
+// combo: 265
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 277
+0-2-2 2-2 
+// combo: 281
+1-4 1-4 1-2 
+// combo: 284
+1-4 1-4 1-2 
+// combo: 287
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 299
+0-2-2 2-2 
+// combo: 303
+1-4 1-4 1-2 
+// combo: 306
+1-4 1-4 1-2 
+// combo: 309
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 0-1-8 0-1-8 
+// combo: 318
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 328
+1-4 1-4 1-2 
+// combo: 331
+1-4 1-4 1-2 
+// combo: 334
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 0-1-8 0-1-8 
+// combo: 343
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-2 
+// combo: 353
+2-2 2-2 
+// combo: 357
+2-2 2-2 
+// combo: 361
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 377
+0-2-1 
+// combo: 379
+
+#FEVEREND
+1-2 1-2 
+// combo: 381
+1-4 1-4 1-4 1-4 
+// combo: 385
+1-2 1-2 
+// combo: 387
+1-4 1-4 1-4 1-4 
+// combo: 391
+1-2 1-2 
+// combo: 393
+1-4 1-4 1-4 1-4 
+// combo: 397
+1-2 1-2 
+// combo: 399
+0-2-8 0-2-8 0-2-8 0-2-1 `,hard:`(170)
+0-1 
+// combo: 0
+0-1 
+// combo: 0
+1-1-8 0-1-8 0-1-8 0-1-8 1-1-2 
+// combo: 7
+1-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 17
+0-1-8 0-1-8 1-1-8 0-2-8 0-2-8 0-2-4 1-8 
+// combo: 28
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 39
+0-2-8 0-1-8 0-1-8 0-2-8 0-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 50
+0-2-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 62
+0-3-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 79
+0-2-2 0-4 2-4 
+// combo: 83
+2-4 1-4 1-8 1-8 1-8 0-1-8 
+// combo: 90
+0-1-8 1-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-4 
+// combo: 98
+2-4 1-4 1-8 1-8 1-8 0-1-8 
+// combo: 105
+0-1-8 1-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-4 
+// combo: 113
+2-4 2-4 1-8 1-8 1-8 0-1-8 
+// combo: 121
+0-1-8 1-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-4 
+// combo: 129
+2-4 2-4 1-8 1-8 1-8 0-1-8 
+// combo: 137
+0-1-8 1-1-8 0-1-8 0-1-8 1-8 0-1-8 0-1-4 
+// combo: 145
+1-8 1-8 1-8 1-8 0-1-8 0-2-8 0-2-8 0-2-8 
+// combo: 156
+1-2-4 1-8 0-1-8 0-1-8 1-1-8 1-8 1-4 
+// combo: 166
+1-8 1-8 1-8 0-1-8 0-2-8 0-2-8 0-2-8 
+// combo: 176
+1-2-4 1-8 0-1-8 0-1-8 1-1-8 1-8 1-4 
+// combo: 186
+1-8 1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 192
+1-8 1-8 1-8 1-8 0-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 201
+0-2-8 0-1-8 0-1-8 0-1-8 0-3-8 0-2-8 0-2-8 0-2-8 
+// combo: 215
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 1-8 1-8 
+// combo: 227
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 235
+0-1-8 0-1-8 1-1-8 0-1-24 0-1-48 0-1-48 0-1-24 0-2-24 0-1-48 0-1-48 0-1-24 1-2-8 1-8 1-4 
+// combo: 253
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 260
+0-1-8 0-1-8 1-1-8 0-3-8 0-2-8 0-4-8 0-4-8 0-4-4 
+// combo: 281
+1-8 1-8 1-8 0-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 289
+1-1-8 1-8 1-8 1-8 0-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 299
+0-2-8 0-1-8 1-1-8 1-8 0-1-8 0-1-8 0-1-8 0-2-48 0-2-2 
+// combo: 312
+0-12 0-48 1-8 1-8 1-8 1-8 
+// combo: 316
+0-1-8 0-1-8 1-1-8 1-4 1-8 1-8 1-8 
+// combo: 324
+0-1-8 0-1-8 1-1-8 1-4 1-8 1-8 1-8 
+// combo: 332
+0-1-8 0-1-8 1-1-8 1-4 1-8 1-8 2-8 
+// combo: 341
+0-2-8 0-1-8 0-2-8 0-2-4 0-1-8 0-1-8 1-1-8 
+// combo: 352
+1-8 1-8 1-8 1-4 1-8 1-8 1-8 
+// combo: 359
+1-8 1-8 1-8 1-4 1-8 1-8 1-8 
+// combo: 366
+0-1-8 0-1-8 1-1-8 0-3-8 0-2-8 0-2-8 0-2-8 0-4-48 0-2-48 0-2-2 
+// combo: 387
+0-12 1-8 1-8 1-8 1-8 
+// combo: 391
+0-1-8 0-1-8 1-1-8 1-4 1-8 1-8 1-8 
+// combo: 399
+0-1-8 0-1-8 1-1-8 1-4 1-8 1-8 1-8 
+// combo: 407
+0-1-8 0-1-8 1-1-8 1-4 1-8 0-1-8 1-1-8 
+// combo: 416
+0-1-8 0-1-8 0-2-8 0-2-4 1-8 1-8 1-8 
+// combo: 425
+1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-4 1-16 1-16 
+// combo: 435
+0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-4 
+// combo: 446
+1-16 1-16 1-8 1-8 1-8 1-8 1-8 1-4 
+// combo: 454
+2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 466
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-3 0-24 1-8 
+// combo: 472
+
+#FEVERSTART
+1-4 1-8 1-8 1-8 1-8 1-8 1-4 
+// combo: 479
+1-8 1-8 1-4 1-8 1-8 1-8 
+// combo: 485
+0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 1-8 1-8 
+// combo: 495
+0-1-8 0-1-8 1-1-8 1-48 0-2-6 0-16 1-48 0-2-6 0-16 1-8 
+// combo: 506
+0-1-8 0-1-8 1-1-8 1-4 1-16 0-1-16 0-1-8 1-8 
+// combo: 515
+0-1-8 0-2-8 0-2-8 0-2-4 1-8 1-8 1-8 
+// combo: 525
+1-8 0-1-8 0-1-8 1-1-4 1-16 0-1-16 0-1-8 1-8 
+// combo: 534
+1-4 1-8 1-4 1-4 1-8 
+// combo: 539
+1-4 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 546
+1-8 0-1-8 0-1-8 1-1-4 1-8 1-8 1-8 
+// combo: 554
+0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 1-8 1-8 
+// combo: 564
+0-1-8 0-1-8 1-1-8 1-48 0-2-6 0-16 1-48 0-2-6 0-16 1-8 
+// combo: 575
+0-1-8 0-1-8 1-1-8 1-4 1-16 0-1-16 0-1-8 1-8 
+// combo: 584
+0-2-8 0-4-8 0-3-8 0-3-4 1-8 1-8 1-8 
+// combo: 599
+1-8 0-1-8 0-1-8 1-1-4 1-16 0-1-16 0-1-8 1-8 
+// combo: 608
+1-4 1-8 1-4 1-4 1-8 
+// combo: 613
+0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 1-8 1-8 
+// combo: 623
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 634
+0-3-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 649
+1-6 0-48 1-6 0-48 1-8 1-6 0-48 1-6 0-48 1-8 
+// combo: 655
+
+#FEVEREND
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 663
+0-1-8 1-1-8 0-1-8 0-1-8 1-8 0-1-8 1-8 0-1-8 
+// combo: 672
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 680
+0-1-8 1-1-8 0-1-8 0-1-8 1-8 0-1-8 1-8 0-1-8 
+// combo: 689
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 697
+0-1-8 1-1-8 0-1-8 0-1-8 1-8 0-1-8 1-8 0-1-8 
+// combo: 706
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 0-1-8 
+// combo: 714
+0-1-8 1-1-8 1-8 1-1 `,expert:`(170)
+0-1 
+// combo: 0
+0-2 1-4 1-4 
+// combo: 2
+0-1-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 11
+0-2-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 22
+0-2-8 0-1-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 32
+0-2-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 44
+0-2-8 0-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 55
+0-2-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 67
+1-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 76
+0-2-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 1-1-4 
+// combo: 85
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-4 
+// combo: 93
+1-8 1-8 1-8 1-8 1-8 2-4 
+// combo: 100
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-4 
+// combo: 108
+1-8 1-8 1-8 1-8 1-8 2-4 
+// combo: 115
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-4 
+// combo: 123
+1-8 1-8 1-8 1-8 1-8 2-4 
+// combo: 130
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 138
+1-8 1-8 1-8 1-8 1-6 0-48 1-6 0-48 1-8 
+// combo: 145
+1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 153
+1-1-8 0-1-8 1-1-8 0-2-8 0-1-8 1-1-8 1-1-8 1-8 
+// combo: 166
+2-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 175
+1-1-8 0-1-8 1-1-8 0-2-8 0-1-8 1-1-8 1-1-8 1-8 
+// combo: 188
+2-8 1-8 1-8 1-8 1-1-8 0-1-8 1-2-48 0-1-48 0-1-6 0-24 
+// combo: 201
+1-8 1-8 1-8 1-8 1-1-8 0-1-8 1-2-48 0-1-48 0-1-6 0-24 
+// combo: 213
+1-8 1-8 1-8 1-8 0-1-8 0-1-8 1-1-8 1-1-4 
+// combo: 223
+0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 236
+1-1-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 245
+1-1-8 0-1-8 1-1-8 0-2-8 0-1-8 1-1-8 1-1-8 1-8 
+// combo: 258
+2-8 1-8 1-8 1-8 1-8 1-8 1-8 1-8 
+// combo: 267
+1-1-8 0-1-8 1-1-8 0-2-8 0-1-8 1-1-8 1-1-8 1-8 
+// combo: 280
+2-8 1-8 1-8 1-8 1-1-8 0-1-8 1-2-48 0-1-48 0-1-6 0-24 
+// combo: 293
+1-8 1-8 1-8 1-8 1-1-8 0-1-8 1-2-48 0-1-48 0-1-6 0-24 
+// combo: 305
+1-8 1-8 1-8 1-8 0-1-8 0-1-8 1-1-8 2-4 
+// combo: 315
+1-8 1-8 1-8 1-16 1-16 1-16 1-16 1-8 1-8 
+// combo: 324
+1-1-8 0-1-8 1-2-48 0-1-48 0-1-12 1-1-48 0-1-48 0-1-6 0-24 1-8 1-8 1-8 
+// combo: 339
+1-1-8 0-1-8 1-2-48 0-1-48 0-1-12 1-1-48 0-2-6 0-16 1-8 1-8 1-8 
+// combo: 354
+1-1-8 0-1-8 1-2-48 0-1-48 0-1-12 1-1-48 0-1-48 0-1-6 0-24 1-8 1-8 1-8 
+// combo: 369
+2-8 1-8 1-8 2-4 1-8 1-8 1-8 
+// combo: 378
+1-1-8 1-1-8 1-1-8 1-1-4 2-8 1-8 1-8 
+// combo: 390
+1-1-8 1-1-8 0-1-8 1-1-4 2-8 1-8 1-8 
+// combo: 401
+1-1-8 0-1-8 1-1-8 1-1-4 1-16 1-16 1-8 2-4 
+// combo: 413
+0-1-8 0-2-8 0-2-8 1-1-8 1-8 1-8 1-8 
+// combo: 423
+1-1-8 0-1-8 1-2-48 0-2-12 0-48 1-1-48 0-2-6 0-16 1-8 1-8 1-8 
+// combo: 438
+1-1-8 0-1-8 1-2-48 0-2-12 0-48 1-1-48 0-2-6 0-16 1-8 1-8 1-8 
+// combo: 453
+1-1-8 0-1-8 1-2-48 0-2-12 0-48 1-1-48 0-2-6 0-16 1-8 1-8 1-8 
+// combo: 468
+2-8 1-8 1-8 2-4 1-8 1-8 1-8 
+// combo: 477
+1-1-8 1-1-8 0-1-8 1-1-4 2-4 1-16 1-16 
+// combo: 488
+0-1-8 0-1-8 1-1-8 1-1-4 2-4 2-4 
+// combo: 498
+1-16 1-16 1-8 1-8 1-8 1-8 2-8 2-4 
+// combo: 508
+2-8 1-1-8 0-1-8 0-1-8 0-1-8 0-1-8 0-1-8 
+// combo: 517
+0-2-48 0-1-24 0-1-24 0-1-48 0-1-48 0-1-24 0-1-48 0-1-24 0-1-48 0-1-24 0-1-24 0-1-48 0-1-24 0-1-48 0-1-24 0-1-48 1-1-8 1-16 1-16 1-16 1-16 1-8 
+// combo: 541
+
+#FEVERSTART
+1-4 2-8 1-8 1-8 1-8 1-8 1-1-8 
+// combo: 550
+0-1-8 1-1-8 1-1-8 1-1-4 1-8 1-8 1-8 
+// combo: 560
+1-1-8 0-1-8 1-1-8 1-1-8 0-1-8 1-1-8 1-8 1-8 
+// combo: 572
+1-1-8 0-1-8 1-1-8 1-1-8 0-1-8 1-1-4 2-8 
+// combo: 584
+1-1-8 0-1-8 1-2-48 0-1-48 0-1-12 1-1-48 0-1-48 0-1-6 0-24 1-16 1-16 1-8 1-8 
+// combo: 600
+1-1-8 0-1-8 1-2-48 0-2-12 0-48 1-1-48 0-2-6 0-16 2-8 1-8 1-8 
+// combo: 616
+2-8 1-1-8 0-1-8 1-2-48 0-1-48 0-1-6 0-24 1-16 1-16 1-8 1-8 
+// combo: 630
+1-1-8 0-1-8 1-1-8 2-48 0-4-6 0-16 2-4 1-8 
+// combo: 644
+2-4 2-8 1-8 1-8 1-8 1-8 1-1-8 
+// combo: 654
+1-1-8 1-1-8 1-1-8 1-1-4 1-8 1-8 1-8 
+// combo: 665
+1-1-8 0-1-8 1-1-8 1-1-8 0-1-8 1-1-8 1-8 1-8 
+// combo: 677
+1-1-8 0-1-8 1-1-8 1-1-8 0-1-8 1-1-4 2-8 
+// combo: 689
+1-1-8 0-1-8 1-2-48 0-1-48 0-1-12 1-1-48 0-1-48 0-1-6 0-24 1-16 1-16 1-8 1-8 
+// combo: 705
+1-1-8 0-1-8 1-2-48 0-1-48 0-1-12 1-1-48 0-1-48 0-1-6 0-24 2-8 1-8 1-8 
+// combo: 721
+2-8 1-1-8 0-1-8 1-2-48 0-2-6 0-16 1-16 1-16 1-8 1-8 
+// combo: 735
+1-1-8 0-1-8 1-1-8 2-48 0-2-48 0-2-6 0-24 2-4 1-8 
+// combo: 749
+1-1-8 0-1-8 1-1-8 1-1-8 0-2-8 1-1-8 1-1-8 1-1-8 
+// combo: 764
+0-2-8 0-1-8 1-1-48 0-2-12 0-48 0-1-8 0-2-8 0-1-8 1-1-48 0-2-12 0-48 0-1-8 
+// combo: 780
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 794
+1-1-8 0-1-16 0-2-8 0-1-16 1-1-8 1-1-8 0-1-16 0-2-8 0-1-16 1-1-8 
+// combo: 810
+
+#FEVEREND
+2-8 1-8 2-8 1-8 1-8 1-8 2-8 0-1-8 
+// combo: 821
+0-1-8 1-1-8 2-8 1-8 1-8 2-8 2-4 
+// combo: 832
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 0-1-8 
+// combo: 842
+0-1-8 1-1-8 2-8 1-8 1-8 2-8 2-4 
+// combo: 853
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 0-1-8 
+// combo: 863
+0-1-8 1-1-8 2-8 1-8 1-8 2-8 2-4 
+// combo: 874
+1-8 1-8 2-8 1-8 1-8 1-8 2-8 1-8 
+// combo: 884
+1-16 1-16 1-16 1-16 1-16 1-16 1-1 `,master:`(170)
+0-1 
+// combo: 0
+0-2 1-8 1-8 1-8 1-8 
+// combo: 4
+1-1-8 0-1-8 0-1-8 0-1-8 1-2-8 0-1-8 0-1-8 0-1-8 
+// combo: 15
+1-2-8 0-1-8 0-1-8 0-1-8 2-1-8 1-8 1-8 1-8 
+// combo: 27
+1-1-8 0-1-8 1-1-8 1-8 1-8 2-4 1-8 
+// combo: 37
+1-1-8 0-1-8 0-2-8 0-1-8 1-2-8 0-1-8 1-1-4 
+// combo: 49
+1-1-8 0-1-8 0-1-8 0-2-8 1-1-8 0-1-8 0-2-8 0-1-8 
+// combo: 61
+0-2-8 0-1-8 0-2-8 0-1-8 1-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 74
+0-2-8 1-2-8 0-2-8 0-2-8 0-4-8 0-4-8 0-4-8 0-4-8 
+// combo: 99
+0-4-2 0-4 1-1-8 1-1-16 1-16 
+// combo: 108
+2-1-8 1-8 2-4 2-8 1-8 2-8 1-8 
+// combo: 120
+1-8 1-8 2-8 1-8 2-8 1-48 0-1-12 0-48 1-48 0-1-6 0-16 
+// combo: 131
+2-8 1-8 2-4 2-8 1-8 2-8 1-8 
+// combo: 142
+1-8 1-8 2-8 1-8 2-8 1-48 0-1-12 0-48 1-48 0-1-6 0-16 
+// combo: 153
+2-8 1-8 2-4 2-8 1-8 2-8 1-8 
+// combo: 164
+1-8 1-8 2-8 1-8 2-8 1-48 0-1-12 0-48 1-48 0-1-6 0-16 
+// combo: 175
+3-8 1-8 3-4 2-8 1-8 2-8 1-8 
+// combo: 188
+2-8 1-16 1-16 1-16 1-16 1-16 1-16 2-6 0-48 4-6 0-48 4-4 
+// combo: 206
+1-8 2-8 1-8 1-16 1-16 1-8 2-8 1-8 
+// combo: 216
+1-2-8 0-2-8 1-2-8 1-8 1-8 1-8 2-8 1-8 
+// combo: 230
+1-8 1-8 2-8 1-8 1-16 1-16 1-8 2-8 1-8 
+// combo: 241
+1-2-8 0-2-8 1-2-8 1-8 1-8 1-8 2-8 2-8 
+// combo: 256
+1-8 1-8 2-8 1-8 0-1-8 0-1-8 1-1-4 
+// combo: 265
+1-8 1-8 2-8 1-8 1-2-8 0-2-8 1-2-4 
+// combo: 278
+1-1-8 1-1-8 1-1-8 1-1-8 1-2-8 1-2-8 1-2-8 1-8 
+// combo: 296
+1-8 2-8 2-8 1-16 1-16 1-16 1-16 1-16 0-1-16 1-1-48 0-1-48 0-2-48 0-2-48 0-2-48 0-1-48 0-1-48 0-1-48 0-2-48 0-2-48 0-2-48 0-1-48 
+// combo: 326
+1-2-8 1-8 2-8 1-8 1-16 1-16 1-8 2-8 1-8 
+// combo: 339
+1-2-8 0-2-8 1-2-8 0-1-48 0-1-48 0-2-48 0-1-48 0-2-48 0-1-48 1-1-8 1-8 2-8 1-8 
+// combo: 361
+1-8 1-8 2-8 1-8 1-16 1-16 1-8 2-8 1-8 
+// combo: 372
+1-2-8 0-2-8 1-2-8 0-2-8 0-2-8 1-2-8 2-8 2-8 
+// combo: 391
+1-8 1-8 2-8 0-2-8 1-3-48 0-2-48 0-2-48 0-2-48 0-1-48 0-2-48 0-3-48 0-2-48 0-1-48 0-1-16 1-2-4 
+// combo: 420
+1-8 1-8 2-8 1-8 1-8 1-8 2-4 
+// combo: 429
+1-1-8 0-1-8 0-1-8 1-1-8 0-2-8 0-2-8 0-2-8 2-4 
+// combo: 443
+2-8 2-8 1-16 1-16 2-16 2-16 2-16 2-16 2-16 2-16 2-16 2-16 
+// combo: 465
+0-2-8 0-2-8 1-2-8 1-8 1-8 1-8 1-48 0-1-12 0-48 1-8 
+// combo: 478
+1-2-8 0-2-8 1-2-8 1-8 1-8 1-48 0-1-12 0-48 1-48 0-1-12 0-48 1-8 
+// combo: 493
+1-2-8 0-2-8 1-2-8 1-8 1-8 1-8 2-8 2-8 
+// combo: 508
+0-2-8 0-2-8 0-2-8 1-16 1-16 2-8 1-8 2-8 1-8 
+// combo: 522
+2-8 1-8 2-8 1-16 1-16 1-16 1-16 1-8 2-8 1-8 
+// combo: 535
+2-8 1-8 2-8 1-16 1-16 1-16 1-16 1-8 2-8 1-8 
+// combo: 548
+2-8 1-8 2-8 1-8 2-8 1-16 1-16 2-8 2-4 
+// combo: 562
+0-2-8 0-4-8 0-4-8 2-2-8 2-16 2-16 2-16 2-16 2-16 2-16 
+// combo: 588
+0-2-8 0-2-8 1-2-8 1-16 1-16 1-16 1-16 1-8 1-48 0-1-12 0-48 1-8 
+// combo: 603
+1-2-8 0-2-8 1-2-8 1-16 1-16 1-16 1-16 1-48 0-1-12 0-48 1-48 0-1-12 0-48 1-8 
+// combo: 620
+1-2-8 0-2-8 1-2-8 1-16 1-16 1-16 1-16 1-8 2-8 1-1-8 
+// combo: 637
+0-1-8 1-1-8 1-8 1-16 1-16 1-8 1-16 1-16 1-8 1-8 
+// combo: 648
+3-8 1-8 2-8 1-4 2-8 2-8 1-16 1-16 
+// combo: 661
+2-8 1-8 2-8 1-4 2-8 2-8 1-8 
+// combo: 672
+2-8 1-16 1-16 2-8 1-8 1-8 1-8 2-8 1-16 1-16 
+// combo: 685
+1-8 1-8 2-4 4-8 2-16 2-16 2-16 2-16 2-16 2-16 
+// combo: 705
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 717
+
+#FEVERSTART
+2-4 3-8 1-16 1-16 1-16 1-16 1-8 2-8 1-1-8 
+// combo: 731
+0-1-8 1-1-8 1-8 2-48 0-1-48 0-1-6 0-24 2-8 2-8 1-8 
+// combo: 744
+1-1-8 0-1-8 1-1-8 0-2-8 0-1-8 1-1-8 2-8 1-8 
+// combo: 757
+1-1-8 0-1-8 1-1-8 0-2-8 0-1-8 1-1-4 3-8 
+// combo: 770
+1-2-8 0-2-8 2-2-8 2-4 1-16 1-16 1-48 0-1-12 0-48 1-8 
+// combo: 786
+0-2-8 0-4-8 0-4-8 2-2-4 1-48 0-1-12 0-48 1-48 0-1-12 0-48 1-8 
+// combo: 805
+3-8 1-2-8 0-2-8 0-3-48 0-4-6 0-16 1-16 1-16 2-8 1-8 
+// combo: 825
+2-8 1-16 1-16 1-8 2-4 2-8 1-16 1-16 1-16 1-16 
+// combo: 838
+2-4 3-8 1-16 1-16 1-16 1-16 1-8 2-8 2-8 
+// combo: 852
+2-8 1-8 1-8 3-48 0-2-6 0-16 3-8 1-8 1-8 
+// combo: 866
+2-1-8 0-1-8 1-1-8 0-2-8 0-1-8 2-1-8 1-8 1-8 
+// combo: 880
+2-1-8 0-1-8 1-1-8 0-2-8 0-2-8 0-4-48 0-2-48 0-1-6 0-24 3-8 
+// combo: 900
+1-2-8 0-2-8 2-2-8 2-4 1-16 1-16 1-48 0-1-12 0-48 1-8 
+// combo: 916
+0-2-8 0-4-8 0-4-8 2-2-4 1-48 0-1-12 0-48 1-48 0-1-12 0-48 1-8 
+// combo: 935
+2-8 1-16 1-16 2-4 1-16 1-16 1-16 1-16 2-8 1-8 
+// combo: 948
+2-8 1-16 1-16 1-8 2-8 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 963
+2-8 1-8 2-4 1-16 1-16 1-8 2-8 1-16 1-16 
+// combo: 975
+1-1-8 1-1-8 1-2-8 0-1-8 0-2-8 1-1-8 1-2-8 0-1-8 
+// combo: 991
+1-1-8 1-16 1-16 2-4 1-16 1-16 1-8 2-16 1-16 1-16 1-16 
+// combo: 1005
+0-1-8 0-1-16 0-2-8 0-1-16 1-1-8 0-1-8 0-1-16 0-2-8 0-1-16 1-1-16 1-16 
+// combo: 1020
+
+#FEVEREND
+1-8 1-8 2-4 2-8 1-8 2-8 1-8 
+// combo: 1030
+1-8 1-8 2-8 1-8 2-8 2-48 0-1-12 0-48 2-48 0-1-6 0-16 
+// combo: 1043
+2-8 1-8 2-4 2-8 1-8 2-8 1-8 
+// combo: 1054
+1-8 1-8 2-8 1-8 2-8 2-48 0-1-12 0-48 2-48 0-1-6 0-16 
+// combo: 1067
+2-8 1-8 2-4 2-8 1-8 2-8 1-8 
+// combo: 1078
+1-8 1-8 2-8 1-8 2-8 2-48 0-1-12 0-48 2-48 0-1-6 0-16 
+// combo: 1091
+2-8 1-8 2-4 2-8 1-8 2-8 1-8 
+// combo: 1102
+2-16 2-16 2-16 2-16 2-8 1-1 `}},Dn={...An,...hn},gn={title:"月光",titleFurigana:"げっこう",center:"izumi",attribute:"pure",singers:["izumi"]},vn={title:"月光",titleFurigana:"",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(76)
+0-1 
+// combo: 0
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 6
+1-4 1-4 0-1-8 0-1-8 0-1-4 
+// combo: 11
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 17
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 31
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 37
+1-4 1-4 0-1-8 0-1-8 0-1-4 
+// combo: 42
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 48
+1-4 1-4 0-1-8 0-1-8 0-1-4 
+// combo: 53
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 59
+1-4 1-4 0-1-8 0-1-8 0-1-4 
+// combo: 64
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 70
+1-4 1-4 0-1-8 0-1-8 0-1-4 
+// combo: 75
+1-2 1-2 
+// combo: 77
+1-2 1-2 
+// combo: 79
+1-2 1-2 
+// combo: 81
+1-2 1-2 
+// combo: 83
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 89
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 1-1-4 
+// combo: 96
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 102
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 1-1-4 
+// combo: 109
+1-4 1-4 0-1-8 0-1-8 0-1-4 
+// combo: 114
+0-1-8 0-1-8 0-2-8 0-2-2 0-8 
+// combo: 120
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 126
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 1-1-4 
+// combo: 133
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 0-1-4 
+// combo: 139
+0-1-8 0-1-8 0-1-4 0-1-8 0-1-8 1-1-4 
+// combo: 146
+1-4 1-4 0-1-8 0-1-8 0-1-4 
+// combo: 151
+0-1-8 0-1-8 0-2-8 0-2-1 
+// combo: 157
+0-8 
+#FEVERSTART
+1-4 1-4 
+// combo: 159
+1-4 1-4 1-4 1-4 
+// combo: 163
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 168
+1-4 1-4 1-4 1-4 
+// combo: 172
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 177
+1-4 1-4 1-4 1-4 
+// combo: 181
+0-1-8 0-1-8 0-1-4 1-4 1-4 
+// combo: 186
+1-4 1-4 1-4 1-4 
+// combo: 190
+0-1-8 0-1-8 0-1-4 0-2-8 0-2-8 0-1-8 0-1-8 
+// combo: 199
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-1 
+// combo: 209
+
+#FEVEREND
+0-1 `,hard:`(76)
+0-1 
+// combo: 0
+2-4 2-4 2-4 2-4 
+// combo: 8
+2-4 2-4 0-2-8 0-2-8 0-3-16 0-1-16 0-1-8 
+// combo: 21
+2-4 2-4 2-8 1-8 1-4 
+// combo: 29
+2-4 1-8 1-8 0-1-8 0-1-8 0-1-4 
+// combo: 36
+2-4 2-4 2-4 2-4 
+// combo: 44
+2-4 2-4 0-2-8 0-2-8 0-2-4 
+// combo: 54
+2-4 2-4 2-4 2-4 
+// combo: 62
+2-4 2-4 0-2-8 0-2-8 0-2-4 
+// combo: 72
+2-4 2-4 2-4 2-4 
+// combo: 80
+2-4 2-4 0-2-8 0-2-8 0-2-4 
+// combo: 90
+2-4 2-4 2-4 2-4 
+// combo: 98
+2-4 2-8 2-8 0-2-8 0-2-8 0-2-4 
+// combo: 110
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 0-1-8 0-1-8 
+// combo: 119
+0-2-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-4 
+// combo: 129
+0-1-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 0-1-8 0-1-8 
+// combo: 138
+0-2-8 0-1-8 0-1-8 0-1-8 0-2-8 0-1-8 1-1-4 
+// combo: 148
+1-8 1-8 1-1-8 0-1-16 0-2-8 0-1-16 1-1-16 0-1-8 1-16 0-1-8 
+// combo: 161
+1-8 1-8 1-8 1-16 0-1-8 0-1-16 0-1-8 1-8 1-16 0-1-16 
+// combo: 171
+0-2-8 1-1-16 0-1-6 0-48 1-8 0-1-8 0-1-16 1-1-6 0-48 1-8 
+// combo: 182
+1-8 1-8 1-8 0-1-8 0-1-8 0-1-8 1-8 1-16 0-1-16 
+// combo: 191
+0-2-8 0-1-16 0-2-8 1-1-16 0-1-8 1-16 1-16 1-8 1-8 1-16 0-1-16 
+// combo: 205
+0-2-8 0-1-16 0-2-8 0-1-16 0-2-8 0-1-8 0-1-8 0-3-16 0-2-16 0-2-8 
+// combo: 222
+1-8 1-8 1-1-8 1-1-16 0-1-6 0-48 1-16 0-1-8 1-16 0-1-8 
+// combo: 233
+1-8 1-8 1-8 1-16 0-1-8 0-1-16 0-1-8 1-16 1-16 0-1-16 0-1-16 
+// combo: 244
+0-2-8 1-1-16 0-1-6 0-48 1-16 0-1-6 0-48 1-16 0-1-8 1-8 1-16 
+// combo: 255
+1-8 1-8 1-8 0-1-8 0-1-8 0-1-8 1-16 1-16 0-1-16 0-1-16 
+// combo: 265
+0-2-8 1-1-16 0-1-8 1-16 0-1-8 1-16 1-16 1-8 1-16 0-1-16 0-1-16 0-1-16 
+// combo: 279
+0-2-8 1-1-16 0-1-8 1-16 0-1-4 2-8 2-8 2-8 
+// combo: 292
+2-8 2-8 2-8 1-8 
+#FEVERSTART
+2-4 2-8 0-1-8 
+// combo: 304
+0-1-16 1-1-16 1-8 1-8 1-8 2-8 1-16 1-16 1-8 1-16 1-16 
+// combo: 317
+0-1-8 0-1-8 1-1-8 1-8 1-1-8 0-1-8 0-2-8 0-2-8 
+// combo: 329
+0-1-8 0-2-16 0-2-8 0-2-8 0-1-16 1-1-8 1-8 1-8 1-8 
+// combo: 342
+0-2-8 0-2-16 0-4-16 0-2-16 0-2-6 0-48 2-8 1-8 2-8 1-16 0-1-8 
+// combo: 361
+1-1-16 1-8 1-8 1-8 2-6 0-48 1-8 1-16 0-1-8 
+// combo: 371
+0-1-8 0-1-16 1-1-16 1-8 1-8 0-1-8 0-1-16 0-2-8 0-1-16 0-2-16 0-2-8 
+// combo: 386
+0-1-16 0-2-8 0-2-8 0-2-8 1-1-8 0-1-8 1-1-8 0-1-8 
+// combo: 399
+1-1-8 0-1-8 1-1-4 1-8 1-4 1-8 
+// combo: 407
+0-1-8 0-1-8 0-1-8 0-1-8 0-1-1 
+// combo: 412
+
+#FEVEREND
+0-1 `,expert:`(76)
+0-1 
+// combo: 0
+0-1-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 
+// combo: 11
+0-2-8 0-1-8 0-2-8 0-1-8 0-2-8 0-1-8 0-2-16 0-1-16 0-1-8 
+// combo: 24
+0-1-8 0-1-8 0-2-8 0-1-8 1-1-8 1-8 1-1-8 0-1-8 
+// combo: 35
+0-2-8 0-1-8 0-2-8 0-2-8 0-2-4 1-8 1-8 
+// combo: 46
+2-4 1-8 0-1-8 0-1-16 0-1-16 0-2-8 1-8 1-8 
+// combo: 56
+1-1-8 1-1-16 1-16 0-1-8 1-1-16 1-16 0-1-8 0-1-8 2-8 1-8 
+// combo: 70
+1-1-8 0-1-8 1-1-8 0-1-8 0-1-8 1-1-16 0-1-8 1-1-6 0-48 
+// combo: 82
+1-1-8 1-1-8 1-1-8 1-1-16 1-16 0-1-8 0-1-16 0-1-16 0-1-16 0-1-6 0-48 
+// combo: 96
+1-1-8 1-1-8 1-1-8 1-16 1-8 1-16 1-8 1-8 1-8 
+// combo: 108
+1-1-8 1-1-16 1-16 0-1-16 1-16 1-1-8 0-1-8 0-1-16 1-16 1-1-8 1-1-8 
+// combo: 124
+0-2-8 0-1-16 0-2-8 0-1-16 1-1-16 0-1-8 0-1-16 0-2-8 1-1-8 0-1-8 
+// combo: 139
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-1-8 
+// combo: 154
+0-1-8 1-1-8 0-3-8 0-2-8 0-3-8 1-1-8 0-3-8 0-2-8 
+// combo: 172
+0-3-8 1-1-8 0-3-8 0-2-8 1-3-8 0-1-8 1-2-4 
+// combo: 190
+0-1-8 1-1-8 0-3-8 0-2-8 0-3-8 1-1-8 0-3-8 0-2-8 
+// combo: 208
+0-3-8 1-1-8 0-3-8 0-2-8 1-3-8 0-1-8 1-2-4 
+// combo: 226
+1-1-8 1-1-8 0-2-8 0-2-16 0-1-16 0-1-8 1-1-16 1-16 0-1-16 1-16 0-2-8 
+// combo: 243
+0-2-8 0-2-8 1-1-8 1-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-2-8 0-1-8 
+// combo: 259
+1-1-8 1-1-16 0-1-16 0-1-16 0-1-16 0-2-8 0-2-8 0-2-16 0-1-16 0-2-8 0-2-8 
+// combo: 277
+0-2-8 0-3-8 0-3-8 0-3-8 0-3-8 0-2-8 0-2-8 0-1-8 
+// combo: 296
+0-2-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 0-1-8 1-1-8 
+// combo: 310
+2-6 0-48 1-16 1-8 0-2-8 0-2-8 0-2-8 0-2-4 
+// combo: 322
+0-1-8 1-1-8 0-2-8 0-1-16 0-2-8 0-1-16 1-1-16 1-8 1-16 0-1-8 
+// combo: 336
+1-1-8 1-1-8 0-3-8 1-2-16 1-16 0-3-8 0-1-8 0-2-16 1-16 1-16 1-16 
+// combo: 356
+0-1-8 1-1-16 0-1-8 0-1-16 1-1-16 0-1-8 0-1-16 1-1-16 0-1-8 1-1-8 1-16 
+// combo: 371
+0-1-8 1-1-8 0-3-8 1-2-8 0-3-8 0-1-8 0-2-16 1-16 1-16 1-16 
+// combo: 389
+0-1-8 1-1-16 1-16 0-1-16 1-16 1-1-8 0-1-16 1-16 1-1-8 1-16 1-16 1-16 1-16 
+// combo: 405
+0-1-8 1-1-16 0-1-8 1-1-16 0-1-16 0-1-16 0-1-16 0-1-16 0-3-16 0-1-16 0-3-16 0-1-16 0-3-16 0-1-16 
+// combo: 427
+0-3-16 0-1-16 0-3-16 0-1-16 0-4-4 
+#FEVERSTART
+2-4 2-8 0-1-8 
+// combo: 444
+0-1-16 1-16 1-1-8 1-8 1-8 1-1-8 1-1-16 1-16 0-1-8 1-1-16 1-16 
+// combo: 459
+0-1-8 0-1-8 2-8 2-8 1-1-8 0-1-8 1-1-8 1-1-8 
+// combo: 472
+0-1-8 1-1-16 0-1-8 1-1-6 0-48 1-1-8 1-1-8 1-1-8 1-1-16 1-16 
+// combo: 487
+0-1-8 0-1-16 1-16 1-16 1-6 0-48 1-1-8 1-1-8 1-1-8 1-16 1-8 
+// combo: 500
+1-16 1-8 2-8 2-8 1-1-8 1-1-16 1-16 0-1-16 1-16 1-1-8 
+// combo: 515
+0-1-8 0-1-16 1-16 1-1-8 1-1-8 0-2-8 0-1-16 0-2-8 0-1-16 1-1-16 0-1-8 
+// combo: 531
+0-1-16 0-2-8 1-1-8 0-1-8 0-2-8 0-2-8 0-2-8 0-2-8 
+// combo: 545
+0-2-8 0-2-8 0-2-8 0-1-8 1-8 0-1-8 0-1-8 1-1-8 
+// combo: 557
+0-2-8 0-2-8 0-2-8 0-2-8 0-2-1 
+// combo: 567
+
+#FEVEREND
+0-1 `,master:`(76)
+0-1 
+// combo: 0
+1-2-8 0-2-8 1-2-8 1-2-8 1-2-8 0-2-8 1-2-8 1-2-8 
+// combo: 22
+1-2-8 0-2-8 1-2-8 0-2-8 1-2-8 0-2-8 1-2-16 0-1-16 0-3-8 
+// combo: 44
+1-2-8 0-2-8 1-2-8 1-2-8 1-2-8 1-2-8 0-3-8 0-1-8 
+// combo: 65
+1-3-8 0-2-8 1-2-8 1-2-8 0-3-8 0-3-8 0-3-8 0-1-8 
+// combo: 87
+0-4-8 0-3-8 1-3-8 0-3-8 0-4-8 0-3-8 1-3-8 0-3-8 
+// combo: 115
+0-4-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 143
+0-4-8 0-3-8 1-3-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 171
+0-4-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 1-3-16 1-16 0-3-8 
+// combo: 200
+0-4-8 0-3-8 1-3-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 228
+0-4-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 256
+0-4-8 0-3-8 1-3-8 0-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 284
+0-4-8 0-3-8 1-3-8 1-2-8 0-4-8 0-4-8 0-4-8 0-2-8 
+// combo: 312
+1-4-8 1-2-16 1-16 0-2-16 1-16 0-2-16 1-16 2-3-8 1-2-8 1-2-8 1-2-16 1-16 
+// combo: 342
+2-3-8 1-2-16 1-16 1-3-16 1-16 0-2-16 1-16 2-3-8 1-2-8 2-2-8 1-2-8 
+// combo: 374
+3-3-8 2-2-8 3-2-8 2-2-16 1-16 2-3-8 2-2-8 3-2-8 2-2-16 1-16 
+// combo: 413
+2-3-8 1-2-16 1-16 1-3-16 1-16 0-2-16 1-16 2-3-8 1-2-8 2-3-8 0-2-8 
+// combo: 445
+0-6-8 0-3-8 0-4-8 1-3-8 0-4-8 0-3-8 0-4-8 1-3-8 
+// combo: 477
+0-4-8 0-3-8 0-4-8 1-3-8 0-4-8 1-3-8 0-4-8 0-3-8 
+// combo: 507
+0-4-8 0-3-8 0-4-8 1-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 536
+0-4-8 0-3-8 0-4-8 1-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 565
+0-4-8 0-3-8 0-4-8 0-3-8 1-3-8 0-3-8 0-2-8 1-1-16 1-16 
+// combo: 591
+0-2-8 0-2-8 0-2-8 1-3-8 0-1-8 1-2-8 1-2-16 0-2-16 0-2-8 
+// combo: 612
+0-3-8 0-3-8 0-4-8 1-3-8 0-4-8 0-3-8 0-4-8 1-3-8 
+// combo: 641
+0-4-8 0-3-8 0-4-8 0-3-8 1-3-8 0-3-8 0-4-8 0-3-8 
+// combo: 669
+0-4-8 0-3-8 0-4-8 1-3-8 0-4-8 0-3-8 0-4-8 0-3-8 
+// combo: 698
+0-4-8 0-3-8 0-4-8 1-3-8 0-4-8 0-3-8 0-4-8 1-3-8 
+// combo: 728
+0-4-8 0-3-8 0-4-8 1-3-8 1-2-8 1-2-8 1-2-16 1-16 1-2-16 1-16 
+// combo: 757
+1-2-8 0-2-16 1-16 1-2-8 1-2-8 1-2-8 1-2-8 1-2-8 1-2-8 
+// combo: 781
+1-2-8 1-2-8 0-6-8 0-4-8 
+#FEVERSTART
+2-6-8 0-5-8 1-5-8 0-5-8 
+// combo: 821
+1-5-8 0-5-8 1-5-8 0-5-8 1-5-8 0-4-8 1-5-8 0-4-8 
+// combo: 863
+1-5-8 0-4-8 1-5-8 0-4-8 1-5-8 0-5-8 1-5-8 0-5-8 
+// combo: 905
+1-5-8 0-5-8 1-5-8 0-5-8 1-5-8 0-4-8 0-5-8 0-4-8 
+// combo: 946
+1-4-8 0-4-8 1-5-8 0-4-8 1-5-8 1-4-8 1-5-8 1-4-8 
+// combo: 987
+1-5-8 1-4-8 1-5-8 1-4-8 1-5-8 0-4-8 1-5-8 0-4-8 
+// combo: 1029
+1-5-8 0-4-8 1-5-8 0-4-8 1-5-8 1-4-8 1-5-8 1-4-8 
+// combo: 1071
+1-5-8 1-4-8 1-5-8 1-4-8 1-4-8 0-4-8 0-6-8 0-6-8 
+// combo: 1114
+0-6-8 0-6-8 0-6-8 0-6-8 0-5-48 0-1-12 0-48 0-5-16 0-1-16 0-4-8 1-4-8 
+// combo: 1159
+0-5-8 0-5-8 0-5-8 0-5-16 0-6-1 
+// combo: 1185
+0-16 
+#FEVEREND
+0-1 `}},xn={...gn,...vn},C=Object.freeze(Object.defineProperty({__proto__:null,m103103:K0,m103104:W0,m103105:G0,m103113:F8,m103201:bn,m103301:Q2,m103302:G2,m104106:O0,m104108:$2,m104301:r0,m104302:E0,m105101:j0,m105102:b2,m105103:W2,m105104:j8,m105105:V0,m105106:$8,m203102:E2,m203201:rn,m203202:V8,m203204:h0,m203205:v0,m203301:K2,m203302:on,m204102:Q0,m204108:M0,m204109:r8,m204111:O2,m204301:Q8,m204302:o0,m205101:M2,m205102:_0,m205103:_8,m205201:En,m205202:Dn,m205203:xn,m205301:u0,m303104:r2,m303106:u2,m304101:$0,m304103:h2,m304104:E8,m304108:v2,m304110:F2,m304115:V2,m304116:o2,m304301:b0,m305101:W8,m305102:_2,m305103:j2,m305104:F0,m305105:v8,m305106:K8,m305107:G8,m405101:O8,m405102:h8,m405103:u8,m405104:b8,m405105:dn,m405106:Rn,m405107:fn,m405302:M8,m405303:Nn},Symbol.toStringTag,{value:"Module"})),Cn=["kaho","sayaka","kozue","tsuzuri","rurino","megumi","ginko","kosuzu","hime","ceras","izumi"],O1=[...Cn,"other"],V1={kaho:"花帆",sayaka:"さやか",kozue:"梢",tsuzuri:"綴理",rurino:"瑠璃乃",megumi:"慈",ginko:"吟子",kosuzu:"小鈴",hime:"姫芽",ceras:"セラス",izumi:"泉",other:"その他"},$n={kaho:"日野下花帆",sayaka:"村野さやか",kozue:"乙宗梢",tsuzuri:"夕霧綴理",rurino:"大沢瑠璃乃",megumi:"藤島慈",ginko:"百生吟子",kosuzu:"徒町小鈴",hime:"安養寺姫芽",ceras:"セラス 柳田 リリエンフェルト",izumi:"桂城泉"},kn={all:O1,g102:["kozue","tsuzuri","megumi"],g103:["kaho","sayaka","rurino"],g104:["ginko","kosuzu","hime"],g105:["ceras"],cerise:["kaho","kozue","ginko"],dollche:["sayaka","tsuzuri","kosuzu"],miracra:["rurino","megumi","hime"],edel:["ceras","izumi"]},h1={all:"全員",g102:"乙宗梢／夕霧綴理／藤島慈",g103:"日野下花帆／村野さやか／大沢瑠璃乃",g104:"百生吟子／徒町小鈴／安養寺姫芽",g105:"105期生",cerise:"スリーズブーケに所属するメンバー",dollche:"DOLLCHESTRAに所属するメンバー",miracra:"みらくらぱーく！に所属するメンバー",edel:"Edel Noteに所属するメンバー"},yn=["smile","pure","cool"],On={smile:"スマイル",pure:"ピュア",cool:"クール"},f1=(n,o)=>{let c=1,e=o||0,r=!1;const b=[],E=n.replaceAll(/\/\/.*$/gm,"").split(/[\n\r\s]/);for(const t of E)if(t)if(t.startsWith("(")){const i=t.indexOf(")");c=Number(t.slice(1,i))}else if(t==="#FEVERSTART")r=!0,b.push({time:e,normalCount:0,slideCount:0,fever:r});else if(t==="#FEVEREND")r=!1,b.push({time:e,normalCount:0,slideCount:0,fever:r});else{const i=t.match(/^(?<normal>\d+)(-(?<slide>\d+))?-(?<length>\d+)$/);if(!i)throw new Error(`Undefined comment: ${t}`);const R=Number(i.groups?.normal),f=Number(i.groups?.slide||0),V=Number(i.groups?.length);b.push({time:e,normalCount:R,slideCount:f,fever:r}),e+=240/c/V}return b},wn=n=>n.reduce((o,c)=>o+c.normalCount+c.slideCount,0),zn=n=>n.reduce((o,c)=>c.fever?o+c.normalCount+c.slideCount:o,0),Mn={class:"card my-2"},In={class:"card-body"},Ln={class:"input-group mb-2"},jn={class:"input-group-prepend"},Bn={class:"input-group-text"},Pn={style:{"min-height":"1.5em"}},Wn={class:"mb-2"},Un=["value"],Hn={class:"mb-2"},Kn={key:0,value:"normal"},qn={key:1,value:"hard"},Jn={key:2,value:"expert"},Gn={key:3,value:"master"},Yn={class:"card my-2"},Xn={class:"card-body p-4"},Qn={class:"row row-gap-1"},Zn={class:"col-sm"},n4=["value"],o4={class:"col-sm"},c4=["value"],m4={class:"my-2 row row-gap-1"},b4={class:"col-sm"},t4={class:"col-sm"},e4={class:"my-2"},r4={class:"my-2"},a4={class:"row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2"},s4={class:"form-check"},E4=["id","value"],i4=["for"],l4={class:"my-2"},u4={class:"my-2"},R4=C1({__name:"OMusicSelect",props:{noteText:{required:!0},noteTextModifiers:{},center:{required:!0},centerModifiers:{},offset:{required:!0},offsetModifiers:{},comboOffset:{required:!0},comboOffsetModifiers:{},attribute:{required:!0},attributeModifiers:{},masteryLevel:{required:!0},masteryLevelModifiers:{},singers:{required:!0},singersModifiers:{}},emits:["update:noteText","update:center","update:offset","update:comboOffset","update:attribute","update:masteryLevel","update:singers"],setup(n){const o=q(""),c=D(()=>Object.keys(C).filter(a=>C[a].title.toLowerCase().includes(o.value.toLowerCase())).sort((a,_)=>C[a].title.localeCompare(C[_].title))),e=q("m103103"),r=q("normal"),b=z(n,"noteText"),E=z(n,"center"),t=z(n,"offset"),i=z(n,"comboOffset"),R=z(n,"attribute"),f=z(n,"masteryLevel"),V=z(n,"singers"),g=()=>{const s=C[e.value];s&&(b.value=s.note[r.value]||"",E.value=s.center,t.value=s.offset,i.value=s.comboOffset?.[r.value]||0,R.value=s.attribute,V.value=s.singers)},d=D(()=>{try{const s=f1(b.value,0);return wn(s)}catch{return 0}}),F=D(()=>{try{const s=f1(b.value,0);return zn(s)}catch{return 0}}),m=D(()=>{try{const s=f1(b.value,0),a=s.findIndex(y=>y.fever),_=s[a],p=s[s.length-1],k=s.find((y,U)=>!y.fever&&U>a)||p;return{beforeFever:_?.time,fever:k.time-_.time,afterFever:p.time-k.time}}catch{return{beforeFever:0,fever:0,afterFever:0}}}),l=["ceras","izumi","ginko","kosuzu","hime","kaho","sayaka","rurino","kozue","tsuzuri","megumi"];return(s,a)=>{const _=n8;return h(),A(H,null,[u("div",Mn,[a[10]||(a[10]=u("div",{class:"card-header"}," 楽曲プリセット ",-1)),u("div",In,[u("form",null,[u("div",Ln,[u("div",jn,[u("div",Bn,[u("div",Pn,[M1(_,{icon:["fas","magnifying-glass"]})])])]),O(u("input",{"onUpdate:modelValue":a[0]||(a[0]=p=>F1(o)?o.value=p:null),type:"text",class:"form-control"},null,512),[[Q,S(o)]])]),u("div",Wn,[O(u("select",{"onUpdate:modelValue":a[1]||(a[1]=p=>F1(e)?e.value=p:null),class:"form-select"},[(h(!0),A(H,null,n1(S(c),p=>(h(),A("option",{key:p,value:p},x(C[p].title),9,Un))),128))],512),[[Z,S(e)]])]),u("div",Hn,[O(u("select",{"onUpdate:modelValue":a[2]||(a[2]=p=>F1(r)?r.value=p:null),class:"form-select"},[C[S(e)]?.note.normal?(h(),A("option",Kn," normal ")):K("",!0),C[S(e)]?.note.hard?(h(),A("option",qn," hard ")):K("",!0),C[S(e)]?.note.expert?(h(),A("option",Jn," expert ")):K("",!0),C[S(e)]?.note.master?(h(),A("option",Gn," master ")):K("",!0)],512),[[Z,S(r)]])]),u("div",{class:"mb-2"},[u("button",{type:"button",class:"btn btn-primary",onClick:g}," 読み込み ")]),a[9]||(a[9]=u("div",{style:{"font-size":"0.8em"}}," ※ オフセット（楽曲が始まるまでの時間）やコンボ誤差の細かい検証はしてません、あくまで参考程度にお願いします ",-1))])])]),u("div",Yn,[a[16]||(a[16]=u("div",{class:"card-header"}," 楽曲データ ",-1)),u("div",Xn,[u("div",Qn,[u("div",Zn,[a[11]||(a[11]=u("label",{class:"form-label"}," センター： ",-1)),O(u("select",{"onUpdate:modelValue":a[3]||(a[3]=p=>E.value=p),class:"form-select"},[(h(!0),A(H,null,n1(S(O1),p=>(h(),A("option",{key:p,value:p},x(S(V1)[p]),9,n4))),128))],512),[[Z,E.value]])]),u("div",o4,[a[12]||(a[12]=u("label",{class:"form-label"}," 楽曲属性： ",-1)),O(u("select",{"onUpdate:modelValue":a[4]||(a[4]=p=>R.value=p),class:"form-select"},[(h(!0),A(H,null,n1(S(yn),p=>(h(),A("option",{key:p,value:p},x(S(On)[p]),9,c4))),128))],512),[[Z,R.value]])])]),u("div",m4,[u("div",b4,[a[13]||(a[13]=u("label",{class:"form-label"}," オフセット： ",-1)),O(u("input",{"onUpdate:modelValue":a[5]||(a[5]=p=>t.value=p),class:"form-control"},null,512),[[Q,t.value,void 0,{number:!0}]])]),u("div",t4,[a[14]||(a[14]=u("label",{class:"form-label"}," マスタリーレベル： ",-1)),O(u("input",{"onUpdate:modelValue":a[6]||(a[6]=p=>f.value=p),type:"number",class:"form-control",min:"1",max:"50"},null,512),[[Q,f.value,void 0,{number:!0}]])])]),u("div",e4,[O(u("textarea",{"onUpdate:modelValue":a[7]||(a[7]=p=>b.value=p),rows:"6",class:"form-control"},null,512),[[Q,b.value]])]),u("div",r4,[a[15]||(a[15]=I1(" 歌唱者： ",-1)),u("div",a4,[(h(),A(H,null,n1(l,p=>u("div",{key:p,class:"col"},[u("div",s4,[O(u("input",{class:"form-check-input","onUpdate:modelValue":a[8]||(a[8]=k=>V.value=k),type:"checkbox",id:`singer-${p}`,value:p},null,8,E4),[[L1,V.value]]),u("label",{class:"form-check-label",for:`singer-${p}`},x(S(V1)[p]),9,i4)])])),64))])]),u("div",l4," 総コンボ数："+x(S(d))+" 内FEVER："+x(S(F))+"（"+x((S(F)/S(d)*100).toFixed(2))+"%） ",1),u("div",u4," 曲構成："+x(S(m).beforeFever?.toFixed(2))+"秒 - (FEVER) "+x(S(m).fever?.toFixed(2))+"秒 - "+x(S(m).afterFever?.toFixed(2))+"秒 ",1)])])],64)}}}),K4=Object.assign(R4,{__name:"OMusicSelect"}),p4=`key	series	other_name	smile	pure	cool	mental	rarity	center_skill_condition	raw_center_skill_text	raw_skill_text	ap	center_ability_text
 other	蓮ノ空女学院スクールアイドルクラブ102期生	大賀美沙知	5880	5700	5700	480	ur			ap_up(10);skill_count>=3 ^ splice()	0	
 rurino	悠久の舞踏会		4320	7800	5160	480	ur	fever_start	ap_up(8);vol_lv >= 4 ^ ap_up(8)	vol_lv <= 8 ^ vol_buff(326.25);vol_lv >= 7 ^ score_buff(435);mental_down(10*)	10	appeal_up(g103, 200);ap_reduce(all, 2)
 rurino	アイドゥーミー！		6960	6360	5880	520	ur	fever_start	ap_up(20); mental_rate <= 99 ^ vol_down(1000*)	mental_up(10*); mental_rate >= 100 ^ ap_up(15); mental_rate <= 99 ^ vol_down(1000*); skill_count >= 3 ^ splice()	5	appeal_up(miracra, 200)
@@ -47436,5 +50622,5 @@ megumi	やっぱ天使！		5580	8580	4800	540	lr	end	score_up(573.75)	score_up(3
 rurino	Very! Very! COCO夏っ		6480	6060	4500	500	ur	start	ap_up(12)	skill_count <= 2 ^ vol_buff(627.75);skill_count <= 2 ^ reset();skill_count >= 3 ^ ap_up(15)	15	appeal_up(miracra, 200)
 hime	Very! Very! COCO夏っ		6600	5880	4560	500	ur	fever_start	vol_up(525)	mental_rate <= 1 ^ score_up(1755);vol_down(5000*)	20	appeal_up(miracra, 200)
 kosuzu	探求の舞踏会		6840	6000	4680	460	ur	fever_start	vol_up(170);mental_rate <= 50 ^ vol_up(238)	vol_up(271);mental_rate <= 10 ^ vol_up(489);mental_up(50*)	10	appeal_up(g104, 200);ap_reduce(all, 2)
-hime	邂逅の舞踏会		5760	5280	6240	480	ur	end	score_up(204.75);vol_lv >= 4 ^ score_up(286.65)	score_up(326.25);mental_rate <= 10 ^ score_up(587.25);vol_down(100*)	10	appeal_up(g104, 200);ap_reduce(all, 2)`,Qn=n=>n.replace(/_([a-z])/g,(o,c)=>c.toUpperCase()),Zn=n=>{const o=n.split(`
-`),c=o[0].split("	");return o.slice(1).map(r=>r.split("	")).map(r=>c.reduce((b,E,t)=>(b={...b,[Qn(E)]:r[t]===""||isNaN(Number(r[t]))?r[t]:Number(r[t])},b),{}))},M=Zn(Xn),x4=n=>`${n.key}-${n.series}`,C4=n=>`[${n.series}] ${n.key!=="other"?un[n.key]:n.otherName}`,n4=["<=",">="],$4=["start","end","fever_start"],$=1e-6,D1=Object.freeze({1:1,2:1.1,3:1.2,4:1.3,5:1.4,6:1.5,7:1.6,8:1.7,9:1.8,10:2,11:2.2,12:2.4,13:2.6,14:3}),I=Object.freeze({vol_buff:{unit:.01,fixed:2},vol_up:{unit:.01,fixed:2},vol_down:{unit:.01,fixed:2},score_up:{unit:.01,fixed:2},score_buff:{unit:.01,fixed:2},mental_up:{unit:5,fixed:0},mental_down:{unit:5,fixed:0},ap_up:{unit:1,fixed:0},ap_down:{unit:1,fixed:0}}),j=Object.freeze({ur:[[1,.01],[60,.5],[80,.7],[100,1],[110,1.1],[120,1.2]],dr:[[1,.01],[100,.7],[120,1],[130,1.1],[140,1.2]],dr2:[[1,.5],[100,.7],[120,1],[130,1.1],[140,1.2]],br:[[1,.01],[80,.7],[100,1],[110,1.1],[120,1.2]],lr:[[1,.0169],[100,.7],[120,1],[130,1.1],[140,1.2]],sr:[[1,.01],[40,.5],[60,.7],[80,1],[90,1.1],[100,1.2]],r:[[1,.01],[60,1]]}),n1=Object.freeze({ur:[[1,.2],[60,.5],[80,.7],[100,1],[120,1]],dr:[[1,.2],[100,.7],[120,1],[140,1]],dr2:[[1,.5],[100,.7],[120,1],[140,1]],br:[[1,.2],[80,.7],[100,1],[120,1]],lr:[[1,.205],[100,.7],[120,1],[140,1]],sr:[[1,.2],[40,.5],[60,.7],[80,1],[100,1]],r:[[1,.2],[60,1]]}),k4=Object.freeze({ur:120,dr:140,dr2:140,br:120,lr:140,sr:100,r:80}),o4=Object.freeze({ur:[110,100,80,0],dr:[130,120,100,0],dr2:[130,120,100,0],br:[110,100,80,0],lr:[130,120,100,0],sr:[90,80,60,0],r:[70,60,40,0]}),c4=(n,o)=>o4[n.rarity].findIndex(c=>o>c)||0,B=(n,o,c,e=j[n.rarity][j[n.rarity].length-1][0])=>{const r=n.rawSkillText.replace(/([\w_]+)\(([\d.]*)(?<no_change>\*?)\)/g,(d,F,m,i)=>{if(i)return`${F}(${m})`;if(F==="dr_ap_up")return o>=11?`ap_up(${(o-10)*Number(m)})`:"";if(F==="lr_tsuzuri")return o>=12?"total_skill_count <= 12 ^ ap_up(20)":"";if(F==="lr_kozue")return o>=12?"skill_count >= 10 ^ splice()":"skill_count >= 6 ^ splice()";if(F==="lr_megumi")return o>=12?"ap_up(2)":"";if(!m)return`${F}()`;const s=Math.floor(Number(m)*D1[o]/3/I[F].unit+$)*I[F].unit;return`${F}(${s.toFixed(I[F].fixed)})`}),b=n.rawCenterSkillText.replace(/([\w_]+)\(([\d.]+)(?<no_change>\*?)\)/g,(d,F,m,i)=>{if(i)return`${F}(${m})`;const s=Math.floor(Number(m)*D1[c]/3/I[F].unit+$)*I[F].unit;return`${F}(${s.toFixed(I[F].fixed)})`});let E=n.smile,t=n.pure,l=n.cool;const R=j[n.rarity];if(R){E/=R[R.length-1][1]||1,t/=R[R.length-1][1]||1,l/=R[R.length-1][1]||1;const d=R.findIndex(([m])=>m>=e),F=d-1;if(F!==-1){const[m,i]=j[n.rarity][F],[s,a]=j[n.rarity][d];E=Math.ceil(E*(i+(a-i)*(e-m)/(s-m))-$),t=Math.ceil(t*(i+(a-i)*(e-m)/(s-m))-$),l=Math.ceil(l*(i+(a-i)*(e-m)/(s-m))-$)}else{const[m,i]=j[n.rarity][d];E=Math.ceil(E*i-$),t=Math.ceil(t*i-$),l=Math.ceil(l*i-$)}}let f=n.mental;const V=n1[n.rarity];if(V){f/=V[V.length-1][1]||1;const d=V.findIndex(([m])=>m>=e),F=d-1;if(F!==-1){const[m,i]=n1[n.rarity][F],[s,a]=n1[n.rarity][d];f=Math.ceil(f*(i+(a-i)*(e-m)/(s-m))-$)}else{const[m,i]=n1[n.rarity][d];f=Math.ceil(f*i-$)}}const g=n.ap+c4(n,e);return{...n,smile:E,pure:t,cool:l,mental:f,ap:g,name:n.key,skill:r,centerSkillCondition:n.centerSkillCondition,centerSkill:b}},y4=[B(M[0],14,14),B(M[6],14,14),B(M[5],14,14),B(M[7],14,14),B(M[4],14,14),B(M[1],14,14)],g1=n=>{if(!n)return;const o=n4.find(c=>n?.includes(c));if(o){const[c,e]=n.split(o).map(r=>r.trim());return!c||!e?void 0:[c,o,Number(e)]}else return},O4=n=>{const o=[],c=[],e=[],r=n.skill.split(";").map(b=>b.trim());for(const b of r){if(!b)continue;const[E,t]=b.split("^").map(d=>d.trim()),l=t?E:void 0,R=t||E,[,f,V]=R.match(/^(\w+)\((.*)\)$/)||[],g={type:f,value:V?Number(V):void 0,condition:g1(l)};o.push(g)}if(n.centerSkill){const b=n.centerSkill.split(";").map(E=>E.trim());for(const E of b){const[t,l]=E.split("^").map(F=>F.trim()),R=l?t:void 0,f=l||t,[,V,g]=f.match(/^(\w+)\((.*)\)$/)||[],d={type:V,value:g?Number(g):void 0,condition:g1(R)};c.push(d)}}if(n.centerAbilityText){const b=n.centerAbilityText.split(";").map(E=>E.trim());for(const E of b){const[,t,l]=E.match(/^(\w+)\((.*)\)$/)||[],R=l?l.split(",").map(V=>V.trim()):[],f={type:t,value:t==="cooltime_reduce"?{target:"all",amount:Number(R[0])}:{target:R[0]||"all",amount:Number(R[1])}};e.push(f)}}return{...n,skills:o,centerSkills:c,centerAbilities:e}},m4=(n,o)=>Rn[o]?.includes(n)||n===o,w4=(n,o,c)=>{const r=n.find(E=>E.name===c)?.centerAbilities.find(E=>E.type==="appeal_up"),b=n.reduce((E,t)=>{const l=r?m4(t.name,r?.value.target):!1,R=Math.ceil(t.smile*(l?(100+(r?.value.amount||0))/100:1)),f=Math.ceil(t.pure*(l?(100+(r?.value.amount||0))/100:1)),V=Math.ceil(t.cool*(l?(100+(r?.value.amount||0))/100:1));return{smile:E.smile+R,pure:E.pure+f,cool:E.cool+V}},{smile:0,pure:0,cool:0});return b.smile=Math.round(b.smile/(o==="smile"?1:10)),b.pure=Math.round(b.pure/(o==="pure"?1:10)),b.cool=Math.round(b.cool/(o==="cool"?1:10)),b.smile+b.pure+b.cool},z4=n=>{switch(n){case"start":return"ライブ開始時に発動";case"end":return"ライブ終了時に発動";case"fever_start":return"FEVER開始時に発動"}},M4=n=>n.map(o=>{let c="";if(o.condition){const[e,r,b]=o.condition,E=r==="<="?"以下":"以上";switch(e){case"skill_count":c+=`このカードのスキル発動回数が${b}回${E}の時、`;break;case"total_skill_count":c+=`スキルの合計発動回数が${b}回${E}の時、`;break;case"vol_lv":c+=`ボルテージLv.が${b}${E}の時、`;break;case"mental_rate":c+=`メンタルが最大値の${b}%${E}の時、`;break;default:return c+="（条件文法エラー）の時",c}}switch(o.type){case"vol_buff":c+=`ボルテージ獲得効果スキルによるボルテージ獲得量が、1回の間${o.value||0}%上昇`;break;case"vol_up":{c+=`ボルテージPt.を${o.value||0}pt獲得`;break}case"vol_down":c+=`ボルテージPt.が${o.value||0}pt減少`;break;case"score_buff":c+=`スコア獲得効果スキルによるスコア獲得量が、1回の間${o.value||0}%上昇`;break;case"score_up":{c+=`合計アピール値の${o.value||0}%のスコアを獲得`;break}case"mental_up":c+=`最大値の${o.value||0}%分のメンタルを回復`;break;case"mental_down":c+=`最大値の${o.value||0}%分のメンタルを減少`;break;case"ap_up":c+=`APを${o.value||0}回復`;break;case"ap_down":c+=`APを${o.value||0}減少`;break;case"reset":c+="次に発動するスキルをデッキの1枚目から順に戻す（除外されたカードは戻らない）";break;case"splice":c+="このカードを除外する";break;default:c="（効果文法エラー）"}return c}).join("／"),I4=n=>n.map(o=>{let c="";switch(o.type){case"appeal_up":c+=`${o.value.target in h1?h1[o.value.target]:F1[o.value.target]}のアピール値が${o.value.amount}%上昇`;break;case"ap_reduce":c+=`全てのスキルの消費APが${o.value.amount}減少`;break;case"cooltime_reduce":c+=`クールタイムが${o.value.amount}秒減少`;break;default:c="（効果文法エラー）"}return c}).join("／");function b4(n){return P1()?(W1(n),!0):!1}function t4(n){let o=!1,c;const e=B1(!0);return(...r)=>(o||(c=e.run(()=>n(...r)),o=!0),c)}const e4=typeof window<"u"&&typeof document<"u";typeof WorkerGlobalScope<"u"&&globalThis instanceof WorkerGlobalScope;const r4=Object.prototype.toString,a4=n=>r4.call(n)==="[object Object]",s4=()=>{};function E4(...n){if(n.length!==1)return U1(...n);const o=n[0];return typeof o=="function"?k1(H1(()=>({get:o,set:s4}))):q(o)}function l4(n,o){function c(...e){return new Promise((r,b)=>{Promise.resolve(n(()=>o.apply(this,e),{fn:o,thisArg:this,args:e})).then(r).catch(b)})}return c}const w1=n=>n();function i4(n=w1,o={}){const{initialState:c="active"}=o,e=E4(c==="active");function r(){e.value=!1}function b(){e.value=!0}const E=(...t)=>{e.value&&n(...t)};return{isActive:k1(e),pause:r,resume:b,eventFilter:E}}function p1(n){return Array.isArray(n)?n:[n]}function u4(n){return K1()}function R4(n,o,c={}){const{eventFilter:e=w1,...r}=c;return f1(n,l4(e,o),r)}function p4(n,o,c={}){const{eventFilter:e,initialState:r="active",...b}=c,{eventFilter:E,pause:t,resume:l,isActive:R}=i4(e,{initialState:r});return{stop:R4(n,o,{...b,eventFilter:E}),pause:t,resume:l,isActive:R}}function F4(n,o=!0,c){u4()?L1(n,c):o?n():$1(n)}function f4(n,o,c){return f1(n,o,{...c,immediate:!0})}const m1=e4?window:void 0;function T4(n){var o;const c=L(n);return(o=c?.$el)!=null?o:c}function v1(...n){const o=[],c=()=>{o.forEach(t=>t()),o.length=0},e=(t,l,R,f)=>(t.addEventListener(l,R,f),()=>t.removeEventListener(l,R,f)),r=D(()=>{const t=p1(L(n[0])).filter(l=>l!=null);return t.every(l=>typeof l!="string")?t:void 0}),b=f4(()=>{var t,l;return[(l=(t=r.value)==null?void 0:t.map(R=>T4(R)))!=null?l:[m1].filter(R=>R!=null),p1(L(r.value?n[1]:n[0])),p1(_(r.value?n[2]:n[1])),L(r.value?n[3]:n[2])]},([t,l,R,f])=>{if(c(),!t?.length||!l?.length||!R?.length)return;const V=a4(f)?{...f}:f;o.push(...t.flatMap(g=>l.flatMap(d=>R.map(F=>e(g,d,F,V)))))},{flush:"post"}),E=()=>{b(),c()};return b4(c),E}const o1=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},c1="__vueuse_ssr_handlers__",V4=d4();function d4(){return c1 in o1||(o1[c1]=o1[c1]||{}),o1[c1]}function _4(n,o){return V4[n]||o}function S4(n){return n==null?"any":n instanceof Set?"set":n instanceof Map?"map":n instanceof Date?"date":typeof n=="boolean"?"boolean":typeof n=="string"?"string":typeof n=="object"?"object":Number.isNaN(n)?"any":"number"}const N4={boolean:{read:n=>n==="true",write:n=>String(n)},object:{read:n=>JSON.parse(n),write:n=>JSON.stringify(n)},number:{read:n=>Number.parseFloat(n),write:n=>String(n)},any:{read:n=>n,write:n=>String(n)},string:{read:n=>n,write:n=>String(n)},map:{read:n=>new Map(JSON.parse(n)),write:n=>JSON.stringify(Array.from(n.entries()))},set:{read:n=>new Set(JSON.parse(n)),write:n=>JSON.stringify(Array.from(n))},date:{read:n=>new Date(n),write:n=>n.toISOString()}},x1="vueuse-storage";function A4(n,o,c,e={}){var r;const{flush:b="pre",deep:E=!0,listenToStorageChanges:t=!0,writeDefaults:l=!0,mergeDefaults:R=!1,shallow:f,window:V=m1,eventFilter:g,onError:d=T=>{console.error(T)},initOnMounted:F}=e,m=(f?y1:q)(typeof o=="function"?o():o),i=D(()=>L(n));if(!c)try{c=_4("getDefaultStorage",()=>{var T;return(T=m1)==null?void 0:T.localStorage})()}catch(T){d(T)}if(!c)return m;const s=L(o),a=S4(s),S=(r=e.serializer)!=null?r:N4[a],{pause:p,resume:k}=p4(m,()=>s1(m.value),{flush:b,deep:E,eventFilter:g});f1(i,()=>w(),{flush:b});let y=!1;const U=T=>{F&&!y||w(T)},a1=T=>{F&&!y||l1(T)};V&&t&&(c instanceof Storage?v1(V,"storage",U,{passive:!0}):v1(V,x1,a1)),F?F4(()=>{y=!0,w()}):w();function Y(T,N){if(V){const v={key:i.value,oldValue:T,newValue:N,storageArea:c};V.dispatchEvent(c instanceof Storage?new StorageEvent("storage",v):new CustomEvent(x1,{detail:v}))}}function s1(T){try{const N=c.getItem(i.value);if(T==null)Y(N,null),c.removeItem(i.value);else{const v=S.write(T);N!==v&&(c.setItem(i.value,v),Y(N,v))}}catch(N){d(N)}}function E1(T){const N=T?T.newValue:c.getItem(i.value);if(N==null)return l&&s!=null&&c.setItem(i.value,S.write(s)),s;if(!T&&R){const v=S.read(N);return typeof R=="function"?R(v,s):a==="object"&&!Array.isArray(v)?{...s,...v}:v}else return typeof N!="string"?N:S.read(N)}function w(T){if(!(T&&T.storageArea!==c)){if(T&&T.key==null){m.value=s;return}if(!(T&&T.key!==i.value)){p();try{T?.newValue!==S.write(m.value)&&(m.value=E1(T))}catch(N){d(N)}finally{T?$1(k):k()}}}}function l1(T){w(T.detail)}return m}function j4(n,o,c={}){const{window:e=m1}=c;return A4(n,o,e?.localStorage,c)}const h4={class:"card-body"},D4=C1({__name:"MPopup",props:{onClose:{type:Function,default:()=>{}}},setup(n){return(o,c)=>(h(),A("div",{class:"popup-wrapper",onClick:c[1]||(c[1]=e=>o.onClose(null))},[u("div",{class:"popup card overflow-scroll h-100 w-100",onClick:c[0]||(c[0]=J1(()=>{},["stop"]))},[u("div",h4,[q1(o.$slots,"default",{},void 0)])])]))}}),B4=Object.assign(G1(D4,[["__scopeId","data-v-1ce06415"]]),{__name:"MPopup"}),L4=t4(()=>{const n=y1([]);return{modals:n,openModal:(c,e={})=>{let r;const b=new Promise(l=>{r=l}),t={component:c,args:e,onClose:l=>{n.value.splice(n.value.indexOf(t),1),A1(n),r(l)}};return n.value.push(t),A1(n),b}}});export{n8 as _,M as a,B as b,fn as c,O4 as d,I4 as e,un as f,z4 as g,B4 as h,w4 as i,L4 as j,v4 as k,O1 as l,F1 as m,$4 as n,y4 as o,R1 as p,x4 as q,k4 as r,M4 as s,C4 as t,j4 as u,c4 as v,j as w,Zn as x};
+hime	邂逅の舞踏会		5760	5280	6240	480	ur	end	score_up(204.75);vol_lv >= 4 ^ score_up(286.65)	score_up(326.25);mental_rate <= 10 ^ score_up(587.25);vol_down(100*)	10	appeal_up(g104, 200);ap_reduce(all, 2)`,F4=n=>n.replace(/_([a-z])/g,(o,c)=>c.toUpperCase()),f4=n=>{const o=n.split(`
+`),c=o[0].split("	");return o.slice(1).map(r=>r.split("	")).map(r=>c.reduce((b,E,t)=>(b={...b,[F4(E)]:r[t]===""||isNaN(Number(r[t]))?r[t]:Number(r[t])},b),{}))},M=f4(p4),q4=n=>`${n.key}-${n.series}`,J4=n=>`[${n.series}] ${n.key!=="other"?$n[n.key]:n.otherName}`,T4=["<=",">="],G4=["start","end","fever_start"],$=1e-6,D1=Object.freeze({1:1,2:1.1,3:1.2,4:1.3,5:1.4,6:1.5,7:1.6,8:1.7,9:1.8,10:2,11:2.2,12:2.4,13:2.6,14:3}),I=Object.freeze({vol_buff:{unit:.01,fixed:2},vol_up:{unit:.01,fixed:2},vol_down:{unit:.01,fixed:2},score_up:{unit:.01,fixed:2},score_buff:{unit:.01,fixed:2},mental_up:{unit:5,fixed:0},mental_down:{unit:5,fixed:0},ap_up:{unit:1,fixed:0},ap_down:{unit:1,fixed:0}}),L=Object.freeze({ur:[[1,.01],[60,.5],[80,.7],[100,1],[110,1.1],[120,1.2]],dr:[[1,.01],[100,.7],[120,1],[130,1.1],[140,1.2]],dr2:[[1,.5],[100,.7],[120,1],[130,1.1],[140,1.2]],br:[[1,.01],[80,.7],[100,1],[110,1.1],[120,1.2]],lr:[[1,.0169],[100,.7],[120,1],[130,1.1],[140,1.2]],sr:[[1,.01],[40,.5],[60,.7],[80,1],[90,1.1],[100,1.2]],r:[[1,.01],[60,1]]}),o1=Object.freeze({ur:[[1,.2],[60,.5],[80,.7],[100,1],[120,1]],dr:[[1,.2],[100,.7],[120,1],[140,1]],dr2:[[1,.5],[100,.7],[120,1],[140,1]],br:[[1,.2],[80,.7],[100,1],[120,1]],lr:[[1,.205],[100,.7],[120,1],[140,1]],sr:[[1,.2],[40,.5],[60,.7],[80,1],[100,1]],r:[[1,.2],[60,1]]}),Y4=Object.freeze({ur:120,dr:140,dr2:140,br:120,lr:140,sr:100,r:80}),V4=Object.freeze({ur:[110,100,80,0],dr:[130,120,100,0],dr2:[130,120,100,0],br:[110,100,80,0],lr:[130,120,100,0],sr:[90,80,60,0],r:[70,60,40,0]}),d4=(n,o)=>V4[n.rarity].findIndex(c=>o>c)||0,j=(n,o,c,e=L[n.rarity][L[n.rarity].length-1][0])=>{const r=n.rawSkillText.replace(/([\w_]+)\(([\d.]*)(?<no_change>\*?)\)/g,(d,F,m,l)=>{if(l)return`${F}(${m})`;if(F==="dr_ap_up")return o>=11?`ap_up(${(o-10)*Number(m)})`:"";if(F==="lr_tsuzuri")return o>=12?"total_skill_count <= 12 ^ ap_up(20)":"";if(F==="lr_kozue")return o>=12?"skill_count >= 10 ^ splice()":"skill_count >= 6 ^ splice()";if(F==="lr_megumi")return o>=12?"ap_up(2)":"";if(!m)return`${F}()`;const s=Math.floor(Number(m)*D1[o]/3/I[F].unit+$)*I[F].unit;return`${F}(${s.toFixed(I[F].fixed)})`}),b=n.rawCenterSkillText.replace(/([\w_]+)\(([\d.]+)(?<no_change>\*?)\)/g,(d,F,m,l)=>{if(l)return`${F}(${m})`;const s=Math.floor(Number(m)*D1[c]/3/I[F].unit+$)*I[F].unit;return`${F}(${s.toFixed(I[F].fixed)})`});let E=n.smile,t=n.pure,i=n.cool;const R=L[n.rarity];if(R){E/=R[R.length-1][1]||1,t/=R[R.length-1][1]||1,i/=R[R.length-1][1]||1;const d=R.findIndex(([m])=>m>=e),F=d-1;if(F!==-1){const[m,l]=L[n.rarity][F],[s,a]=L[n.rarity][d];E=Math.ceil(E*(l+(a-l)*(e-m)/(s-m))-$),t=Math.ceil(t*(l+(a-l)*(e-m)/(s-m))-$),i=Math.ceil(i*(l+(a-l)*(e-m)/(s-m))-$)}else{const[m,l]=L[n.rarity][d];E=Math.ceil(E*l-$),t=Math.ceil(t*l-$),i=Math.ceil(i*l-$)}}let f=n.mental;const V=o1[n.rarity];if(V){f/=V[V.length-1][1]||1;const d=V.findIndex(([m])=>m>=e),F=d-1;if(F!==-1){const[m,l]=o1[n.rarity][F],[s,a]=o1[n.rarity][d];f=Math.ceil(f*(l+(a-l)*(e-m)/(s-m))-$)}else{const[m,l]=o1[n.rarity][d];f=Math.ceil(f*l-$)}}const g=n.ap+d4(n,e);return{...n,smile:E,pure:t,cool:i,mental:f,ap:g,name:n.key,skill:r,centerSkillCondition:n.centerSkillCondition,centerSkill:b}},X4=[j(M[0],14,14),j(M[6],14,14),j(M[5],14,14),j(M[7],14,14),j(M[4],14,14),j(M[1],14,14)],g1=n=>{if(!n)return;const o=T4.find(c=>n?.includes(c));if(o){const[c,e]=n.split(o).map(r=>r.trim());return!c||!e?void 0:[c,o,Number(e)]}else return},Q4=n=>{const o=[],c=[],e=[],r=n.skill.split(";").map(b=>b.trim());for(const b of r){if(!b)continue;const[E,t]=b.split("^").map(d=>d.trim()),i=t?E:void 0,R=t||E,[,f,V]=R.match(/^(\w+)\((.*)\)$/)||[],g={type:f,value:V?Number(V):void 0,condition:g1(i)};o.push(g)}if(n.centerSkill){const b=n.centerSkill.split(";").map(E=>E.trim());for(const E of b){const[t,i]=E.split("^").map(F=>F.trim()),R=i?t:void 0,f=i||t,[,V,g]=f.match(/^(\w+)\((.*)\)$/)||[],d={type:V,value:g?Number(g):void 0,condition:g1(R)};c.push(d)}}if(n.centerAbilityText){const b=n.centerAbilityText.split(";").map(E=>E.trim());for(const E of b){const[,t,i]=E.match(/^(\w+)\((.*)\)$/)||[],R=i?i.split(",").map(V=>V.trim()):[],f={type:t,value:t==="cooltime_reduce"?{target:"all",amount:Number(R[0])}:{target:R[0]||"all",amount:Number(R[1])}};e.push(f)}}return{...n,skills:o,centerSkills:c,centerAbilities:e}},S4=(n,o)=>kn[o]?.includes(n)||n===o,Z4=(n,o,c)=>{const r=n.find(E=>E.name===c)?.centerAbilities.find(E=>E.type==="appeal_up"),b=n.reduce((E,t)=>{const i=r?S4(t.name,r?.value.target):!1,R=Math.ceil(t.smile*(i?(100+(r?.value.amount||0))/100:1)),f=Math.ceil(t.pure*(i?(100+(r?.value.amount||0))/100:1)),V=Math.ceil(t.cool*(i?(100+(r?.value.amount||0))/100:1));return{smile:E.smile+R,pure:E.pure+f,cool:E.cool+V}},{smile:0,pure:0,cool:0});return b.smile=Math.round(b.smile/(o==="smile"?1:10)),b.pure=Math.round(b.pure/(o==="pure"?1:10)),b.cool=Math.round(b.cool/(o==="cool"?1:10)),b.smile+b.pure+b.cool},no=n=>{switch(n){case"start":return"ライブ開始時に発動";case"end":return"ライブ終了時に発動";case"fever_start":return"FEVER開始時に発動"}},oo=n=>n.map(o=>{let c="";if(o.condition){const[e,r,b]=o.condition,E=r==="<="?"以下":"以上";switch(e){case"skill_count":c+=`このカードのスキル発動回数が${b}回${E}の時、`;break;case"total_skill_count":c+=`スキルの合計発動回数が${b}回${E}の時、`;break;case"vol_lv":c+=`ボルテージLv.が${b}${E}の時、`;break;case"mental_rate":c+=`メンタルが最大値の${b}%${E}の時、`;break;default:return c+="（条件文法エラー）の時",c}}switch(o.type){case"vol_buff":c+=`ボルテージ獲得効果スキルによるボルテージ獲得量が、1回の間${o.value||0}%上昇`;break;case"vol_up":{c+=`ボルテージPt.を${o.value||0}pt獲得`;break}case"vol_down":c+=`ボルテージPt.が${o.value||0}pt減少`;break;case"score_buff":c+=`スコア獲得効果スキルによるスコア獲得量が、1回の間${o.value||0}%上昇`;break;case"score_up":{c+=`合計アピール値の${o.value||0}%のスコアを獲得`;break}case"mental_up":c+=`最大値の${o.value||0}%分のメンタルを回復`;break;case"mental_down":c+=`最大値の${o.value||0}%分のメンタルを減少`;break;case"ap_up":c+=`APを${o.value||0}回復`;break;case"ap_down":c+=`APを${o.value||0}減少`;break;case"reset":c+="次に発動するスキルをデッキの1枚目から順に戻す（除外されたカードは戻らない）";break;case"splice":c+="このカードを除外する";break;default:c="（効果文法エラー）"}return c}).join("／"),co=n=>n.map(o=>{let c="";switch(o.type){case"appeal_up":c+=`${o.value.target in h1?h1[o.value.target]:V1[o.value.target]}のアピール値が${o.value.amount}%上昇`;break;case"ap_reduce":c+=`全てのスキルの消費APが${o.value.amount}減少`;break;case"cooltime_reduce":c+=`クールタイムが${o.value.amount}秒減少`;break;default:c="（効果文法エラー）"}return c}).join("／");function _4(n){return P1()?(W1(n),!0):!1}function N4(n){let o=!1,c;const e=j1(!0);return(...r)=>(o||(c=e.run(()=>n(...r)),o=!0),c)}const A4=typeof window<"u"&&typeof document<"u";typeof WorkerGlobalScope<"u"&&globalThis instanceof WorkerGlobalScope;const h4=Object.prototype.toString,D4=n=>h4.call(n)==="[object Object]",g4=()=>{};function v4(...n){if(n.length!==1)return U1(...n);const o=n[0];return typeof o=="function"?k1(H1(()=>({get:o,set:g4}))):q(o)}function x4(n,o){function c(...e){return new Promise((r,b)=>{Promise.resolve(n(()=>o.apply(this,e),{fn:o,thisArg:this,args:e})).then(r).catch(b)})}return c}const w1=n=>n();function C4(n=w1,o={}){const{initialState:c="active"}=o,e=v4(c==="active");function r(){e.value=!1}function b(){e.value=!0}const E=(...t)=>{e.value&&n(...t)};return{isActive:k1(e),pause:r,resume:b,eventFilter:E}}function T1(n){return Array.isArray(n)?n:[n]}function $4(n){return K1()}function k4(n,o,c={}){const{eventFilter:e=w1,...r}=c;return d1(n,x4(e,o),r)}function y4(n,o,c={}){const{eventFilter:e,initialState:r="active",...b}=c,{eventFilter:E,pause:t,resume:i,isActive:R}=C4(e,{initialState:r});return{stop:k4(n,o,{...b,eventFilter:E}),pause:t,resume:i,isActive:R}}function O4(n,o=!0,c){$4()?B1(n,c):o?n():$1(n)}function w4(n,o,c){return d1(n,o,{...c,immediate:!0})}const b1=A4?window:void 0;function z4(n){var o;const c=B(n);return(o=c?.$el)!=null?o:c}function v1(...n){const o=[],c=()=>{o.forEach(t=>t()),o.length=0},e=(t,i,R,f)=>(t.addEventListener(i,R,f),()=>t.removeEventListener(i,R,f)),r=D(()=>{const t=T1(B(n[0])).filter(i=>i!=null);return t.every(i=>typeof i!="string")?t:void 0}),b=w4(()=>{var t,i;return[(i=(t=r.value)==null?void 0:t.map(R=>z4(R)))!=null?i:[b1].filter(R=>R!=null),T1(B(r.value?n[1]:n[0])),T1(S(r.value?n[2]:n[1])),B(r.value?n[3]:n[2])]},([t,i,R,f])=>{if(c(),!t?.length||!i?.length||!R?.length)return;const V=D4(f)?{...f}:f;o.push(...t.flatMap(g=>i.flatMap(d=>R.map(F=>e(g,d,F,V)))))},{flush:"post"}),E=()=>{b(),c()};return _4(c),E}const c1=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},m1="__vueuse_ssr_handlers__",M4=I4();function I4(){return m1 in c1||(c1[m1]=c1[m1]||{}),c1[m1]}function L4(n,o){return M4[n]||o}function j4(n){return n==null?"any":n instanceof Set?"set":n instanceof Map?"map":n instanceof Date?"date":typeof n=="boolean"?"boolean":typeof n=="string"?"string":typeof n=="object"?"object":Number.isNaN(n)?"any":"number"}const B4={boolean:{read:n=>n==="true",write:n=>String(n)},object:{read:n=>JSON.parse(n),write:n=>JSON.stringify(n)},number:{read:n=>Number.parseFloat(n),write:n=>String(n)},any:{read:n=>n,write:n=>String(n)},string:{read:n=>n,write:n=>String(n)},map:{read:n=>new Map(JSON.parse(n)),write:n=>JSON.stringify(Array.from(n.entries()))},set:{read:n=>new Set(JSON.parse(n)),write:n=>JSON.stringify(Array.from(n))},date:{read:n=>new Date(n),write:n=>n.toISOString()}},x1="vueuse-storage";function P4(n,o,c,e={}){var r;const{flush:b="pre",deep:E=!0,listenToStorageChanges:t=!0,writeDefaults:i=!0,mergeDefaults:R=!1,shallow:f,window:V=b1,eventFilter:g,onError:d=T=>{console.error(T)},initOnMounted:F}=e,m=(f?y1:q)(typeof o=="function"?o():o),l=D(()=>B(n));if(!c)try{c=L4("getDefaultStorage",()=>{var T;return(T=b1)==null?void 0:T.localStorage})()}catch(T){d(T)}if(!c)return m;const s=B(o),a=j4(s),_=(r=e.serializer)!=null?r:B4[a],{pause:p,resume:k}=y4(m,()=>l1(m.value),{flush:b,deep:E,eventFilter:g});d1(l,()=>w(),{flush:b});let y=!1;const U=T=>{F&&!y||w(T)},i1=T=>{F&&!y||R1(T)};V&&t&&(c instanceof Storage?v1(V,"storage",U,{passive:!0}):v1(V,x1,i1)),F?O4(()=>{y=!0,w()}):w();function X(T,N){if(V){const v={key:l.value,oldValue:T,newValue:N,storageArea:c};V.dispatchEvent(c instanceof Storage?new StorageEvent("storage",v):new CustomEvent(x1,{detail:v}))}}function l1(T){try{const N=c.getItem(l.value);if(T==null)X(N,null),c.removeItem(l.value);else{const v=_.write(T);N!==v&&(c.setItem(l.value,v),X(N,v))}}catch(N){d(N)}}function u1(T){const N=T?T.newValue:c.getItem(l.value);if(N==null)return i&&s!=null&&c.setItem(l.value,_.write(s)),s;if(!T&&R){const v=_.read(N);return typeof R=="function"?R(v,s):a==="object"&&!Array.isArray(v)?{...s,...v}:v}else return typeof N!="string"?N:_.read(N)}function w(T){if(!(T&&T.storageArea!==c)){if(T&&T.key==null){m.value=s;return}if(!(T&&T.key!==l.value)){p();try{T?.newValue!==_.write(m.value)&&(m.value=u1(T))}catch(N){d(N)}finally{T?$1(k):k()}}}}function R1(T){w(T.detail)}return m}function mo(n,o,c={}){const{window:e=b1}=c;return P4(n,o,e?.localStorage,c)}const W4={class:"card-body"},U4=C1({__name:"MPopup",props:{onClose:{type:Function,default:()=>{}}},setup(n){return(o,c)=>(h(),A("div",{class:"popup-wrapper",onClick:c[1]||(c[1]=e=>o.onClose(null))},[u("div",{class:"popup card overflow-scroll h-100 w-100",onClick:c[0]||(c[0]=J1(()=>{},["stop"]))},[u("div",W4,[q1(o.$slots,"default",{},void 0)])])]))}}),bo=Object.assign(G1(U4,[["__scopeId","data-v-1ce06415"]]),{__name:"MPopup"}),to=N4(()=>{const n=y1([]);return{modals:n,openModal:(c,e={})=>{let r;const b=new Promise(i=>{r=i}),t={component:c,args:e,onClose:i=>{n.value.splice(n.value.indexOf(t),1),A1(n),r(i)}};return n.value.push(t),A1(n),b}}});export{n8 as _,M as a,j as b,wn as c,Q4 as d,co as e,$n as f,no as g,bo as h,Z4 as i,to as j,K4 as k,O1 as l,V1 as m,G4 as n,X4 as o,f1 as p,q4 as q,Y4 as r,oo as s,J4 as t,mo as u,d4 as v,L as w,f4 as x};
