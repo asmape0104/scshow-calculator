@@ -1,4 +1,4 @@
-import{g as v,c as h,q,o as D,a as u,K as N1,L as _1,M as p1,N as z1,f as C1,r as J,E as z,j as O,b as M1,v as o1,l as S,k as F1,p as c1,F as K,m as m1,d as I1,t as x,H as L1,O as j1,z as B1,P as $1,Q as k1,h as d1,R as P1,S as W1,T as U1,U as H1,C as K1,y as y1,V as B,W as q1,X as J1,_ as G1,Y as A1}from"./D9VNizmB.js";function Y1(n){const o={size:16,x:0,y:0,rotate:0};return n.size!==o.size||n.x!==o.x||n.y!==o.y||n.rotate!==o.rotate||n.flipX||n.flipY}const X1={key:0,style:{display:"none"}},Q1=["innerHTML"],Z1=["innerHTML"],n8={__name:"FaIcon",props:{border:{type:Boolean,default:!1},fixedWidth:{type:Boolean,default:!1},flip:{type:[Boolean,String],default:!1,validator:n=>[!0,!1,"horizontal","vertical","both"].includes(n)},icon:{type:[Object,Array,String],required:!0},mask:{type:[Object,Array,String],default:null},maskId:{type:String,default:void 0},listItem:{type:Boolean,default:!1},pull:{type:String,default:void 0,validator:n=>["right","left"].includes(n)},pulse:{type:Boolean,default:!1},rotation:{type:[String,Number],default:void 0,validator:n=>[90,180,270].includes(Number.parseInt(n,10))},swapOpacity:{type:Boolean,default:!1},size:{type:String,default:void 0,validator:n=>["2xs","xs","sm","lg","xl","2xl","1x","2x","3x","4x","5x","6x","7x","8x","9x","10x"].includes(n)},spin:{type:Boolean,default:!1},transform:{type:[String,Object],default:void 0},symbol:{type:[Boolean,String],default:!1},title:{type:String,default:void 0},titleId:{type:String,default:void 0},inverse:{type:Boolean,default:!1},bounce:{type:Boolean,default:!1},shake:{type:Boolean,default:!1},beat:{type:Boolean,default:!1},fade:{type:Boolean,default:!1},beatFade:{type:Boolean,default:!1},spinPulse:{type:Boolean,default:!1},spinReverse:{type:Boolean,default:!1}},setup(n){const o=n,c=v(()=>f(o.icon)),a=v(()=>f(o.mask)),s=v(()=>{if(o.transform){const m=typeof o.transform!="object"?z1.transform(o.transform):o.transform;if(m&&Y1(m))return N(m)}}),b=v(()=>_1(c.value,{classes:R.value,title:o.title,titleId:o.titleId})),i=v(()=>_1(a.value)),t=v(()=>{const m={"aria-hidden":!0,"data-prefix":b.value?.prefix,"data-icon":b.value?.iconName,class:R.value,focusable:!1,role:"img",xmlns:"http://www.w3.org/2000/svg",viewBox:`0 0 ${b.value?.icon[0]} ${b.value?.icon[1]}`};return o.symbol&&(m.id=[b.value?.prefix,"fa",b.value?.iconName].join("-")),o.title&&(m["aria-labelledby"]=F.value),m}),l=v(()=>{const m=d();if(i.value){const E=o.maskId||i.value.iconName;return`<defs>
+import{g as v,c as h,q,o as D,a as u,K as N1,L as _1,M as p1,N as z1,f as C1,r as J,E as z,j as O,b as M1,v as o1,l as S,k as F1,p as c1,F as K,m as m1,d as I1,t as x,H as L1,O as j1,z as B1,P as $1,Q as k1,h as d1,R as P1,S as W1,T as U1,U as H1,C as K1,y as y1,V as B,W as q1,X as J1,_ as G1,Y as A1}from"./vr25B_ht.js";function Y1(n){const o={size:16,x:0,y:0,rotate:0};return n.size!==o.size||n.x!==o.x||n.y!==o.y||n.rotate!==o.rotate||n.flipX||n.flipY}const X1={key:0,style:{display:"none"}},Q1=["innerHTML"],Z1=["innerHTML"],n8={__name:"FaIcon",props:{border:{type:Boolean,default:!1},fixedWidth:{type:Boolean,default:!1},flip:{type:[Boolean,String],default:!1,validator:n=>[!0,!1,"horizontal","vertical","both"].includes(n)},icon:{type:[Object,Array,String],required:!0},mask:{type:[Object,Array,String],default:null},maskId:{type:String,default:void 0},listItem:{type:Boolean,default:!1},pull:{type:String,default:void 0,validator:n=>["right","left"].includes(n)},pulse:{type:Boolean,default:!1},rotation:{type:[String,Number],default:void 0,validator:n=>[90,180,270].includes(Number.parseInt(n,10))},swapOpacity:{type:Boolean,default:!1},size:{type:String,default:void 0,validator:n=>["2xs","xs","sm","lg","xl","2xl","1x","2x","3x","4x","5x","6x","7x","8x","9x","10x"].includes(n)},spin:{type:Boolean,default:!1},transform:{type:[String,Object],default:void 0},symbol:{type:[Boolean,String],default:!1},title:{type:String,default:void 0},titleId:{type:String,default:void 0},inverse:{type:Boolean,default:!1},bounce:{type:Boolean,default:!1},shake:{type:Boolean,default:!1},beat:{type:Boolean,default:!1},fade:{type:Boolean,default:!1},beatFade:{type:Boolean,default:!1},spinPulse:{type:Boolean,default:!1},spinReverse:{type:Boolean,default:!1}},setup(n){const o=n,c=v(()=>f(o.icon)),a=v(()=>f(o.mask)),s=v(()=>{if(o.transform){const m=typeof o.transform!="object"?z1.transform(o.transform):o.transform;if(m&&Y1(m))return N(m)}}),b=v(()=>_1(c.value,{classes:R.value,title:o.title,titleId:o.titleId})),i=v(()=>_1(a.value)),t=v(()=>{const m={"aria-hidden":!0,"data-prefix":b.value?.prefix,"data-icon":b.value?.iconName,class:R.value,focusable:!1,role:"img",xmlns:"http://www.w3.org/2000/svg",viewBox:`0 0 ${b.value?.icon[0]} ${b.value?.icon[1]}`};return o.symbol&&(m.id=[b.value?.prefix,"fa",b.value?.iconName].join("-")),o.title&&(m["aria-labelledby"]=F.value),m}),l=v(()=>{const m=d();if(i.value){const E=o.maskId||i.value.iconName;return`<defs>
       <clipPath id="clip-${E}">
         <path fill="currentColor" d="${i.value.icon[4]}"></path>
       </clipPath>
@@ -1012,170 +1012,135 @@ import{g as v,c as h,q,o as D,a as u,K as N1,L as _1,M as p1,N as z1,f as C1,r a
 (125)
 0-1-32 0-1-24 0-96 0-1-16 0-96 0-1-96 0-1-12 0-1-32 0-1-24 0-96 0-1-16 0-96 0-1-96 0-1-24 0-1-16 0-96 0-1-96 0-1-12 0-1-32 0-1-24 0-96 0-1-16 
 // combo: 764
-0-96 0-1-8 0-1-8 0-1-96 0-1-12 0-32 0-1-8 0-1-8 0-1-1 `,master:`(176)
+0-96 0-1-8 0-1-8 0-1-96 0-1-12 0-32 0-1-8 0-1-8 0-2-1`,master:`(176)
 0-1 
 // combo: 0
 0-1 
 // combo: 0
-0-6 0-48 0-1-32 0-1-32 
-// combo: 2
-0-3-8 0-2-8 1-2-8 0-2-8 1-2-8 0-2-8 
+0-6 0-48 0-1-32 0-1-32 0-3-8 0-2-8 1-2-8 0-2-8 1-2-8 0-2-8 
 // combo: 17
-0-4-8 0-2-8 0-2-8 1-2-8 0-2-8 0-2-8 
-// combo: 32
-0-4-8 0-2-12 0-32 1-96 0-2-8 0-2-12 0-48 1-48 0-2-8 0-2-8 
-// combo: 48
-0-4-8 0-2-8 0-2-8 1-2-8 0-2-8 0-2-8 
-// combo: 63
-0-3-8 0-1-12 0-32 1-96 (160)
+0-4-8 0-2-8 0-2-8 1-2-8 0-2-8 0-2-8 0-4-8 0-2-12 0-32 1-96 
+// combo: 39
+0-2-8 0-2-12 0-48 1-48 0-2-8 0-2-8 0-4-8 0-2-8 0-2-8 1-2-8 
+// combo: 59
+0-2-8 0-2-8 0-3-8 0-1-12 0-32 1-96 (160)
 0-1-8 0-1-12 0-48 1-48 0-1-8 0-1-8 
 // combo: 73
 0-2-8 0-1-12 0-32 1-96 0-1-8 0-1-12 0-48 1-48 (130)
-0-1-8 0-1-8 
-// combo: 82
-(156)
-0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 0-2-8 
-// combo: 94
-(142)
+0-1-8 0-1-8 (156)
+0-2-8 0-2-8 
+// combo: 86
+0-2-8 0-2-8 0-2-8 0-2-8 (142)
 0-3-12 0-1-24 0-2-24 0-1-12 (126)
-0-3-12 0-1-24 0-2-24 0-1-12 (94)
+0-3-12 0-1-24 0-2-24 0-1-12 
+// combo: 108
+(94)
 0-3-8 (126)
-0-3-8 
-// combo: 114
-0-2-8 0-2-16 1-16 1-2-16 1-2-12 0-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 
+0-3-8 0-2-8 0-2-16 1-16 1-2-16 1-2-12 0-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 
 // combo: 141
-0-2-8 0-1-16 1-1-16 1-4 1-8 2-6 
-// combo: 150
-0-48 1-16 1-16 1-16 0-1-8 0-1-16 1-1-16 1-4 
-// combo: 158
-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 0-1-8 0-1-16 1-1-16 
-// combo: 170
-1-4 1-16 1-16 1-8 1-24 1-24 1-24 1-24 1-24 1-24 
+0-2-8 0-1-16 1-1-16 1-4 1-8 2-6 0-48 1-16 1-16 1-16 
+// combo: 153
+0-1-8 0-1-16 1-1-16 1-4 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 166
+0-1-8 0-1-16 1-1-16 1-4 1-16 1-16 1-8 1-24 1-24 1-24 1-24 1-24 1-24 
 // combo: 180
-0-1-8 0-1-16 1-16 0-2-8 0-2-8 0-2-8 1-1-24 1-24 1-24 
-// combo: 193
-0-2-8 0-2-8 1-2-4 3-8 1-8 
-// combo: 204
-1-8 2-8 1-16 2-16 1-8 0-1-8 0-1-16 1-1-16 
-// combo: 215
-2-8 0-1-8 0-1-8 2-2-8 0-1-16 2-16 0-1-8 
+0-1-8 0-1-16 1-16 0-2-8 0-2-8 0-2-8 1-1-24 1-24 1-24 0-2-8 0-2-8 
+// combo: 197
+1-2-4 3-8 1-8 1-8 2-8 1-16 2-16 1-8 
+// combo: 211
+0-1-8 0-1-16 1-1-16 2-8 0-1-8 0-1-8 2-2-8 0-1-16 2-16 0-1-8 
 // combo: 227
-0-1-4 3-4 1-8 2-8 
-// combo: 234
-1-16 2-6 0-48 0-1-8 0-1-16 1-1-16 2-8 1-8 
-// combo: 244
-1-8 2-1-8 0-1-16 2-16 0-1-8 1-16 1-16 1-16 1-16 
-// combo: 256
-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 0-1-8 
+0-1-4 3-4 1-8 2-8 1-16 2-6 0-48 
+// combo: 237
+0-1-8 0-1-16 1-1-16 2-8 1-8 1-8 2-1-8 0-1-16 2-16 0-1-8 
+// combo: 252
+1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 0-1-8 
 // combo: 267
-0-2-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
-// combo: 280
-1-16 1-16 0-1-8 2-1-16 1-8 2-8 2-8 0-2-8 
-// combo: 293
-2-2-16 0-2-16 0-2-16 0-4-8 2-8 1-2-8 0-2-16 0-1-16 
-// combo: 313
-0-1-16 0-1-16 0-2-8 1-1-8 2-8 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 
+0-2-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 0-1-8 
+// combo: 283
+2-1-16 1-8 2-8 2-8 0-2-8 2-2-16 0-2-16 0-2-16 0-4-8 2-8 
+// combo: 307
+1-2-8 0-2-16 0-1-16 0-1-16 0-1-16 0-2-8 1-1-8 2-8 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 0-1-48 
 // combo: 333
-0-3-8 0-3-16 1-8 2-16 0-2-8 2-2-8 0-1-16 0-1-8 
-// combo: 350
-1-1-16 0-1-16 1-16 0-2-8 0-3-16 1-8 1-16 0-1-16 0-2-8 
-// combo: 364
-1-2-16 0-1-16 0-2-8 1-2-16 0-1-16 1-16 1-16 1-16 0-1-16 1-16 
-// combo: 379
-1-16 1-16 0-2-8 1-1-16 1-16 0-1-16 1-16 1-16 1-16 0-2-8 
+0-3-8 0-3-16 1-8 2-16 0-2-8 2-2-8 0-1-16 0-1-8 1-1-16 0-1-16 1-16 
+// combo: 354
+0-2-8 0-3-16 1-8 1-16 0-1-16 0-2-8 1-2-16 0-1-16 0-2-8 1-2-16 0-1-16 1-16 
+// combo: 375
+1-16 1-16 0-1-16 1-16 1-16 1-16 0-2-8 1-1-16 1-16 0-1-16 1-16 1-16 1-16 0-2-8 
 // combo: 392
-0-2-8 0-2-16 1-8 0-1-48 0-1-48 0-1-48 0-2-16 0-1-16 1-1-8 0-2-8 
-// combo: 407
-1-1-8 0-2-8 (127)
-0-3-8 0-3-16 1-8 2-16 0-2-8 
-// combo: 422
-2-2-8 0-1-16 0-1-8 0-1-16 0-2-8 (126)
-2-1-8 1-1-16 1-16 
-// combo: 437
-2-16 1-16 0-2-8 1-1-8 1-1-16 1-16 2-16 1-16 0-2-8 
+0-2-8 0-2-16 1-8 0-1-48 0-1-48 0-1-48 0-2-16 0-1-16 1-1-8 0-2-8 1-1-8 0-2-8 
+// combo: 411
+(127)
+// 2番目修正
+0-3-8 0-5-16 1-8 2-16 0-2-8 2-2-8 0-1-16 0-1-8 0-1-16 0-2-8 
+// combo: 431
+(126)
+2-1-8 1-1-16 1-16 2-16 1-16 0-2-8 1-1-8 1-1-16 1-16 2-16 1-16 0-2-8 
 // combo: 452
-1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
-// combo: 465
-1-16 1-16 1-16 1-16 0-1-8 0-1-8 0-2-8 0-2-8 
-// combo: 475
-0-3-8 0-1-8 0-2-8 0-1-8 0-1-12 3-12 3-12 
-// combo: 489
-3-12 3-12 3-12 0-3-8 0-3-8 0-3-4 
+1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 469
+0-1-8 0-1-8 0-2-8 0-2-8 0-3-8 0-1-8 0-2-8 0-1-8 
+// combo: 482
+0-1-12 3-12 3-12 3-12 3-12 3-12 0-3-8 0-3-8 0-3-4 
 // combo: 507
 0-2-48 
 #FEVERSTART
-0-12 0-48 0-3-8 2-16 1-16 0-1-16 1-1-8 0-1-16 0-2-16 1-16 
-// combo: 522
-1-1-8 0-3-8 1-2-8 0-2-16 2-16 1-16 2-16 0-1-16 0-1-16 
-// combo: 539
-0-1-16 0-1-16 0-2-16 0-1-16 0-2-16 0-1-16 1-3-16 0-1-16 1-3-8 0-1-16 1-16 
-// combo: 558
-1-8 0-2-8 0-1-8 0-2-8 1-2-8 0-2-16 1-16 
+0-12 0-48 0-3-8 2-16 1-16 0-1-16 1-1-8 0-1-16 0-2-16 1-16 1-1-8 0-3-8 
+// combo: 527
+1-2-8 0-2-16 2-16 1-16 2-16 0-1-16 0-1-16 0-1-16 0-1-16 0-2-16 0-1-16 0-2-16 0-1-16 1-3-16 0-1-16 
+// combo: 552
+1-3-8 0-1-16 1-16 1-8 0-2-8 0-1-8 0-2-8 1-2-8 0-2-16 1-16 
 // combo: 570
-0-2-8 0-2-8 1-1-8 1-1-8 1-1-16 1-16 1-1-16 0-2-16 
-// combo: 585
-1-16 1-1-16 1-16 1-1-16 1-1-8 1-8 1-1-8 0-1-16 0-2-48 0-1-96 0-1-12 
-// combo: 601
-0-96 0-1-16 0-1-8 1-16 1-16 1-16 1-16 1-8 1-8 
-// combo: 609
-1-1-8 0-1-16 0-2-96 0-1-48 0-1-12 0-96 0-1-16 0-2-8 0-1-8 2-8 
+0-2-8 0-2-8 1-1-8 1-1-8 1-1-16 1-16 1-1-16 0-2-16 1-16 1-1-16 1-16 1-1-16 
+// combo: 591
+1-1-8 1-8 1-1-8 0-1-16 0-2-48 0-1-96 0-1-12 0-96 0-1-16 0-1-8 1-16 1-16 1-16 1-16 
+// combo: 607
+1-8 1-8 1-1-8 0-1-16 0-2-96 0-1-48 0-1-12 0-96 0-1-16 0-2-8 0-1-8 2-8 
 // combo: 622
-0-2-8 0-2-8 0-4-8 0-2-8 0-4-8 0-2-8 
-// combo: 638
-0-4-8 0-2-8 0-4-8 0-3-16 1-16 1-16 0-1-8 0-2-8 
-// combo: 656
-0-2-16 0-1-16 1-16 1-16 1-16 0-1-16 1-16 0-2-8 0-3-8 
-// combo: 669
-2-16 1-16 0-1-16 1-1-8 0-1-16 0-2-16 1-16 1-1-8 0-3-8 
+0-2-8 0-2-8 0-4-8 0-2-8 0-4-8 0-2-8 0-4-8 0-2-8 
+// combo: 644
+0-4-8 0-3-16 1-16 1-16 0-1-8 0-2-8 0-2-16 0-1-16 1-16 1-16 1-16 0-1-16 1-16 
+// combo: 664
+0-2-8 0-3-8 2-16 1-16 0-1-16 1-1-8 0-1-16 0-2-16 1-16 1-1-8 0-3-8 
 // combo: 684
-1-2-8 0-2-16 2-16 1-16 2-16 0-1-16 0-1-16 0-1-16 0-1-16 0-2-16 0-1-16 
-// combo: 701
-0-2-16 0-1-16 1-3-16 0-1-16 0-5-8 0-3-16 1-16 1-1-8 0-2-8 
-// combo: 722
-0-3-16 1-16 1-1-8 2-8 0-2-8 0-3-8 1-1-16 1-16 
-// combo: 738
-1-1-8 1-1-8 2-16 1-8 1-16 0-1-8 0-2-8 
+1-2-8 0-2-16 2-16 1-16 2-16 0-1-16 0-1-16 0-1-16 0-1-16 0-2-16 0-1-16 0-2-16 0-1-16 1-3-16 0-1-16 
+// combo: 709
+0-5-8 0-3-16 1-16 1-1-8 0-2-8 0-3-16 1-16 1-1-8 2-8 0-2-8 
+// combo: 732
+0-3-8 1-1-16 1-16 1-1-8 1-1-8 2-16 1-8 1-16 0-1-8 0-2-8 
 // combo: 749
-1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 2-1-8 0-1-16 2-1-16 
-// combo: 765
-0-1-16 0-1-16 1-2-16 0-1-16 0-3-16 0-1-16 0-3-8 0-2-8 1-1-16 2-16 
-// combo: 784
-0-2-8 0-2-8 0-2-8 1-16 1-16 1-16 1-16 1-16 1-16 
-// combo: 796
-1-16 1-16 1-16 1-16 2-2 
+1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 2-1-8 0-1-16 2-1-16 0-1-16 0-1-16 1-2-16 0-1-16 
+// combo: 771
+0-3-16 0-1-16 0-3-8 0-2-8 1-1-16 2-16 0-2-8 0-2-8 0-2-8 1-16 1-16 
+// combo: 792
+1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 2-2 
 // combo: 802
 1-48 
 #FEVEREND
-0-24 0-1-8 0-1-16 1-1-8 1-1-16 1-16 1-16 0-1-8 0-1-16 
-// combo: 813
-1-1-8 1-1-16 1-16 1-16 0-1-8 0-1-16 1-1-8 1-1-16 1-16 
-// combo: 826
-0-1-32 0-1-32 0-1-16 1-8 1-1-8 1-1-16 1-16 1-16 1-16 0-1-8 
-// combo: 838
-1-1-16 0-1-16 1-16 1-1-8 2-8 1-1-16 1-16 0-1-16 0-1-8 
+0-24 0-1-8 0-1-16 1-1-8 1-1-16 1-16 1-16 0-1-8 0-1-16 1-1-8 1-1-16 1-16 
+// combo: 818
+1-16 0-1-8 0-1-16 1-1-8 1-1-16 1-16 0-1-32 0-1-32 0-1-16 1-8 1-1-8 1-1-16 1-16 
+// combo: 835
+1-16 1-16 0-1-8 1-1-16 0-1-16 1-16 1-1-8 2-8 1-1-16 1-16 0-1-16 0-1-8 
 // combo: 851
-1-1-16 1-16 0-1-8 1-1-16 0-1-16 1-16 1-1-8 2-8 1-1-16 
-// combo: 865
-1-16 0-1-16 0-1-8 1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
-// combo: 877
-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 0-1-8 0-2-8 
-// combo: 888
-1-1-16 1-8 1-1-8 1-2-8 1-1-16 1-16 1-16 1-8 
+1-1-16 1-16 0-1-8 1-1-16 0-1-16 1-16 1-1-8 2-8 1-1-16 1-16 0-1-16 0-1-8 
+// combo: 868
+1-1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 1-16 
+// combo: 885
+0-1-8 0-2-8 1-1-16 1-8 1-1-8 1-2-8 1-1-16 1-16 1-16 1-8 
 // combo: 901
-1-16 1-16 1-16 1-8 2-8 0-2-8 0-2-16 2-8 
-// combo: 913
-2-8 2-8 1-16 1-16 1-16 1-16 1-16 1-16 1-16 2-16 
-// combo: 926
-1-16 1-16 2-16 1-16 1-16 0-2-8 0-2-16 1-1-8 0-1-16 0-2-48 0-1-48 0-1-48 
-// combo: 943
-0-1-8 1-1-8 0-1-16 0-2-48 0-1-48 0-1-48 0-1-8 1-1-8 0-1-16 0-2-48 0-1-48 0-1-48 
+1-16 1-16 1-16 1-8 2-8 0-2-8 0-2-16 2-8 2-8 2-8 
+// combo: 917
+1-16 1-16 1-16 1-16 1-16 1-16 1-16 2-16 1-16 1-16 2-16 1-16 1-16 0-2-8 0-2-16 
+// combo: 936
+1-1-8 0-1-16 0-2-48 0-1-48 0-1-48 0-1-8 1-1-8 0-1-16 0-2-48 0-1-48 0-1-48 0-1-8 1-1-8 0-1-16 0-2-48 0-1-48 0-1-48 
 // combo: 959
-0-1-4 0-32 0-1-8 0-1-8 0-1-8 0-1-12 0-96 
-// combo: 964
-(125)
-0-1-32 0-1-24 0-96 0-1-16 0-96 0-1-96 0-1-12 0-1-32 0-1-24 0-96 0-1-24 0-1-32 0-1-24 0-96 0-1-16 0-96 0-1-96 0-1-12 0-1-32 0-1-24 0-96 0-1-16 
-// combo: 980
-0-96 0-1-8 0-1-8 0-1-96 0-1-12 0-32 0-1-8 0-1-16 0-1-1 `}},r8={...t8,...e8},s8={title:'"Mirage Voyage（104期Ver.）',titleFurigana:"みらーじゅぼやーじゅ104きばー",center:"sayaka",attribute:"pure",singers:X},a8={title:"Mirage Voyage（104期Ver.）",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(130)
+0-1-4 0-32 0-1-8 0-1-8 0-1-8 0-1-12 0-96 (125)
+0-1-32 0-1-24 0-96 0-1-16 0-96 0-1-96 0-1-12 
+// combo: 969
+0-1-32 0-1-24 0-96 0-1-24 0-1-32 0-1-24 0-96 0-1-16 0-96 0-1-96 0-1-12 0-1-32 0-1-24 0-96 0-1-16 0-96 0-1-8 0-1-8 0-1-96 0-1-12 0-32 0-1-8 
+// combo: 985
+0-1-16 0-1-1 `}},r8={...t8,...e8},s8={title:'"Mirage Voyage（104期Ver.）',titleFurigana:"みらーじゅぼやーじゅ104きばー",center:"sayaka",attribute:"pure",singers:X},a8={title:"Mirage Voyage（104期Ver.）",offset:0,comboOffset:{normal:0,hard:0,expert:0,master:0},note:{normal:`(130)
 0-1 
 // combo: 0
 0-1 
