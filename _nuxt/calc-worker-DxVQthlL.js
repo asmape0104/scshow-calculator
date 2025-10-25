@@ -39,7 +39,7 @@ ceras	天地黎明		6960	6480	3840	480	ur	end	score_up(418.5)	skill_count <= 1 ^
 kozue	奇跡の舞踏会		7200	5160	4920	480	ur	fever_start	ap_up(8); total_skill_count >= 6 ^ ap_up(8)	vol_lv <= 8 ^ vol_buff(243); vol_lv >= 7 ^ score_buff(324)	8	appeal_up(g102, 200); ap_reduce(all, 2)
 ginko	37.5℃のファンタジー		6720	6120	4440	480	ur	start	mental_down(25); ap_up(5)	score_buff(170.62); mental_rate >= 30 ^ reset(); mental_rate <= 25 ^ ap_up(3)	7	appeal_up(all, 80)
 izumi	天地黎明		7080	6240	3960	480	ur	start	vol_up(348)	skill_count <= 1 ^ score_buff(697.5); skill_count >= 2 ^ vol_up(418); skill_count >= 3 ^ ap_up(8)	18	appeal_up(all, 80)
-kosuzu	アイマイメーデー		4200	6120	6960	480	ur	fever_start	vol_up(348)	vol_up(202); mental_rate >= 30 ^ mental_down(25); mental_rate <= 25 ^ vol_up(435); mental_rate <= 25 ^ splice()	8	appeal_up(all, 80)
+kosuzu	アイマイメーデー		4200	6120	6960	480	ur	fever_start	vol_up(348)	vol_up(202); mental_rate >= 30 ^ mental_down(25*); mental_rate <= 25 ^ vol_up(435); mental_rate <= 25 ^ splice()	8	appeal_up(all, 80)
 kozue	Prism Echo		7200	6720	6240	640	dr	start	ap_up(18)	score_buff(204.75); vol_buff(204.75); splice(); dr_ap_up(5)	12	appeal_up(cerise, 160); ap_reduce(all, 2); cooltime_reduce(2)
 kaho	Prism Echo		7680	7200	6240	560	dr	end	score_up(502.2)	score_up(1053); splice(); dr_ap_up(5)	20	appeal_up(cerise, 160); ap_reduce(all, 2); cooltime_reduce(2)
 sayaka	Prism Echo		6240	7680	6720	600	dr	start	vol_up(418)	vol_up(877); splice(); dr_ap_up(5)	20	appeal_up(dollche, 160); ap_reduce(all, 2); cooltime_reduce(2)
