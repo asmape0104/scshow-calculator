@@ -51,7 +51,7 @@ kaho	Ether Aria		8640	6720	5640	570	dr	end	score_up(502.2)	score_up(502.2); ment
 kozue	Ether Aria		6480	6480	8160	560	dr	start	ap_up(18)	score_buff(326.25); skill_count <= 3 ^ reset(); dr_ap_up(1)	12	appeal_up(cerise, 160); ap_reduce(all, 2); cooltime_reduce(2)
 ginko	Ether Aria		5520	7800	7440	590	dr	start	mental_down(90)	mental_rate <= 1 ^ score_buff(652.5); mental_down(90*); skill_count >= 2 ^ splice(); dr_ap_up(3)	10	appeal_up(cerise, 160); ap_reduce(all, 2); cooltime_reduce(2)
 sayaka	Ether Aria		6120	6240	8400	590	dr	start	vol_up(418)	vol_up(418); mental_rate <= 10 ^ vol_up(842); splice(); dr_ap_up(5)	20	appeal_up(dollche, 160); ap_reduce(all, 2); cooltime_reduce(2)
-tsuzuri	Ether Aria		6240	8400	6480	560	dr	start	vol_up(418)	vol_up(418); total_skill_count <= 3 ^ vol_up(936); splice(); dr_ap_up(5);  dr_ap_up(5)	20	appeal_up(dollche, 160); ap_reduce(all, 2); cooltime_reduce(2)
+tsuzuri	Ether Aria		6240	8400	6480	560	dr	start	vol_up(418)	vol_up(418); total_skill_count <= 3 ^ vol_up(936); splice(); dr_ap_up(5)	20	appeal_up(dollche, 160); ap_reduce(all, 2); cooltime_reduce(2)
 kosuzu	Ether Aria		7800	7440	5760	570	dr	start	vol_up(418)	vol_up(418); mental_rate <= 10 ^ vol_up(842); splice(); dr_ap_up(5)	20	appeal_up(dollche, 160); ap_reduce(all, 2); cooltime_reduce(2)
 rurino	Ether Aria		6240	8280	6480	570	dr	fever_start	ap_up(12); mental_up(100)	score_buff(204.75); mental_rate >= 100 ^ score_buff(368.55); mental_up(100); splice(); dr_ap_up(5)	12	appeal_up(miracra, 160); ap_reduce(all, 2); cooltime_reduce(2)
 megumi	Ether Aria		8160	6360	6120	600	dr	end	score_up(502.2)	score_up(502.2); total_skill_count >= 15 ^ score_up(1123.2); splice(); dr_ap_up(5)	20	appeal_up(miracra, 160); ap_reduce(all, 2); cooltime_reduce(2)
