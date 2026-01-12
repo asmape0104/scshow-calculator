@@ -71,7 +71,7 @@ izumi	17th Birthday		5760	5760	5760	480	br	start	ap_up(15)	skill_count <= 8 ^ sc
 ceras	105/刹那&セラニャン		4980	6900	5160	500	ur	end	score_up(877.5)	skill_count <= 1 ^ score_up(1498.5);skill_count <= 2 ^ score_up(1348.65);skill_count <= 3 ^ score_up(1198.8);score_up(749.25)	18	appeal_up(edel, 200)
 rurino	Hip, hip, hooray!		7500	6060	3720	480	ur	start	ap_up(12)	score_buff(348.75);vol_buff(348.75);total_skill_count >= 15 ^ ap_up(10)	14	appeal_up(miracra, 200)
 kaho	軌跡の舞踏会		7680	5760	3960	470	ur	end	score_up(204.75); vol_lv >= 4 ^ score_up(286.65)	vol_lv <= 8 ^ score_buff(243); vol_lv >= 7 ^ score_up(522)	10	appeal_up(g103, 200); ap_reduce(all, 2)
-ginko	もういちど ルミナス		6180	6600	4500	480	ur	start	mental_down(100)	mental_rate <= 1 ^ ap_up(10);mental_down(100);reset();skill_count >= 3 ^ splice()	1	appeal_up(g104, 200)
+ginko	もういちど ルミナス		6180	6600	4500	480	ur	start	mental_down(100)	mental_rate <= 1 ^ ap_up(10);mental_down(100*);reset();skill_count >= 3 ^ splice()	1	appeal_up(g104, 200)
 kosuzu	壱雫空		4680	5820	6780	480	ur	fever_start	vol_up(348)	mental_rate <= 1 ^ vol_up(697);vol_buff(348.75);skill_count >= 3 ^ splice()	12	appeal_up(g104, 200)
 hime	キミがいなくちゃっ！		7080	6000	3960	500	ur	end	score_up(418.5)	mental_rate <= 1 ^ score_up(837);score_buff(348.75)	12	appeal_up(g104, 200)
 izumi	FIRE BIRD		4920	5580	7020	460	ur	end	score_up(418.5)	total_skill_count <= 15 ^ score_buff(749.25);total_skill_count >= 15 ^ score_up(1348.65)	18	appeal_up(edel, 200)
