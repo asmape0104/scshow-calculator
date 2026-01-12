@@ -93,7 +93,7 @@ izumi	令嬢モブ！		5520	3960	7920	470	ur	start	ap_up(12)	total_skill_count <
 ceras	令嬢モブ！		5640	3960	7800	470	ur	end	score_up(418.5)	total_skill_count <= 15 ^ vol_up(371);total_skill_count >= 15 ^ score_up(668.25);total_skill_count >= 20 ^ score_buff(618.75) 	11	appeal_up(edel, 200)
 kaho	雪舞う空と二秒の永遠		4800	6000	8280	530	ur	end	score_up(418.5)	vol_lv <= 0 ^ score_buff(956.25);skill_count >= 2 ^ score_up(688.5)	15	appeal_up(cerise, 200)
 sayaka	雪舞う空と二秒の永遠		4860	6000	8220	530	ur	fever_start	vol_up(348)	vol_lv <= 0 ^ vol_buff(956.25);skill_count >= 2 ^ vol_up(573)	15	appeal_up(dollche, 200)
-rurino	雪舞う空と二秒の永遠		4740	6000	8340	530	ur	start	ap_up(12)	vol_lv <= 0 ^ ap_up(8);vol_lv >= 1 ^ splice()	1	appeal_up(all, 72)
+rurino	雪舞う空と二秒の永遠		4740	6000	8340	530	ur	start	ap_up(12)	vol_lv <= 0 ^ ap_up(7);vol_lv >= 1 ^ splice()	1	appeal_up(all, 72)
 ginko	青嵐の鯉流し		5880	6720	4800	470	ur	fever_start	ap_up(8);vol_lv >= 2 ^ ap_up(8)	score_buff(478.12)	15	appeal_up(all, 80)
 ginko	ユメワズライ		6240	5520	5520	480	ur	fever_start	ap_up(8)	vol_buff(236.25);mental_rate <= 10 ^ vol_buff(425.25)	15	appeal_up(all, 72)
 ceras	十六夜セレーネ		4560	5280	7320	490	ur	fever_start	vol_up(348)	vol_lv <= 8 ^ vol_up(243); vol_lv >= 7 ^ score_buff(324); skill_count <= 2 ^ reset()	12	appeal_up(edel, 200)
