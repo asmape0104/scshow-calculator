@@ -15,7 +15,7 @@ ginko	輝跡の舞踏会		4320	6720	6120	490	ur	fever_start	ap_up(8); vol_lv >= 
 rurino	17th Birthday*		5760	5760	5760	480	br	fever_start	ap_up(12); mental_rate >= 50 ^ ap_up(8)	score_buff(123.75); vol_buff(123.75); mental_rate >= 50 ^ ap_up(5*); mental_rate >= 100 ^ ap_up(5*)	10	appeal_up(rurino, 400)
 ceras	天地黎明		6960	6480	3840	480	ur	end	score_up(418.5)	skill_count <= 1 ^ vol_buff(697.5); skill_count >= 2 ^ score_up(502.2); skill_count >= 3 ^ ap_up(8)	17	appeal_up(all, 80)
 kozue	奇跡の舞踏会		7200	5160	4920	480	ur	fever_start	ap_up(8); total_skill_count >= 6 ^ ap_up(8)	vol_lv <= 8 ^ vol_buff(243); vol_lv >= 7 ^ score_buff(324)	8	appeal_up(g102, 200); ap_reduce(all, 2)
-ginko	37.5℃のファンタジー		6720	6120	4440	480	ur	start	mental_down(25); ap_up(5)	score_buff(170.625); mental_rate >= 30 ^ reset(); mental_rate <= 25 ^ ap_up(3)	7	appeal_up(all, 80)
+ginko	37.5℃のファンタジー		6720	6120	4440	480	ur	start	mental_down(25); ap_up(5)	score_buff(170.625); mental_rate >= 30 ^ reset(); mental_rate <= 25 ^ ap_up(3*)	7	appeal_up(all, 80)
 izumi	天地黎明		7080	6240	3960	480	ur	start	vol_up(348)	skill_count <= 1 ^ score_buff(697.5); skill_count >= 2 ^ vol_up(418); skill_count >= 3 ^ ap_up(8)	18	appeal_up(all, 80)
 kosuzu	アイマイメーデー		4200	6120	6960	480	ur	fever_start	vol_up(348)	vol_up(202); mental_rate >= 30 ^ mental_down(25*); mental_rate <= 25 ^ vol_up(435); mental_rate <= 25 ^ splice()	8	appeal_up(all, 80)
 kozue	Prism Echo		7200	6720	6240	640	dr	start	ap_up(18)	score_buff(204.75); vol_buff(204.75); splice(); dr_ap_up(5)	12	appeal_up(cerise, 160); ap_reduce(all, 2); cooltime_reduce(2)
