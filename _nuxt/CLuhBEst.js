@@ -1,0 +1,1 @@
+import{f as o,a7 as e,a8 as n}from"./BB75ys_8.js";const _=o({__name:"auto-formation-parallel",async setup(r){let a,t;return[a,t]=e(()=>n("/auto-formation")),await a,t(),()=>{}}});export{_ as default};
