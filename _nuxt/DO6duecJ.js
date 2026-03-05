@@ -1,4 +1,4 @@
-import{f as n,c as e,a as o,t,l as i,o as s}from"./BenXGxA7.js";const r=`THE FOLLOWING SETS FORTH ATTRIBUTION NOTICES FOR THIRD PARTY SOFTWARE THAT MAY BE CONTAINED IN PORTIONS OF THE NUXT APP PRODUCT.
+import{f as e,c as n,a as o,t,l as i,o as s}from"./Bff31BJn.js";const r=`THE FOLLOWING SETS FORTH ATTRIBUTION NOTICES FOR THIRD PARTY SOFTWARE THAT MAY BE CONTAINED IN PORTIONS OF THE NUXT APP PRODUCT.
 
 -----
 
@@ -1621,7 +1621,7 @@ SOFTWARE.
 
 -----
 
-The following software may be included in this product: @types/chai, @types/deep-eql, @types/estree, @types/json-schema, @types/node, @types/resolve, @types/web-bluetooth. A copy of the source code may be downloaded from https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/chai), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/deep-eql), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/estree), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/json-schema), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/node), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/resolve), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/web-bluetooth). This software contains the following license and notice below:
+The following software may be included in this product: @types/chai, @types/debug, @types/deep-eql, @types/estree, @types/json-schema, @types/ms, @types/node, @types/resolve, @types/web-bluetooth. A copy of the source code may be downloaded from https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/chai), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/debug), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/deep-eql), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/estree), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/json-schema), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/ms), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/node), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/resolve), https://github.com/DefinitelyTyped/DefinitelyTyped.git (@types/web-bluetooth). This software contains the following license and notice below:
 
 MIT License
 
@@ -3536,6 +3536,33 @@ SOFTWARE.
 
 -----
 
+The following software may be included in this product: character-entities. A copy of the source code may be downloaded from https://github.com/wooorm/character-entities.git. This software contains the following license and notice below:
+
+(The MIT License)
+
+Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
 The following software may be included in this product: chokidar. A copy of the source code may be downloaded from git+https://github.com/paulmillr/chokidar.git. This software contains the following license and notice below:
 
 The MIT License (MIT)
@@ -4903,6 +4930,33 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 -----
 
+The following software may be included in this product: decode-named-character-reference, micromark, micromark-core-commonmark, micromark-factory-destination, micromark-factory-label, micromark-factory-space, micromark-factory-title, micromark-factory-whitespace, micromark-util-character, micromark-util-chunked, micromark-util-classify-character, micromark-util-combine-extensions, micromark-util-decode-numeric-character-reference, micromark-util-encode, micromark-util-html-tag-name, micromark-util-normalize-identifier, micromark-util-resolve-all, micromark-util-sanitize-uri, micromark-util-subtokenize, micromark-util-symbol, micromark-util-types. A copy of the source code may be downloaded from https://github.com/wooorm/decode-named-character-reference.git (decode-named-character-reference), https://github.com/micromark/micromark/tree/main/packages/micromark (micromark), https://github.com/micromark/micromark/tree/main/packages/micromark-core-commonmark (micromark-core-commonmark), https://github.com/micromark/micromark/tree/main/packages/micromark-factory-destination (micromark-factory-destination), https://github.com/micromark/micromark/tree/main/packages/micromark-factory-label (micromark-factory-label), https://github.com/micromark/micromark/tree/main/packages/micromark-factory-space (micromark-factory-space), https://github.com/micromark/micromark/tree/main/packages/micromark-factory-title (micromark-factory-title), https://github.com/micromark/micromark/tree/main/packages/micromark-factory-whitespace (micromark-factory-whitespace), https://github.com/micromark/micromark/tree/main/packages/micromark-util-character (micromark-util-character), https://github.com/micromark/micromark/tree/main/packages/micromark-util-chunked (micromark-util-chunked), https://github.com/micromark/micromark/tree/main/packages/micromark-util-classify-character (micromark-util-classify-character), https://github.com/micromark/micromark/tree/main/packages/micromark-util-combine-extensions (micromark-util-combine-extensions), https://github.com/micromark/micromark/tree/main/packages/micromark-util-decode-numeric-character-reference (micromark-util-decode-numeric-character-reference), https://github.com/micromark/micromark/tree/main/packages/micromark-util-encode (micromark-util-encode), https://github.com/micromark/micromark/tree/main/packages/micromark-util-html-tag-name (micromark-util-html-tag-name), https://github.com/micromark/micromark/tree/main/packages/micromark-util-normalize-identifier (micromark-util-normalize-identifier), https://github.com/micromark/micromark/tree/main/packages/micromark-util-resolve-all (micromark-util-resolve-all), https://github.com/micromark/micromark/tree/main/packages/micromark-util-sanitize-uri (micromark-util-sanitize-uri), https://github.com/micromark/micromark/tree/main/packages/micromark-util-subtokenize (micromark-util-subtokenize), https://github.com/micromark/micromark/tree/main/packages/micromark-util-symbol (micromark-util-symbol), https://github.com/micromark/micromark/tree/main/packages/micromark-util-types (micromark-util-types). This software contains the following license and notice below:
+
+(The MIT License)
+
+Copyright (c) Titus Wormer <tituswormer@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
 The following software may be included in this product: deep-is. A copy of the source code may be downloaded from http://github.com/thlorenz/deep-is.git. This software contains the following license and notice below:
 
 Copyright (c) 2012, 2013 Thorsten Lorenz <thlorenz@gmx.de>
@@ -5189,6 +5243,32 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 -----
 
+The following software may be included in this product: dequal, kleur, totalist. A copy of the source code may be downloaded from https://github.com/lukeed/dequal.git (dequal), https://github.com/lukeed/kleur.git (kleur), https://github.com/lukeed/totalist.git (totalist). This software contains the following license and notice below:
+
+The MIT License (MIT)
+
+Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
 The following software may be included in this product: detect-libc. A copy of the source code may be downloaded from git://github.com/lovell/detect-libc. This software contains the following license and notice below:
 
 Apache License
@@ -5404,6 +5484,33 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: devlop. A copy of the source code may be downloaded from https://github.com/wooorm/devlop.git. This software contains the following license and notice below:
+
+(The MIT License)
+
+Copyright (c) 2023 Titus Wormer <tituswormer@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 -----
 
@@ -8373,32 +8480,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [others]: https://github.com/json5/json5/contributors
-
------
-
-The following software may be included in this product: kleur, totalist. A copy of the source code may be downloaded from https://github.com/lukeed/kleur.git (kleur), https://github.com/lukeed/totalist.git (totalist). This software contains the following license and notice below:
-
-The MIT License (MIT)
-
-Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 
 -----
 
@@ -18537,4 +18618,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-`,a={class:"m-2"},O=n({__name:"licence",setup(T){return(I,h)=>(s(),e("div",a,[o("pre",null,t(i(r)),1)]))}});export{O as default};
+`,a={class:"m-2"},O=e({__name:"licence",setup(T){return(I,h)=>(s(),n("div",a,[o("pre",null,t(i(r)),1)]))}});export{O as default};
